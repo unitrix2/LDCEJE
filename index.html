@@ -429,17 +429,37 @@
         });
     };
 
-    // --- POP-UP WINDOW LOGIC ---
+    // --- SMART POP-UP WINDOW LOGIC ---
     function openGoogleSearch(index) {
         const q = currentQuestions[index];
-        let query = q.q; // English Question Only
         
-        // Add English Options only
-        if(q.o && q.o.length > 0) {
-            // Extract text before " / " delimiter
-            const engOpts = q.o.map(opt => opt.split(" / ")[0]).join(" ");
-            query += " " + engOpts;
+        // 1. EXTRACT STRICT ENGLISH QUESTION
+        // Remove Hindi part if present
+        let qText = q.q.split(" / ")[0].trim(); 
+        
+        // 2. PREPARE ENGLISH OPTIONS
+        let optionsText = "";
+        if (q.o && q.o.length > 0) {
+            optionsText = q.o
+                .map(opt => opt.split(" / ")[0].trim()) // Get English Option part
+                .filter(opt => {
+                    let lower = opt.toLowerCase();
+                    // Filter out generic options that confuse search
+                    return !lower.startsWith("none") && !lower.startsWith("all") && !lower.startsWith("both");
+                })
+                .join(" ");
         }
+
+        // 3. CONSTRUCT SMART QUERY
+        let query = qText;
+        
+        // If question is short (< 100 chars), add options for context
+        if (qText.length < 100 && optionsText) {
+            query += " " + optionsText;
+        }
+
+        // Add context keywords to force direct answer
+        query += " Indian Railways answer";
 
         // Small floating window (Pop-up)
         const w = 600;
