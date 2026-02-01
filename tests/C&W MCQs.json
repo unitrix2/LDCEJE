@@ -3,161 +3,231 @@
     "q": "What is the SAB 'E' dimension for BOXN wagon? / BOXN वैगन के लिए SAB 'E' आयाम क्या है?",
     "o": [
       "555 to 575 mm / 555 से 575 मिमी",
-      "570 to 580 mm / 570 से 580 मिमी",
+      "570 to 590 mm / 570 से 590 मिमी",
       "540 to 560 mm / 540 से 560 मिमी",
-      "550 to 570 mm / 550 से 570 मिमी"
+      "580 to 600 mm / 580 से 600 मिमी"
     ],
     "c": 0
   },
   {
-    "q": "What is the SAB 'A' dimension for 13 T axle load coach? / 13 टन एक्सल लोड कोच के लिए SAB 'A' आयाम क्या है?",
+    "q": "What is the SAB 'A' dimension for 13 T axle load coach? / 13 T एक्सल लोड कोच के लिए SAB 'A' आयाम क्या है?",
+    "o": [
+      "16 +2/-0 mm / 16 +2/-0 मिमी",
+      "22 +2/-0 mm / 22 +2/-0 मिमी",
+      "20 +2/-0 mm / 20 +2/-0 मिमी",
+      "14 +2/-0 mm / 14 +2/-0 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the SAB 'A' dimension for ICF coach with brake leverage ratio of 1:5.5? / 1:5.5 के ब्रेक लीवरेज अनुपात वाले ICF कोच के लिए SAB 'A' आयाम क्या है?",
     "o": [
       "22 +2/-0 mm / 22 +2/-0 मिमी",
       "16 +2/-0 mm / 16 +2/-0 मिमी",
       "20 +2/-0 mm / 20 +2/-0 मिमी",
-      "14 +2/-0 mm / 14 +2/-0 मिमी"
-    ],
-    "c": 1
-  },
-  {
-    "q": "What type of grease is used in ICF spherical roller bearings? / ICF स्फेरिकल रोलर बेयरिंग में किस प्रकार की ग्रीस का उपयोग किया जाता है?",
-    "o": [
-      "Graphite grease / ग्रेफाइट ग्रीस",
-      "Servo Gem RR3 / सर्वो जेम आरआर3",
-      "Lithium base grease / लिथियम बेस ग्रीस",
-      "Sodium base grease / सोडियम बेस ग्रीस"
-    ],
-    "c": 2
-  },
-  {
-    "q": "What is the dash pot oil level under tare condition? / टियर (खाली) स्थिति में डैश पॉट तेल का स्तर क्या है?",
-    "o": [
-      "60 mm / 60 मिमी",
-      "50 mm / 50 मिमी",
-      "45 mm / 45 मिमी",
-      "40 mm / 40 मिमी"
-    ],
-    "c": 3
-  },
-  {
-    "q": "In ICF bogie, Draw and braking forces are taken by? / ICF बोगी में, ड्रा और ब्रेकिंग फोर्स किसके द्वारा लिए जाते हैं?",
-    "o": [
-      "Side Bearer / साइड बियरर",
-      "Anchor links / एंकर लिंक",
-      "Bolster Spring / बोल्स्टर स्प्रिंग",
-      "Dashpot / डैशपॉट"
-    ],
-    "c": 1
-  },
-  {
-    "q": "To control the lateral swing of the bolster, what is provided on ICF bogies? / बोल्स्टर के पार्श्व (लेटरल) स्विंग को नियंत्रित करने के लिए, ICF बोगियों पर क्या प्रदान किया जाता है?",
-    "o": [
-      "Anchor Link / एंकर लिंक",
-      "Equalizing stays / इक्वलाइजिंग स्टे",
-      "Dashpot / डैशपॉट",
-      "Shock Absorber / शॉक एब्जॉर्बर"
-    ],
-    "c": 1
-  },
-  {
-    "q": "What is the gap maintained between brake block and wheel tread on ICF coach? / ICF कोच पर ब्रेक ब्लॉक और व्हील ट्रेड के बीच कितना गैप रखा जाता है?",
-    "o": [
-      "3 mm / 3 मिमी",
-      "4 mm / 4 मिमी",
-      "5 mm / 5 मिमी",
-      "6.25 mm / 6.25 मिमी"
-    ],
-    "c": 2
-  },
-  {
-    "q": "Projection of buffer from head stock should be within: / हेड स्टॉक से बफर का प्रोजेक्शन इसके भीतर होना चाहिए:",
-    "o": [
-      "635 to 650 mm / 635 से 650 मिमी",
-      "600 to 635 mm / 600 से 635 मिमी",
-      "584 to 620 mm / 584 से 620 मिमी",
-      "650 to 675 mm / 650 से 675 मिमी"
-    ],
-    "c": 1
-  },
-  {
-    "q": "Where is the Integral Coach Factory (ICF) located? / इंटीग्रल कोच फैक्ट्री (ICF) कहाँ स्थित है?",
-    "o": [
-      "Kapurthala / कपूरथला",
-      "Raebareli / रायबरेली",
-      "Perambur / पेरंबूर",
-      "Varanasi / वाराणसी"
-    ],
-    "c": 2
-  },
-  {
-    "q": "In empty load device, empty indication has which colour code? / खाली लोड डिवाइस में, खाली संकेत का रंग कोड कौन सा है?",
-    "o": [
-      "Black / काला",
-      "Blue / नीला",
-      "Yellow / पीला",
-      "Green / हरा"
-    ],
-    "c": 2
-  },
-  {
-    "q": "What is the main function of the Check Valve with choke in the air brake system? / एयर ब्रेक सिस्टम में चोक के साथ चेक वाल्व का मुख्य कार्य क्या है?",
-    "o": [
-      "To charge the Brake Cylinder / ब्रेक सिलेंडर को चार्ज करने के लिए",
-      "To permit air flow from FP to AR but not reverse / एफपी से एआर तक हवा के प्रवाह की अनुमति देने के लिए लेकिन उल्टा नहीं",
-      "To release air from CR / सीआर से हवा निकालने के लिए",
-      "To connect BP and FP / बीपी और एफपी को जोड़ने के लिए"
-    ],
-    "c": 1
-  },
-  {
-    "q": "Full form of PEAV is? / PEAV का पूर्ण रूप क्या है?",
-    "o": [
-      "Passenger Emergency Alarm Valve",
-      "Passenger Entrance Actuating Valve",
-      "Pressure Exhaust Air Valve",
-      "Pneumatic Emergency Action Valve"
+      "18 +2/-0 mm / 18 +2/-0 मिमी"
     ],
     "c": 0
   },
   {
-    "q": "In C3W distributor valve, which sub-assembly helps in manual release of brakes? / C3W डिस्ट्रीब्यूटर वाल्व में, कौन सी सब-असेंबली ब्रेक के मैनुअल रिलीज में मदद करती है?",
+    "q": "When 'E' dimension of SAB decreases, it indicates? / जब SAB का 'E' आयाम कम हो जाता है, तो यह क्या दर्शाता है?",
     "o": [
-      "Main Valve / मुख्य वाल्व",
-      "Cut off Valve / कट ऑफ वाल्व",
-      "Double release valve / डबल रिलीज वाल्व",
-      "Check Valve / चेक वाल्व"
+      "Brake block worn / ब्रेक ब्लॉक घिस गया है",
+      "Slack adjuster failure / स्लैक एडजस्टर विफलता",
+      "Brake cylinder leakage / ब्रेक सिलेंडर रिसाव",
+      "Air pressure drop / हवा का दबाव कम होना"
     ],
-    "c": 2
+    "c": 0
   },
   {
-    "q": "What is the main advantage of Twin Pipe Braking? / ट्विन पाइप ब्रेकिंग का मुख्य लाभ क्या है?",
+    "q": "Which type of grease is used in ICF spherical roller bearings? / ICF गोलाकार रोलर बीयरिंग में किस प्रकार की ग्रीस का उपयोग किया जाता है?",
     "o": [
-      "Increases braking force / ब्रेकिंग बल बढ़ाता है",
-      "Reduces release time / रिलीज का समय कम करता है",
-      "Increases BP pressure / बीपी दबाव बढ़ाता है",
-      "Reduces wheel skidding / व्हील स्किडिंग कम करता है"
+      "Lithium base grease / लिथियम बेस ग्रीस",
+      "Sodium base grease / सोडियम बेस ग्रीस",
+      "Graphite grease / ग्रेफाइट ग्रीस",
+      "Calcium base grease / कैल्शियम बेस ग्रीस"
     ],
-    "c": 1
+    "c": 0
   },
   {
-    "q": "During release after full service application in air brake wagon, the brake should release within: / एयर ब्रेक वैगन में पूर्ण सेवा आवेदन के बाद रिलीज के दौरान, ब्रेक कितने समय में रिलीज होना चाहिए:",
+    "q": "What is the dash pot oil level under tare condition? / टेयर (खाली) स्थिति में डैश पॉट तेल का स्तर क्या है?",
     "o": [
-      "45 seconds / 45 सेकंड",
-      "60 seconds / 60 सेकंड",
-      "75 seconds / 75 सेकंड",
-      "90 seconds / 90 सेकंड"
+      "40 mm / 40 मिमी",
+      "50 mm / 50 मिमी",
+      "60 mm / 60 मिमी",
+      "30 mm / 30 मिमी"
     ],
-    "c": 1
+    "c": 0
+  },
+  {
+    "q": "Draw and braking forces will be taken by which part in ICF bogie? / ICF बोगी में ड्रा और ब्रेकिंग फोर्स किस हिस्से द्वारा लिए जाते हैं?",
+    "o": [
+      "Anchor links / एंकर लिंक",
+      "Side Bearer / साइड बियरर",
+      "Bolster Spring / बोल्स्टर स्प्रिंग",
+      "Dashpot / डैशपॉट"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What has been fitted in bogie components to reduce noise? / शोर को कम करने के लिए बोगी घटकों में क्या लगाया गया है?",
+    "o": [
+      "Silent Block (Rubber bush) / साइलेंट ब्लॉक (रबर बुश)",
+      "Shock Absorber / शॉक एब्जॉर्बर",
+      "Coil Spring / कॉइल स्प्रिंग",
+      "Wooden Block / लकड़ी का ब्लॉक"
+    ],
+    "c": 0
+  },
+  {
+    "q": "To control the lateral swing of the bolster, what have been provided on ICF bogies? / बोल्स्टर के पार्श्व स्विंग को नियंत्रित करने के लिए, ICF बोगियों पर क्या प्रदान किया गया है?",
+    "o": [
+      "Equalizing stays / इक्वलाइजिंग स्टे",
+      "Anchor Link / एंकर लिंक",
+      "Dashpot / डैशपॉट",
+      "Side Bearer / साइड बियरर"
+    ],
+    "c": 0
+  },
+  {
+    "q": "The gap between brake block and wheel tread on ICF coach to be maintained is? / ICF कोच पर ब्रेक ब्लॉक और व्हील ट्रेड के बीच कितना गैप रखा जाना चाहिए?",
+    "o": [
+      "5 mm / 5 मिमी",
+      "6.25 mm / 6.25 मिमी",
+      "4 mm / 4 मिमी",
+      "3 mm / 3 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the maximum diameter of ICF solid wheel? / ICF सॉलिड व्हील का अधिकतम व्यास क्या है?",
+    "o": [
+      "915 mm / 915 मिमी",
+      "952 mm / 952 मिमी",
+      "1000 mm / 1000 मिमी",
+      "877 mm / 877 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Hot axle can be detected through visual observation in? / हॉट एक्सल का पता विज़ुअल ऑब्जरवेशन के माध्यम से कब लगाया जा सकता है?",
+    "o": [
+      "Rolling in examination / रोलिंग इन परीक्षा",
+      "Stationary inspection / स्टेशनरी निरीक्षण",
+      "During POH / पीओएच के दौरान",
+      "During IO / आईओएच के दौरान"
+    ],
+    "c": 0
+  },
+  {
+    "q": "ICF coaches are provided with which type of bearings? / ICF कोचों में किस प्रकार के बीयरिंग प्रदान किए जाते हैं?",
+    "o": [
+      "Self aligned spherical roller bearings / सेल्फ अलाइन्ड स्फेरिकल रोलर बीयरिंग",
+      "Cartridge Tapered Roller Bearings / कार्ट्रिज टेपर्ड रोलर बीयरिंग",
+      "Plain Bearings / प्लेन बीयरिंग",
+      "Cylindrical Roller Bearings / सिलिंड्रिकल रोलर बीयरिंग"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Projection of buffer from head stock should be within: / हेड स्टॉक से बफर का प्रोजेक्शन इसके भीतर होना चाहिए:",
+    "o": [
+      "600 to 635 mm / 600 से 635 मिमी",
+      "635 to 650 mm / 635 से 650 मिमी",
+      "584 to 620 mm / 584 से 620 मिमी",
+      "650 to 675 mm / 650 से 675 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Where is the Integral Coach Factory (ICF) located? / इंटीग्रल कोच फैक्ट्री (ICF) कहाँ स्थित है?",
+    "o": [
+      "Perambur / पेरंबूर",
+      "Kapurthala / कपूरथला",
+      "Raebareli / रायबरेली",
+      "Varanasi / वाराणसी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "In BOXN wagon, SABs are with 'A' dimension of? / BOXN वैगन में, SAB का 'A' आयाम क्या है?",
+    "o": [
+      "70 mm / 70 मिमी",
+      "75 mm / 75 मिमी",
+      "65 mm / 65 मिमी",
+      "80 mm / 80 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "PEASD is provided with which size choke? / PEASD किस आकार के चोक के साथ प्रदान किया जाता है?",
+    "o": [
+      "8 mm / 8 मिमी",
+      "6 mm / 6 मिमी",
+      "10 mm / 10 मिमी",
+      "12 mm / 12 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "In empty load device, empty indication has which colour code? / खाली लोड डिवाइस में, खाली संकेत का रंग कोड कौन सा है?",
+    "o": [
+      "Yellow / पीला",
+      "Black / काला",
+      "Blue / नीला",
+      "Green / हरा"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the new wheel diameter of CASNUB 22W(M)? / CASNUB 22W(M) का नया व्हील व्यास क्या है?",
+    "o": [
+      "1000 mm / 1000 मिमी",
+      "950 mm / 950 मिमी",
+      "915 mm / 915 मिमी",
+      "1050 mm / 1050 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "How do you measure buffer height of a coach? / आप कोच की बफर ऊंचाई कैसे मापते हैं?",
+    "o": [
+      "Rail table to center of buffer face / रेल टेबल से बफर फेस के केंद्र तक",
+      "Rail table to bottom of buffer / रेल टेबल से बफर के नीचे तक",
+      "Headstock to buffer face / हेडस्टॉक से बफर फेस तक",
+      "None of these / इनमें से कोई नहीं"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Which is the most frequent reason for Train parting on AAR coupler? / AAR कपलर पर ट्रेन पार्टिंग का सबसे लगातार कारण कौन सा है?",
+    "o": [
+      "Failure of Knuckles / नक्कल्स की विफलता",
+      "Failure of Yoke / योक की विफलता",
+      "Failure of CBC Body / सीबीसी बॉडी की विफलता",
+      "Failure of Draft Gear / ड्राफ्ट गियर की विफलता"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the function of PEAV? / PEAV का कार्य क्या है?",
+    "o": [
+      "To intimate driver to stop train by reducing air pressure / हवा के दबाव को कम करके ड्राइवर को ट्रेन रोकने के लिए सूचित करना",
+      "To increase braking power / ब्रेकिंग पावर बढ़ाने के लिए",
+      "To release brakes manually / ब्रेक को मैन्युअल रूप से रिलीज करने के लिए",
+      "To isolate the coach / कोच को अलग करने के लिए"
+    ],
+    "c": 0
   },
   {
     "q": "What is the maximum pressure in the brake cylinder when the driver drops the BP pressure by 1.6 Kg/cm2? / जब ड्राइवर बीपी दबाव को 1.6 किग्रा/सेमी² कम करता है, तो ब्रेक सिलेंडर में अधिकतम दबाव क्या होता है?",
     "o": [
+      "3.8 Kg/cm2 / 3.8 किग्रा/सेमी²",
       "3.0 Kg/cm2 / 3.0 किग्रा/सेमी²",
       "3.5 Kg/cm2 / 3.5 किग्रा/सेमी²",
-      "3.8 Kg/cm2 / 3.8 किग्रा/सेमी²",
       "4.2 Kg/cm2 / 4.2 किग्रा/सेमी²"
     ],
-    "c": 2
+    "c": 0
   },
   {
     "q": "What is the new and condemning diameter of wheels fitted on ICF WGACCW coach? / ICF WGACCW कोच पर लगे पहियों का नया और कंडमिंग व्यास क्या है?",
@@ -170,182 +240,462 @@
     "c": 0
   },
   {
-    "q": "What is the Permissible variation in wheel diameter on the same trolley and on the same BOXN wagon? / एक ही ट्रॉली और एक ही BOXN वैगन पर पहिया व्यास में अनुमेय भिन्नता क्या है?",
+    "q": "What is the permissible variation in wheel diameter on the same trolley and on the same BOXN wagon? / एक ही ट्रॉली और एक ही BOXN वैगन पर पहिया व्यास में अनुमेय भिन्नता क्या है?",
     "o": [
-      "10mm & 20mm / 10 मिमी और 20 मिमी",
       "13mm & 25mm / 13 मिमी और 25 मिमी",
+      "10mm & 20mm / 10 मिमी और 20 मिमी",
       "5mm & 13mm / 5 मिमी और 13 मिमी",
       "10mm & 15mm / 10 मिमी और 15 मिमी"
     ],
-    "c": 1
+    "c": 0
   },
   {
     "q": "What is the lowest permissible wheel diameter for a coach turned out after POH from workshops? / कार्यशालाओं से पीओएच के बाद निकले कोच के लिए न्यूनतम अनुमेय पहिया व्यास क्या है?",
     "o": [
+      "837 mm / 837 मिमी",
       "813 mm / 813 मिमी",
       "825 mm / 825 मिमी",
-      "837 mm / 837 मिमी",
       "840 mm / 840 मिमी"
     ],
-    "c": 2
+    "c": 0
   },
   {
     "q": "What is the distance between journal center on CASNUB bogie? / CASNUB बोगी पर जर्नल केंद्र के बीच की दूरी क्या है?",
     "o": [
-      "2200 mm / 2200 मिमी",
       "2260 mm / 2260 मिमी",
+      "2200 mm / 2200 मिमी",
       "2300 mm / 2300 मिमी",
       "2000 mm / 2000 मिमी"
     ],
-    "c": 1
+    "c": 0
   },
   {
     "q": "What is the permissible flat surface on wheel tread of BOXN wagons? / BOXN वैगनों के व्हील ट्रेड पर अनुमेय सपाट सतह (Flat Tyre) क्या है?",
     "o": [
-      "50 mm / 50 मिमी",
       "60 mm / 60 मिमी",
+      "50 mm / 50 मिमी",
       "75 mm / 75 मिमी",
       "25 mm / 25 मिमी"
     ],
-    "c": 1
+    "c": 0
+  },
+  {
+    "q": "What is the Axle load of coach running on Rajadhani express? / राजधानी एक्सप्रेस में चलने वाले कोच का एक्सल लोड क्या है?",
+    "o": [
+      "16.25 tonnes / 16.25 टन",
+      "13 tonnes / 13 टन",
+      "20.32 tonnes / 20.32 टन",
+      "22.9 tonnes / 22.9 टन"
+    ],
+    "c": 0
   },
   {
     "q": "What is the Condemning flange thickness of wheels fitted on ICF coach running at 110 Kmph? / 110 किमी प्रति घंटे की गति से चलने वाले आईसीएफ कोच पर लगे पहियों की कंडमिंग फ्लैंज मोटाई क्या है?",
     "o": [
+      "22 mm / 22 मिमी",
       "16 mm / 16 मिमी",
       "20 mm / 20 मिमी",
-      "22 mm / 22 मिमी",
       "25 mm / 25 मिमी"
     ],
-    "c": 2
+    "c": 0
+  },
+  {
+    "q": "What is the revised torque value for tightening end locking screws fitted on CTRB of BOXN wagon? / BOXN वैगन के CTRB पर लगे एंड लॉकिंग स्क्रू को कसने के लिए संशोधित टॉर्क मान क्या है?",
+    "o": [
+      "40 kg-m / 40 किग्रा-मी",
+      "35 kg-m / 35 किग्रा-मी",
+      "45 kg-m / 45 किग्रा-मी",
+      "30 kg-m / 30 किग्रा-मी"
+    ],
+    "c": 0
   },
   {
     "q": "What is the maximum and minimum Buffer heights to be maintained on an ICF coach under tare condition? / टियर (खाली) स्थिति के तहत आईसीएफ कोच पर अधिकतम और न्यूनतम बफर ऊंचाई क्या है?",
     "o": [
-      "1105mm to 1030mm / 1105 मिमी से 1030 मिमी",
       "1105mm to 1090mm / 1105 मिमी से 1090 मिमी",
+      "1105mm to 1030mm / 1105 मिमी से 1030 मिमी",
       "1090mm to 1030mm / 1090 मिमी से 1030 मिमी",
       "1100mm to 1085mm / 1100 मिमी से 1085 मिमी"
     ],
-    "c": 1
+    "c": 0
+  },
+  {
+    "q": "What is indication for ensuring proper coupling of CBC during train examination? / ट्रेन जांच के दौरान सीबीसी के उचित कपलिंग को सुनिश्चित करने के लिए क्या संकेत है?",
+    "o": [
+      "19 mm clearance between toggle and coupler body / टॉगल और कपलर बॉडी के बीच 19 मिमी क्लीयरेंस",
+      "25 mm clearance between toggle and coupler body / टॉगल और कपलर बॉडी के बीच 25 मिमी क्लीयरेंस",
+      "Toggle is clearly visible / टॉगल स्पष्ट रूप से दिखाई दे रहा है",
+      "Lock lift assembly is loose / लॉक लिफ्ट असेंबली ढीली है"
+    ],
+    "c": 0
   },
   {
     "q": "At what wheel diameter reduction Brake adjustment of CASNUB bogie is done? / कैसनब बोगी का ब्रेक समायोजन पहिया व्यास में कितनी कमी आने पर किया जाता है?",
     "o": [
-      "10 mm / 10 मिमी",
       "18 mm / 18 मिमी",
+      "10 mm / 10 मिमी",
       "25 mm / 25 मिमी",
       "13 mm / 13 मिमी"
     ],
-    "c": 1
+    "c": 0
   },
   {
     "q": "In C3W distributor valve, through which sub assembly the control reservoir is charged? / C3W डिस्ट्रीब्यूटर वाल्व में, किस सब-असेंबली के माध्यम से कंट्रोल रिज़र्वयर चार्ज किया जाता है?",
     "o": [
-      "Main Valve / मुख्य वाल्व",
       "Cut off valve / कट ऑफ वाल्व",
+      "Main Valve / मुख्य वाल्व",
       "Quick Service Valve / त्वरित सेवा वाल्व",
       "Release Valve / रिलीज वाल्व"
     ],
-    "c": 1
+    "c": 0
   },
   {
-    "q": "Working Piston stroke of Bogie mounted brake cylinder is? / बोगी माउंटेड ब्रेक सिलेंडर का वर्किंग पिस्टन स्ट्रोक है?",
+    "q": "Which defect in C3W Distributor Valve causes brake binding? / C3W डिस्ट्रीब्यूटर वाल्व में कौन सा दोष ब्रेक बाइंडिंग का कारण बनता है?",
     "o": [
-      "28 mm / 28 मिमी",
+      "Main valve check valve damaged / मुख्य वाल्व चेक वाल्व क्षतिग्रस्त",
+      "Cut off valve damaged / कट ऑफ वाल्व क्षतिग्रस्त",
+      "Diaphragm ruptured / डायाफ्राम टूट गया",
+      "Choke blocked / चोक अवरुद्ध"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Working Piston stroke of Bogie mounted brake cylinder? / बोगी माउंटेड ब्रेक सिलेंडर का वर्किंग पिस्टन स्ट्रोक है?",
+    "o": [
       "32 mm / 32 मिमी",
+      "28 mm / 28 मिमी",
       "35 mm / 35 मिमी",
       "40 mm / 40 मिमी"
     ],
-    "c": 1
+    "c": 0
+  },
+  {
+    "q": "Maximum slack take up capacity of a Bogie mounted brake cylinder? / बोगी माउंटेड ब्रेक सिलेंडर की अधिकतम स्लैक टेक अप क्षमता?",
+    "o": [
+      "305 mm / 305 मिमी",
+      "300 mm / 300 मिमी",
+      "310 mm / 310 मिमी",
+      "320 mm / 320 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the Brake cylinder pressure release time from 3.8 Kg/cm2 to 0.4 Kg/cm2 with single car test rig? / सिंगल कार टेस्ट रिग के साथ ब्रेक सिलेंडर प्रेशर को 3.8 Kg/cm2 से 0.4 Kg/cm2 तक रिलीज करने का समय क्या है?",
+    "o": [
+      "15 to 20 seconds / 15 से 20 सेकंड",
+      "10 to 15 seconds / 10 से 15 सेकंड",
+      "20 to 25 seconds / 20 से 25 सेकंड",
+      "30 to 40 seconds / 30 से 40 सेकंड"
+    ],
+    "c": 0
   },
   {
     "q": "What is the drop in brake pipe pressure during sensitivity test with SCTR? / SCTR के साथ संवेदनशीलता परीक्षण (Sensitivity Test) के दौरान ब्रेक पाइप दबाव में कितनी गिरावट होनी चाहिए?",
     "o": [
-      "0.5 Kg/cm² in 5 Seconds / 5 सेकंड में 0.5 किग्रा/सेमी²",
       "0.6 Kg/cm² in 6 Seconds / 6 सेकंड में 0.6 किग्रा/सेमी²",
+      "0.5 Kg/cm² in 5 Seconds / 5 सेकंड में 0.5 किग्रा/सेमी²",
       "0.3 Kg/cm² in 60 Seconds / 60 सेकंड में 0.3 किग्रा/सेमी²",
       "1.0 Kg/cm² in 3 Seconds / 3 सेकंड में 1.0 किग्रा/सेमी²"
     ],
-    "c": 1
+    "c": 0
   },
   {
     "q": "What is the validity of Brake power certificate of CC rake? / सीसी रेक के ब्रेक पावर सर्टिफिकेट की वैधता क्या है?",
     "o": [
-      "4500 Km or 30 days / 4500 किमी या 30 दिन",
-      "6000 Km or 30 days / 6000 किमी या 30 दिन",
       "7500 Km or 35 days / 7500 किमी या 35 दिन",
+      "6000 Km or 30 days / 6000 किमी या 30 दिन",
+      "4500 Km or 30 days / 4500 किमी या 30 दिन",
       "Round Trip / राउंड ट्रिप"
     ],
-    "c": 2
+    "c": 0
   },
   {
-    "q": "What is the colour of Brake power certificate of Air brake Goods train (End to End)? / एयर ब्रेक मालगाड़ी (एंड टू एंड) के ब्रेक पावर सर्टिफिकेट का रंग क्या है?",
+    "q": "Colour of Brake power certificate of Air brake Goods train (End to End)? / एयर ब्रेक मालगाड़ी (एंड टू एंड) के ब्रेक पावर सर्टिफिकेट का रंग क्या है?",
     "o": [
+      "Green / हरा",
       "Pink / गुलाबी",
       "Yellow / पीला",
-      "Green / हरा",
       "White / सफेद"
     ],
-    "c": 2
+    "c": 0
+  },
+  {
+    "q": "Minimum percentage of effective brake cylinders on an intensively examined Air brake goods train? / गहन परीक्षण की गई एयर ब्रेक मालगाड़ी पर प्रभावी ब्रेक सिलेंडरों का न्यूनतम प्रतिशत?",
+    "o": [
+      "90%",
+      "85%",
+      "95%",
+      "100%"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Brake power percentage of Air braked CC rake at originating station? / एयर ब्रेक्ड सीसी रेक का ओरिजिनेटिंग स्टेशन पर ब्रेक पावर प्रतिशत?",
+    "o": [
+      "100%",
+      "90%",
+      "95%",
+      "85%"
+    ],
+    "c": 0
   },
   {
     "q": "Minimum BP pressure required in brake van of 58 BOXN wagons? / 58 BOXN वैगनों के ब्रेक वैन में आवश्यक न्यूनतम बीपी दबाव?",
     "o": [
+      "4.7 Kg/cm2 / 4.7 किग्रा/सेमी²",
       "5.0 Kg/cm2 / 5.0 किग्रा/सेमी²",
       "4.8 Kg/cm2 / 4.8 किग्रा/सेमी²",
-      "4.7 Kg/cm2 / 4.7 किग्रा/सेमी²",
       "4.5 Kg/cm2 / 4.5 किग्रा/सेमी²"
     ],
-    "c": 2
+    "c": 0
   },
   {
-    "q": "Full form of CTRB is? / CTRB का पूर्ण रूप क्या है?",
+    "q": "Condemning limit of composite brake block in goods train? / मालगाड़ी में कम्पोजिट ब्रेक ब्लॉक की कंडमिंग सीमा?",
     "o": [
-      "Cartridge Tapered Roller Bearing",
-      "Central Tapered Roller Bearing",
-      "Cartridge Turning Roller Bearing",
-      "Central Track Roller Bearing"
+      "10 mm / 10 मिमी",
+      "12 mm / 12 मिमी",
+      "14 mm / 14 मिमी",
+      "8 mm / 8 मिमी"
     ],
     "c": 0
   },
   {
-    "q": "Full form of COFMOW is? / COFMOW का पूर्ण रूप क्या है?",
+    "q": "Piston stroke of a loaded BCN wagon? / लोडेड BCN वैगन का पिस्टन स्ट्रोक?",
     "o": [
-      "Central Organization for Mechanical Workshops",
-      "Central Organization for Modernization of Workshops",
-      "Central Office for Maintenance of Wagons",
-      "Committee for Modernization of Workshops"
-    ],
-    "c": 1
-  },
-  {
-    "q": "Full form of CONCOR is? / CONCOR का पूर्ण रूप क्या है?",
-    "o": [
-      "Container Corporation of India Ltd",
-      "Central Organization for New Containers",
-      "Container Coordination of Railways",
-      "Confederation of Container Operations"
+      "130 mm / 130 मिमी",
+      "120 mm / 120 मिमी",
+      "85 mm / 85 मिमी",
+      "100 mm / 100 मिमी"
     ],
     "c": 0
   },
   {
-    "q": "Full form of CRIS is? / CRIS का पूर्ण रूप क्या है?",
+    "q": "Pull required to operate alarm chain apparatus? / अलार्म चेन उपकरण को संचालित करने के लिए आवश्यक खिंचाव?",
     "o": [
-      "Central Railway Information Service",
-      "Centre for Railway Information System",
-      "Computerized Railway Information System",
-      "Centre for Rail Internet Systems"
+      "6.4 to 10 Kg / 6.4 से 10 किग्रा",
+      "5 to 8 Kg / 5 से 8 किग्रा",
+      "10 to 15 Kg / 10 से 15 किग्रा",
+      "12 to 20 Kg / 12 से 20 किग्रा"
     ],
-    "c": 1
+    "c": 0
   },
   {
-    "q": "Full form of FOIS is? / FOIS का पूर्ण रूप क्या है?",
+    "q": "Condemning thickness of Composite brake blocks of a coach? / कोच के कम्पोजिट ब्रेक ब्लॉक की कंडमिंग मोटाई?",
     "o": [
-      "Freight Operations Information System",
-      "Freight Organization Information System",
-      "Fast Operation Information System",
-      "Freight Online Integrated System"
+      "12 mm / 12 मिमी",
+      "10 mm / 10 मिमी",
+      "14 mm / 14 मिमी",
+      "16 mm / 16 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the dimension 'A' OF slack adjuster for coaches with 16.25 ton bogies? / 16.25 टन बोगियों वाले कोचों के लिए स्लैक एडजस्टर का आयाम 'A' क्या है?",
+    "o": [
+      "22 mm / 22 मिमी",
+      "16 mm / 16 मिमी",
+      "20 mm / 20 मिमी",
+      "24 mm / 24 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Slack adjuster 'e' dimension of ICF coach? / ICF कोच का स्लैक एडजस्टर 'e' आयाम?",
+    "o": [
+      "375 mm +/- 25 mm / 375 मिमी +/- 25 मिमी",
+      "350 mm +/- 25 mm / 350 मिमी +/- 25 मिमी",
+      "400 mm +/- 25 mm / 400 मिमी +/- 25 मिमी",
+      "325 mm +/- 25 mm / 325 मिमी +/- 25 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Longitudinal movement of bolster in ICF bogie is controlled by? / ICF बोगी में बोल्स्टर की अनुदैर्ध्य गति को किसके द्वारा नियंत्रित किया जाता है?",
+    "o": [
+      "Anchor link / एंकर लिंक",
+      "Dashpot / डैशपॉट",
+      "Side bearer / साइड बियरर",
+      "Equalizing stay / इक्वलाइजिंग स्टे"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Periodicity of POH of OCVs on mail & express trains? / मेल और एक्सप्रेस ट्रेनों पर OCV के POH की आवधिकता?",
+    "o": [
+      "18 months / 18 महीने",
+      "12 months / 12 महीने",
+      "24 months / 24 महीने",
+      "36 months / 36 महीने"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Newly built ICF coach running on mail/express trains first IOH is done after months? / मेल/एक्सप्रेस ट्रेनों में चलने वाले नवनिर्मित ICF कोच का पहला IOH कितने महीनों बाद किया जाता है?",
+    "o": [
+      "12 months / 12 महीने",
+      "9 months / 9 महीने",
+      "18 months / 18 महीने",
+      "24 months / 24 महीने"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the permissible longitudinal clearance between side frame and adapter on 22NLB CASNUB bogies? / 22NLB CASNUB बोगियों पर साइड फ्रेम और एडेप्टर के बीच अनुमेय अनुदैर्ध्य निकासी क्या है?",
+    "o": [
+      "12 to 18 mm / 12 से 18 मिमी",
+      "10 to 15 mm / 10 से 15 मिमी",
+      "8 to 12 mm / 8 से 12 मिमी",
+      "15 to 20 mm / 15 से 20 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Condemning height of EM pad? / EM पैड की कंडमिंग ऊंचाई?",
+    "o": [
+      "42 mm / 42 मिमी",
+      "40 mm / 40 मिमी",
+      "44 mm / 44 मिमी",
+      "46 mm / 46 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Condemning height of CC pad? / CC पैड की कंडमिंग ऊंचाई?",
+    "o": [
+      "109 mm / 109 मिमी",
+      "114 mm / 114 मिमी",
+      "105 mm / 105 मिमी",
+      "100 mm / 100 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "How the center pivot of CASNUB bogies is lubricated as per revised wagon manual? / संशोधित वैगन मैनुअल के अनुसार CASNUB बोगियों के केंद्र पिवट को कैसे लुब्रिकेट किया जाता है?",
+    "o": [
+      "Graphite flakes to IS-495 / IS-495 के लिए ग्रेफाइट फ्लेक्स",
+      "Grease / ग्रीस",
+      "Oil / तेल",
+      "No lubrication required / किसी लुब्रिकेशन की आवश्यकता नहीं"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Minimum air pressure in the under slung water tank of AC coach? / एसी कोच के अंडर स्लिंग वाटर टैंक में न्यूनतम हवा का दबाव?",
+    "o": [
+      "0.35 Kg/Cm2 / 0.35 किग्रा/सेमी²",
+      "0.45 Kg/Cm2 / 0.45 किग्रा/सेमी²",
+      "0.55 Kg/Cm2 / 0.55 किग्रा/सेमी²",
+      "0.25 Kg/Cm2 / 0.25 किग्रा/सेमी²"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Wear on brake block does not disturb 'A' dimension of slack adjuster? / ब्रेक ब्लॉक पर घिसाव स्लैक एडजस्टर के 'A' आयाम को बाधित नहीं करता है?",
+    "o": [
+      "True / सत्य",
+      "False / असत्य",
+      "Depends on speed / गति पर निर्भर करता है",
+      "Only in loaded condition / केवल लोडेड स्थिति में"
+    ],
+    "c": 0
+  },
+  {
+    "q": "If a goods train is stabled for more than 24 hours, the BPC becomes? / यदि कोई मालगाड़ी 24 घंटे से अधिक समय तक स्टेबल रहती है, तो BPC बन जाता है?",
+    "o": [
+      "Invalid / अमान्य",
+      "Valid / मान्य",
+      "Needs re-validation / पुन: सत्यापन की आवश्यकता है",
+      "Valid for 12 hours more / 12 घंटे और मान्य"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Beyond which temperature is the axle box considered hot box? / किस तापमान से ऊपर एक्सल बॉक्स को हॉट बॉक्स माना जाता है?",
+    "o": [
+      "80 degrees C / 80 डिग्री सेल्सियस",
+      "60 degrees C / 60 डिग्री सेल्सियस",
+      "90 degrees C / 90 डिग्री सेल्सियस",
+      "75 degrees C / 75 डिग्री सेल्सियस"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the full form of CORTON steel? / CORTON स्टील का पूर्ण रूप क्या है?",
+    "o": [
+      "Corrosion Resistant steel / जंग प्रतिरोधी स्टील",
+      "Common Railway Transport steel / कॉमन रेलवे ट्रांसपोर्ट स्टील",
+      "Carbon Oxidized Rust Tank steel / कार्बन ऑक्सीडाइज्ड रस्ट टैंक स्टील",
+      "Copper Oxide Resistant steel / कॉपर ऑक्साइड प्रतिरोधी स्टील"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Where is Rail Spring Karkhana located? / रेल स्प्रिंग कारखाना कहाँ स्थित है?",
+    "o": [
+      "Gwalior / ग्वालियर",
+      "Bangalore / बैंगलोर",
+      "Kapurthala / कपूरथला",
+      "Chennai / चेन्नई"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does an Air Flow indicator do? / एयर फ्लो इंडिकेटर क्या करता है?",
+    "o": [
+      "Indicates leakages of air pressure / हवा के दबाव के रिसाव को इंगित करता है",
+      "Indicates brake application / ब्रेक लगाने को इंगित करता है",
+      "Indicates speed / गति को इंगित करता है",
+      "Indicates load / लोड को इंगित करता है"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What types of brakes are there in LHB coaches? / LHB कोचों में किस प्रकार के ब्रेक होते हैं?",
+    "o": [
+      "Axle mounted disc brakes / एक्सल माउंटेड डिस्क ब्रेक",
+      "Wheel mounted disc brakes / व्हील माउंटेड डिस्क ब्रेक",
+      "Clasp brakes / क्लैस्प ब्रेक",
+      "Drum brakes / ड्रम ब्रेक"
+    ],
+    "c": 0
+  },
+  {
+    "q": "To procure non-stock item of value more than Rs. 10,000, which form to be prepared? / 10,000 रुपये से अधिक मूल्य की नॉन-स्टॉक वस्तु खरीदने के लिए, कौन सा फॉर्म तैयार किया जाना है?",
+    "o": [
+      "S-1302-A",
+      "S-1313",
+      "S-1305",
+      "S-1320"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the wheel base of an ICF bogie? / ICF बोगी का व्हील बेस क्या है?",
+    "o": [
+      "2896 mm / 2896 मिमी",
+      "2800 mm / 2800 मिमी",
+      "2900 mm / 2900 मिमी",
+      "2700 mm / 2700 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the release time of a DV permitted on coaching stock? / कोचिंग स्टॉक पर DV का स्वीकृत रिलीज समय क्या है?",
+    "o": [
+      "15 to 20 sec / 15 से 20 सेकंड",
+      "10 to 15 sec / 10 से 15 सेकंड",
+      "20 to 25 sec / 20 से 25 सेकंड",
+      "30 to 45 sec / 30 से 45 सेकंड"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the droppage of BP pressure for full service brake application on coaching train? / कोचिंग ट्रेन पर फुल सर्विस ब्रेक एप्लीकेशन के लिए बीपी दबाव में कितनी गिरावट होती है?",
+    "o": [
+      "1.0 to 1.5 Kg/Cm2 / 1.0 से 1.5 किग्रा/सेमी²",
+      "0.8 to 1.0 Kg/Cm2 / 0.8 से 1.0 किग्रा/सेमी²",
+      "1.5 to 2.0 Kg/Cm2 / 1.5 से 2.0 किग्रा/सेमी²",
+      "0.5 to 0.8 Kg/Cm2 / 0.5 से 0.8 किग्रा/सेमी²"
     ],
     "c": 0
   },
@@ -360,6 +710,336 @@
     "c": 0
   },
   {
+    "q": "Full form of AAR is? / AAR का पूर्ण रूप क्या है?",
+    "o": [
+      "Association of American Railroad",
+      "Automatic Air Release",
+      "Asian Association of Railways",
+      "Accident Avoidance Rule"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of ACD is? / ACD का पूर्ण रूप क्या है?",
+    "o": [
+      "Anti Collision Device",
+      "Automatic Coupling Device",
+      "Air Charge Detector",
+      "Axle Control Device"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of ADD is? / ADD का पूर्ण रूप क्या है?",
+    "o": [
+      "Auto Driving Device",
+      "Air Discharge Device",
+      "Automatic Door Detector",
+      "Axle Drive Device"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of BOLT is? / BOLT का पूर्ण रूप क्या है?",
+    "o": [
+      "Build Operate Lease Transfer",
+      "Build Own Lease Transfer",
+      "Basic Operation Lease Transfer",
+      "Build Operate Land Transfer"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of BOOT is? / BOOT का पूर्ण रूप क्या है?",
+    "o": [
+      "Build Operate Own Transfer",
+      "Build Own Operate Transfer",
+      "Basic Operation Own Transfer",
+      "Build Operate Own Transport"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of BOT is? / BOT का पूर्ण रूप क्या है?",
+    "o": [
+      "Build Operate Transfer",
+      "Build Own Transfer",
+      "Basic Operation Transfer",
+      "Build Operate Transport"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of BIS is? / BIS का पूर्ण रूप क्या है?",
+    "o": [
+      "Bureau of Indian Standards",
+      "Board of Indian Standards",
+      "Basic Indian Standards",
+      "Bureau of International Standards"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CTRB is? / CTRB का पूर्ण रूप क्या है?",
+    "o": [
+      "Cartridge Tapered Roller Bearing",
+      "Central Tapered Roller Bearing",
+      "Cartridge Turning Roller Bearing",
+      "Central Track Roller Bearing"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of COFMOW is? / COFMOW का पूर्ण रूप क्या है?",
+    "o": [
+      "Central Organization for Modernization of Workshops",
+      "Central Office for Maintenance of Wagons",
+      "Committee for Modernization of Workshops",
+      "Central Organization for Mechanical Workshops"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CONCERT is? / CONCERT का पूर्ण रूप क्या है?",
+    "o": [
+      "Countrywide Online Networking Computer Enhanced Reservation and Ticketing",
+      "Central Online Network for Computer Enhanced Railway Ticketing",
+      "Computerized Network for Centralized Railway Ticketing",
+      "Combined Online Network for Computer Enhanced Reservation and Ticketing"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CRIS is? / CRIS का पूर्ण रूप क्या है?",
+    "o": [
+      "Centre for Railway Information System",
+      "Central Railway Information Service",
+      "Computerized Railway Information System",
+      "Centre for Rail Internet Systems"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CCRS is? / CCRS का पूर्ण रूप क्या है?",
+    "o": [
+      "Chief Commissioner of Railway Safety",
+      "Central Committee for Railway Safety",
+      "Chief Controller of Railway Systems",
+      "Central Commissioner of Rail Safety"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CRS is? / CRS का पूर्ण रूप क्या है?",
+    "o": [
+      "Commissioner of Railway Safety",
+      "Central Railway Safety",
+      "Chief Railway Supervisor",
+      "Computerized Reservation System"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CWR is? / CWR का पूर्ण रूप क्या है?",
+    "o": [
+      "Continuous Welded Rail",
+      "Central Western Railway",
+      "Continuous Wagon Repair",
+      "Concrete Wooden Rail"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CONCOR is? / CONCOR का पूर्ण रूप क्या है?",
+    "o": [
+      "Container Corporation of India Ltd",
+      "Central Organization for New Containers",
+      "Container Coordination of Railways",
+      "Confederation of Container Operations"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of COIS is? / COIS का पूर्ण रूप क्या है?",
+    "o": [
+      "Coaching Operations Information System",
+      "Central Operating Information System",
+      "Computerized Operations Information System",
+      "Coaching Online Information System"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of COEA is? / COEA का पूर्ण रूप क्या है?",
+    "o": [
+      "Cabinet Committee on Economic Affairs",
+      "Central Organization for Economic Affairs",
+      "Committee on Economic Adjustment",
+      "Cabinet Office of Economic Affairs"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CORE is? / CORE का पूर्ण रूप क्या है?",
+    "o": [
+      "Central Organization of Railway Electrification",
+      "Central Office of Railway Engineering",
+      "Committee on Railway Electrification",
+      "Central Operation for Railway Efficiency"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CPM is? / CPM का पूर्ण रूप क्या है?",
+    "o": [
+      "Critical Path Method",
+      "Central Project Manager",
+      "Chief Project Manager",
+      "Computerized Project Management"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CRA is? / CRA का पूर्ण रूप क्या है?",
+    "o": [
+      "Central Record Keeping Agency",
+      "Chief Railway Administrator",
+      "Central Railway Association",
+      "Computerized Record Agency"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CMS is? / CMS का पूर्ण रूप क्या है?",
+    "o": [
+      "Crew Management System",
+      "Central Monitoring System",
+      "Computerized Maintenance System",
+      "Coach Management System"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of DMRC is? / DMRC का पूर्ण रूप क्या है?",
+    "o": [
+      "Delhi Metro Railway Corporation",
+      "Division of Mechanical Railway Components",
+      "Department of Metro Rail Corporation",
+      "Direct Metro Rail Connection"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of DRF is? / DRF का पूर्ण रूप क्या है?",
+    "o": [
+      "Depreciation Reserve Fund",
+      "Disaster Relief Fund",
+      "Direct Railway Fund",
+      "Departmental Reserve Fund"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of DF is? / DF का पूर्ण रूप क्या है?",
+    "o": [
+      "Development Fund",
+      "Diesel Fuel",
+      "Direct Finance",
+      "Departmental Fund"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of EOL is? / EOL का पूर्ण रूप क्या है?",
+    "o": [
+      "Engine On Load",
+      "End of Line",
+      "Extra Ordinary Leave",
+      "Electronic Operation Log"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of EBD is? / EBD का पूर्ण रूप क्या है?",
+    "o": [
+      "Emergency Braking Distance",
+      "Electronic Brake Device",
+      "Engine Breakdown Data",
+      "Effective Braking Distance"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of FOIS is? / FOIS का पूर्ण रूप क्या है?",
+    "o": [
+      "Freight Operations Information System",
+      "Freight Organization Information System",
+      "Fast Operation Information System",
+      "Freight Online Integrated System"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of FWP is? / FWP का पूर्ण रूप क्या है?",
+    "o": [
+      "Final Works Program",
+      "Freight Wagon Program",
+      "Financial Works Plan",
+      "Forward Works Proposal"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of PWP is? / PWP का पूर्ण रूप क्या है?",
+    "o": [
+      "Preliminary Works Program",
+      "Planned Works Program",
+      "Proposed Works Plan",
+      "Project Works Program"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of LSWP is? / LSWP का पूर्ण रूप क्या है?",
+    "o": [
+      "Lump Sum Works Program",
+      "Large Scale Works Program",
+      "Limited Service Works Program",
+      "Local Sector Works Program"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of GSM-R is? / GSM-R का पूर्ण रूप क्या है?",
+    "o": [
+      "Global System for Mobile Communications - Railway",
+      "Global Satellite Mobile - Railway",
+      "General System for Mobile - Recording",
+      "Global Standard Mobile - Railway"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of GPS is? / GPS का पूर्ण रूप क्या है?",
+    "o": [
+      "Global Positioning System",
+      "General Positioning System",
+      "Global Placement System",
+      "Ground Positioning Satellite"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of GTR is? / GTR का पूर्ण रूप क्या है?",
+    "o": [
+      "Gross Traffic Receipt",
+      "General Traffic Rule",
+      "Global Train Report",
+      "Goods Train Register"
+    ],
+    "c": 0
+  },
+  {
     "q": "Full form of HOER is? / HOER का पूर्ण रूप क्या है?",
     "o": [
       "Hours of Employment Regulation",
@@ -370,32 +1050,312 @@
     "c": 0
   },
   {
+    "q": "Full form of HRD is? / HRD का पूर्ण रूप क्या है?",
+    "o": [
+      "Hydraulic Rescue Device / Human Resource Development",
+      "Heavy Railway Duty",
+      "High Resistance Device",
+      "Head of Railway Department"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of HDPE is? / HDPE का पूर्ण रूप क्या है?",
+    "o": [
+      "High Density Poly Ethylene",
+      "Heavy Duty Poly Ethylene",
+      "High Durability Plastic Equipment",
+      "Heat Deflection Poly Ethylene"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of IBRD is? / IBRD का पूर्ण रूप क्या है?",
+    "o": [
+      "International Bank for Reconstruction and Development",
+      "Indian Board for Railway Development",
+      "International Board for Railway Design",
+      "Indian Bank for Rural Development"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of IRCTC is? / IRCTC का पूर्ण रूप क्या है?",
+    "o": [
+      "Indian Railway Catering & Tourism Corporation",
+      "Indian Railway Commercial & Transport Corporation",
+      "Indian Railway Catering & Travel Center",
+      "International Railway Catering & Tourism Corporation"
+    ],
+    "c": 0
+  },
+  {
     "q": "Full form of IVRS is? / IVRS का पूर्ण रूप क्या है?",
     "o": [
-      "Integrated Voice Recording System",
       "Interactive Voice Response System",
+      "Integrated Voice Recording System",
       "Indian Vehicle Registration System",
       "Instant Verification and Reporting System"
     ],
-    "c": 1
+    "c": 0
   },
   {
-    "q": "Full form of RDSO is? / RDSO का पूर्ण रूप क्या है?",
+    "q": "Full form of CAMTECH is? / CAMTECH का पूर्ण रूप क्या है?",
     "o": [
-      "Railway Design and Standards Organization",
-      "Research Designs and Standards Organization",
-      "Railway Development and Safety Organization",
-      "Research Development and Standards Office"
+      "Centre for Advanced Maintenance Technology",
+      "Central Agency for Modern Technology",
+      "Committee for Advanced Mechanical Technology",
+      "Computer Aided Maintenance Technology"
     ],
-    "c": 1
+    "c": 0
   },
   {
-    "q": "Full form of RITES is? / RITES का पूर्ण रूप क्या है?",
+    "q": "Full form of ICF is? / ICF का पूर्ण रूप क्या है?",
     "o": [
-      "Rail India Technical and Economic Services",
-      "Railway Institute of Technical Education",
-      "Rail India Transportation Engineering Services",
-      "Railway Infrastructure and Technical Engineering"
+      "Integral Coach Factory",
+      "Indian Coach Factory",
+      "International Coach Factory",
+      "Integrated Coach Facility"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of ICBM is? / ICBM का पूर्ण रूप क्या है?",
+    "o": [
+      "Inter Continental Ballistic Missiles",
+      "Integrated Circuit Board Module",
+      "Indian Council for Ballistic Missiles",
+      "Internal Combustion Ballistic Missile"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of IRT is? / IRT का पूर्ण रूप क्या है?",
+    "o": [
+      "Institute of Rail Transport",
+      "Indian Railway Transport",
+      "International Rail Transit",
+      "Integrated Rail Technology"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of IRCA is? / IRCA का पूर्ण रूप क्या है?",
+    "o": [
+      "Indian Railway Conference Association",
+      "Indian Railway Central Association",
+      "International Railway Conference Agency",
+      "Indian Rail Coach Association"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of IRWO is? / IRWO का पूर्ण रूप क्या है?",
+    "o": [
+      "Indian Railway Welfare Organisation",
+      "Indian Railway Works Organisation",
+      "International Railway Welfare Organization",
+      "Indian Rail Workers Organization"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of IRFC is? / IRFC का पूर्ण रूप क्या है?",
+    "o": [
+      "Indian Railway Finance Corporation",
+      "Indian Railway Freight Corporation",
+      "International Railway Finance Commission",
+      "Indian Rail Funding Corporation"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of IRICEN is? / IRICEN का पूर्ण रूप क्या है?",
+    "o": [
+      "Indian Railway Institute of Civil Engineering",
+      "Indian Railway Institute of Construction Engineering",
+      "International Railway Institute of Civil Engineering",
+      "Indian Research Institute for Civil Engineering"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of IRISET is? / IRISET का पूर्ण रूप क्या है?",
+    "o": [
+      "Indian Railway Institute of Signal Engineering and Telecommunication",
+      "Indian Railway Institute of Science Engineering and Technology",
+      "International Railway Institute of Signal and Telecommunication",
+      "Indian Research Institute for Signal Engineering Technology"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of IRIMEE is? / IRIMEE का पूर्ण रूप क्या है?",
+    "o": [
+      "Indian Railway Institute of Mechanical and Electrical Engineering",
+      "Indian Railway Institute of Mechanical Engineering Education",
+      "Indian Research Institute of Mechanical and Electrical Engineering",
+      "International Railway Institute of Mechanical and Electrical Engineering"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of IRIEE is? / IRIEE का पूर्ण रूप क्या है?",
+    "o": [
+      "Indian Railway Institute of Electrical Engineering",
+      "Indian Railway Institute of Electronics Engineering",
+      "International Railway Institute of Electrical Engineering",
+      "Indian Research Institute of Electrical Engineering"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of MMD is? / MMD का पूर्ण रूप क्या है?",
+    "o": [
+      "Maximum Moving Dimensions",
+      "Minimum Moving Dimensions",
+      "Maximum Material Density",
+      "Minimum Maintenance Duration"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of KRCL is? / KRCL का पूर्ण रूप क्या है?",
+    "o": [
+      "Konkan Railway Corporation Ltd",
+      "Kolkata Railway Corporation Ltd",
+      "Karnataka Railway Corporation Ltd",
+      "Kerala Railway Corporation Ltd"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of LWR is? / LWR का पूर्ण रूप क्या है?",
+    "o": [
+      "Long Welded Rail",
+      "Light Weight Rail",
+      "Long Wagon Rake",
+      "Linear Welded Rail"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of LLE is? / LLE का पूर्ण रूप क्या है?",
+    "o": [
+      "Life Line Express",
+      "Long Load Express",
+      "Low Level Entrance",
+      "Linear Line Engine"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of LSD is? / LSD का पूर्ण रूप क्या है?",
+    "o": [
+      "Load Sensing Device",
+      "Low Speed Device",
+      "Lateral Shock Damper",
+      "Linear Spring Device"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of LVCD is? / LVCD का पूर्ण रूप क्या है?",
+    "o": [
+      "Last Vehicle Check Device",
+      "Low Voltage Control Device",
+      "Lateral Vibration Control Device",
+      "Load Vehicle Check Device"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of MEMU is? / MEMU का पूर्ण रूप क्या है?",
+    "o": [
+      "Main Line Electrical Multiple Unit",
+      "Metro Electrical Multiple Unit",
+      "Mobile Electrical Maintenance Unit",
+      "Main Electrical Motor Unit"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of MRVC is? / MRVC का पूर्ण रूप क्या है?",
+    "o": [
+      "Mumbai Rail Vikas Corporation",
+      "Metro Rail Vikas Corporation",
+      "Maharashtra Railway Vikas Corporation",
+      "Mass Rapid Vehicle Corporation"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of NTES is? / NTES का पूर्ण रूप क्या है?",
+    "o": [
+      "National Train Enquiry System",
+      "Network Train Enquiry System",
+      "New Train Enquiry System",
+      "National Transport Enquiry System"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of OYWS is? / OYWS का पूर्ण रूप क्या है?",
+    "o": [
+      "Own Your Wagon Scheme",
+      "Own Your Warehouse Scheme",
+      "Open Your Wagon Scheme",
+      "Operational Year Wagon Scheme"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of PERT is? / PERT का पूर्ण रूप क्या है?",
+    "o": [
+      "Programme Evaluation Review Technique",
+      "Project Evaluation and Review Technique",
+      "Planned Evaluation and Reporting Technique",
+      "Process Evaluation Review Technique"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of PQRS is? / PQRS का पूर्ण रूप क्या है?",
+    "o": [
+      "Plasser Quick Relaying System",
+      "Permanent Quick Rail System",
+      "Premium Quality Rail System",
+      "Track Quick Relaying System"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of RRB is? / RRB का पूर्ण रूप क्या है?",
+    "o": [
+      "Railway Recruitment Board",
+      "Railway Regional Board",
+      "Rail Regulatory Board",
+      "Regional Recruitment Bureau"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of RLDA is? / RLDA का पूर्ण रूप क्या है?",
+    "o": [
+      "Rail Land Development Authority",
+      "Railway Land Development Agency",
+      "Rail Lease Development Authority",
+      "Railway Land Department Association"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of RRT is? / RRT का पूर्ण रूप क्या है?",
+    "o": [
+      "Railway Rates Tribunal",
+      "Railway Recruitment Tribunal",
+      "Rail Research Team",
+      "Rapid Rail Transit"
     ],
     "c": 0
   },
@@ -410,47 +1370,67 @@
     "c": 0
   },
   {
+    "q": "Full form of SPART is? / SPART का पूर्ण रूप क्या है?",
+    "o": [
+      "Self Propelled Accident Relief Train",
+      "Special Accident Relief Train",
+      "Self Propelled Auxiliary Relief Train",
+      "Standard Propelled Accident Relief Train"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of TOT is? / TOT का पूर्ण रूप क्या है?",
+    "o": [
+      "Transfer of Technology",
+      "Time on Track",
+      "Total Operation Time",
+      "Track on Train"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of TPWS is? / TPWS का पूर्ण रूप क्या है?",
+    "o": [
+      "Train Protection and Warning System",
+      "Train Position Warning System",
+      "Track Protection Warning System",
+      "Total Protection and Warning System"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of USFD is? / USFD का पूर्ण रूप क्या है?",
+    "o": [
+      "Ultrasonic Flaw Detector",
+      "Ultra Sound Flaw Detection",
+      "Universal Steel Flaw Detector",
+      "Under Structure Flaw Detection"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of UTS is? / UTS का पूर्ण रूप क्या है?",
+    "o": [
+      "Unreserved Ticketing System",
+      "Universal Ticketing System",
+      "Unified Transport System",
+      "Urban Ticketing System"
+    ],
+    "c": 0
+  },
+  {
     "q": "Full form of WILD is? / WILD का पूर्ण रूप क्या है?",
     "o": [
-      "Wagon Impact Load Detector",
       "Wheel Impact Load Detector",
+      "Wagon Impact Load Detector",
       "Weight Indicator and Load Detector",
       "Wireless Integrated Load Device"
     ],
-    "c": 1
-  },
-  {
-    "q": "What does the wagon code 'BOXN' stand for? / वैगन कोड 'BOXN' का क्या अर्थ है?",
-    "o": [
-      "All Welded Covered Bogie Wagon",
-      "All Welded Open Bogie Wagon with CBC Air Brake",
-      "Bogie Tank Wagon for Petrol",
-      "Bogie Flat Wagon for Rails"
-    ],
-    "c": 1
-  },
-  {
-    "q": "What does the wagon code 'BCN' stand for? / वैगन कोड 'BCN' का क्या अर्थ है?",
-    "o": [
-      "All Welded Covered Bogie Wagon with CBC Air Brake",
-      "Bogie Covered Wagon with Screw Coupling",
-      "Bogie Container Wagon",
-      "Bogie Cement Wagon"
-    ],
     "c": 0
   },
   {
-    "q": "What does the wagon code 'BTPN' stand for? / वैगन कोड 'BTPN' का क्या अर्थ है?",
-    "o": [
-      "Bogie Tank Wagon for Petrol with Air Brake",
-      "Bogie Tank Wagon for Water",
-      "Bogie Tarpaulin Covered Wagon",
-      "Bogie Tipper Wagon"
-    ],
-    "c": 0
-  },
-  {
-    "q": "What does the wagon code 'BLC' stand for? / वैगन कोड 'BLC' का क्या अर्थ है?",
+    "q": "Full form of BLC is? / BLC का पूर्ण रूप क्या है?",
     "o": [
       "Bogie Low height Container flat wagon",
       "Bogie Long Covered wagon",
@@ -460,44 +1440,254 @@
     "c": 0
   },
   {
+    "q": "Full form of CLW is? / CLW का पूर्ण रूप क्या है?",
+    "o": [
+      "Chittaranjan Locomotive Works",
+      "Central Locomotive Works",
+      "Chennai Locomotive Works",
+      "Central Loco Workshop"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CPB is? / CPB का पूर्ण रूप क्या है?",
+    "o": [
+      "Common Pipe Bracket",
+      "Central Pipe Bracket",
+      "Control Pipe Bracket",
+      "Coach Pipe Bracket"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of DLW is? / DLW का पूर्ण रूप क्या है?",
+    "o": [
+      "Diesel Locomotive Works",
+      "Delhi Locomotive Works",
+      "Diesel Loco Workshop",
+      "Direct Locomotive Works"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of DCW is? / DCW का पूर्ण रूप क्या है?",
+    "o": [
+      "Diesel Component Works",
+      "Diesel Coach Works",
+      "Direct Current Works",
+      "Diesel Central Workshop"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of HSD is? / HSD का पूर्ण रूप क्या है?",
+    "o": [
+      "High Speed Diesel",
+      "Heavy Speed Diesel",
+      "High Standard Diesel",
+      "Hydro Static Diesel"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of IRCON is? / IRCON का पूर्ण रूप क्या है?",
+    "o": [
+      "Indian Railway Construction Corporation Ltd",
+      "International Railway Construction",
+      "Indian Railway Concrete Corporation",
+      "Indian Road Construction Company"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of LHB is? / LHB का पूर्ण रूप क्या है?",
+    "o": [
+      "Linke Hofmann Busch",
+      "Light Heavy Bogie",
+      "Long Haul Bogie",
+      "Linke Heavy Bogie"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of ODC is? / ODC का पूर्ण रूप क्या है?",
+    "o": [
+      "Over Dimensional Consignment",
+      "Over Dimensional Cargo",
+      "Ordinary Dimensional Consignment",
+      "Open Door Coach"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of RCF is? / RCF का पूर्ण रूप क्या है?",
+    "o": [
+      "Rail Coach Factory",
+      "Railway Coach Factory",
+      "Rail Car Factory",
+      "Railway Carriage Factory"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of RITES is? / RITES का पूर्ण रूप क्या है?",
+    "o": [
+      "Rail India Technical and Economic Services Ltd",
+      "Rail India Transportation Engineering Services",
+      "Railway Infrastructure and Technical Engineering",
+      "Rail India Technical Education Society"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of RWF is? / RWF का पूर्ण रूप क्या है?",
+    "o": [
+      "Rail Wheel Factory",
+      "Railway Wheel Factory",
+      "Rail Wagon Factory",
+      "Railway Workshop Factory"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'C' stand for? / वैगन कोड 'C' का क्या अर्थ है?",
+    "o": [
+      "4 Wheeler Covered Wagon",
+      "Covered Bogie Wagon",
+      "Coal Wagon",
+      "Container Wagon"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'BC' stand for? / वैगन कोड 'BC' का क्या अर्थ है?",
+    "o": [
+      "Covered Bogie Wagon",
+      "Bogie Coal Wagon",
+      "Bogie Container Wagon",
+      "Bogie Cement Wagon"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'KC' stand for? / वैगन कोड 'KC' का क्या अर्थ है?",
+    "o": [
+      "4 Wheeler Open Wagon",
+      "Open Bogie Wagon",
+      "Covered 4 Wheeler Wagon",
+      "Crane Wagon"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'BKC' stand for? / वैगन कोड 'BKC' का क्या अर्थ है?",
+    "o": [
+      "Open Bogie Wagon",
+      "Bogie Covered Wagon",
+      "Bogie Kitchen Car",
+      "Bogie Coal Wagon"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'BOX' stand for? / वैगन कोड 'BOX' का क्या अर्थ है?",
+    "o": [
+      "All Welded Open Bogie Wagon",
+      "Bogie Open Extra High",
+      "Bogie Open X-Ray",
+      "Bogie Oil Express"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'BOXN' stand for? / वैगन कोड 'BOXN' का क्या अर्थ है?",
+    "o": [
+      "All Welded Open Bogie Wagon with CBC Air Brake",
+      "Bogie Open Extra New",
+      "Bogie Open Non-stop",
+      "Bogie Open with Narrow width"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'BCN' stand for? / वैगन कोड 'BCN' का क्या अर्थ है?",
+    "o": [
+      "All Welded Covered Bogie Wagon with CBC Air Brake",
+      "Bogie Covered New",
+      "Bogie Cement New",
+      "Bogie Container New"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'BTPN' stand for? / वैगन कोड 'BTPN' का क्या अर्थ है?",
+    "o": [
+      "Bogie Tank Wagon for Petrol Air Brake",
+      "Bogie Tank Petrol New",
+      "Bogie Tarpaulin Petrol New",
+      "Bogie Tank Pressure New"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'BTPGLN' stand for? / वैगन कोड 'BTPGLN' का क्या अर्थ है?",
+    "o": [
+      "Bogie Tank Wagon LPG with Air Brake",
+      "Bogie Tank Petrol Gas Liquid New",
+      "Bogie Tank Pressure Gas Liquid New",
+      "Bogie Tank Petrol Gas Low New"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'BRN' stand for? / वैगन कोड 'BRN' का क्या अर्थ है?",
+    "o": [
+      "Bogie Flat Wagon Open with Air Brake",
+      "Bogie Rail New",
+      "Bogie Roof New",
+      "Bogie Rolling New"
+    ],
+    "c": 0
+  },
+  {
     "q": "What does the wagon code 'BVZC' stand for? / वैगन कोड 'BVZC' का क्या अर्थ है?",
     "o": [
-      "Guard Brake Van with Screw Coupling",
       "Guard Brake Van with CBC & Air Brake System",
-      "Bogie Van for Zinc Carrier",
-      "Brake Van with Vacuum Brake"
+      "Bogie Van Zinc Carrier",
+      "Brake Van Zero Class",
+      "Guard Brake Van with Screw Coupling"
     ],
-    "c": 1
+    "c": 0
   },
   {
     "q": "What does the coach code 'WCB' stand for? / कोच कोड 'WCB' का क्या अर्थ है?",
     "o": [
-      "Vestibuled Chair Car",
       "Vestibuled Pantry Car",
-      "Vestibuled Composite Brake Van",
-      "Vestibuled Cooling Bogie"
+      "Vestibuled Chair Car",
+      "Vestibuled Cooling Bogie",
+      "Vestibuled Composite Brake Van"
     ],
-    "c": 1
+    "c": 0
   },
   {
     "q": "What does the coach code 'WGACCN' stand for? / कोच कोड 'WGACCN' का क्या अर्थ है?",
     "o": [
-      "Vestibuled AC 2-Tier Sleeper",
-      "Vestibuled AC 3-Tier Sleeper with Self Generating Eqpt",
+      "Vestibuled Air Conditioned Three Tier with Self Generating Electrical Equipment",
       "Vestibuled AC Chair Car",
-      "Vestibuled General Second Class"
+      "Vestibuled General AC Class",
+      "Vestibuled AC Coupe"
     ],
-    "c": 1
+    "c": 0
   },
   {
-    "q": "What does the coach code 'NMG' stand for? / कोच कोड 'NMG' का क्या अर्थ है?",
+    "q": "What does the coach code 'WGACCW' stand for? / कोच कोड 'WGACCW' का क्या अर्थ है?",
     "o": [
-      "New Motor Goods",
-      "New Modified Goods",
-      "Non Modified Goods",
-      "Narrow Gauge Motor Goods"
+      "Vestibuled Air Conditioned Two Tier with Self Generating Electrical Equipment",
+      "Vestibuled AC Chair Car Wide",
+      "Vestibuled General AC Class Wide",
+      "Vestibuled AC Coupe Wide"
     ],
-    "c": 1
+    "c": 0
   },
   {
     "q": "What does the coach code 'SLR' stand for? / कोच कोड 'SLR' का क्या अर्थ है?",
@@ -512,11 +1702,21 @@
   {
     "q": "What does the coach code 'RA' stand for? / कोच कोड 'RA' का क्या अर्थ है?",
     "o": [
-      "Railway Administration Car",
       "Inspection Carriage (Administrative)",
+      "Railway Administration Car",
       "Rail Ambulance",
       "Relief Accident Van"
     ],
-    "c": 1
+    "c": 0
+  },
+  {
+    "q": "What does the coach code 'NMG' stand for? / कोच कोड 'NMG' का क्या अर्थ है?",
+    "o": [
+      "New Modified Goods",
+      "New Motor Goods",
+      "Non Modified Goods",
+      "Narrow Gauge Motor Goods"
+    ],
+    "c": 0
   }
 ]
