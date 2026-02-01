@@ -1,0 +1,1102 @@
+[
+  {
+    "q": "The maximum wheel gauge of passenger BG coaching stock is -? / यात्री बीजी कोचिंग स्टॉक का अधिकतम व्हील गेज है ?",
+    "o": [
+      "1600 mm / 1600 मिमी",
+      "1601 mm / 1601 मिमी",
+      "1598.5 mm / 1598.5 मिमी",
+      "1602 mm / 1602 मिमी"
+    ],
+    "c": 3
+  },
+  {
+    "q": "Length over body of ICF BG coaches is - / आईसीएफ बीजी कोच के बॉडी से बॉडी की लंबाई है -?",
+    "o": [
+      "2334 mm / 2334 मिमी",
+      "2310 mm / 2310 मिमी",
+      "21337 mm / 21337 मिमी",
+      "22132 mm / 22132 मिमी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "At what interval, the intensive cleaning of any coach is done? / किसी कोच की सघन सफाई किस अंतराल पर होती है?",
+    "o": [
+      "Three month / तीन महीने",
+      "One month / एक महीने",
+      "Six month / छह महीने",
+      "Eight month / आठ महीने"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What is the interval for cleaning of coach water tank? / कोच की पानी की टंकी की सफाई के लिए अंतराल क्या है?",
+    "o": [
+      "15 days / 15 दिन",
+      "25 days / 25 दिन",
+      "one month / एक महीने",
+      "two month / दो महीने"
+    ],
+    "c": 2
+  },
+  {
+    "q": "What is the period for the POH of any OCV attached to a passenger train? / किसी यात्री ट्रेन से जुड़े किसी भी OCV के POH की अवधि क्या है?",
+    "o": [
+      "Nine month / नौ महीने",
+      "12 month / 12 महीने",
+      "18 month / 18 महीने",
+      "24 month / 24 महीने"
+    ],
+    "c": 3
+  },
+  {
+    "q": "Transportation code of the ladies compartment is -? / महिला डिब्बे का परिवहन कोड है-",
+    "o": [
+      "X / एक्स",
+      "Z / जेड",
+      "Y / वाई",
+      "L / एल"
+    ],
+    "c": 2
+  },
+  {
+    "q": "What is the Transportation code of inspection carriage (Administrative)? / निरीक्षण गाड़ी (प्रशासनिक) का परिवहन कोड क्या है?",
+    "o": [
+      "AR / एआर",
+      "CR / सीआर",
+      "IC / आईसी",
+      "RA / आरए"
+    ],
+    "c": 3
+  },
+  {
+    "q": "Transportation codes of the pantry car is - / पेंट्री कार के परिवहन कोड हैं -",
+    "o": [
+      "BC / बीसी",
+      "PC / पीसी",
+      "WCB / डब्ल्यूसीबी",
+      "CD / सीडी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Which part is not used in ICF trolley? / ICF ट्रॉली में किस भाग का उपयोग नहीं किया जाता है?",
+    "o": [
+      "Dashpot / डैशपॉट",
+      "Side bearer / साइड बियरर",
+      "Shock absorber / शॉक अवशोषक",
+      "Drag link / ड्रैग लिंक"
+    ],
+    "c": 3
+  },
+  {
+    "q": "The 'L' type composite brake block should be changed, if worn out beyond- / 'एल' टाइप के कंपोजिट ब्रेक ब्लॉक को बदला जाना चाहिए, अगर इससे जयादा घिसे जाने पर ?",
+    "o": [
+      "10 mm / 10 मिमी",
+      "15 mm / 15 मिमी",
+      "20 mm / 20 मिमी",
+      "22 mm / 22 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Std. packing pieces of ICF coach is - / आईसीएफ कोच के स्टैण्डर्ड पैकिंग पीस है ?",
+    "o": [
+      "13,14,26 mm / 13,14,26 मिमी",
+      "13,22,28 mm / 13,22,28 मिमी",
+      "13,26,38,48 mm / 13,26,38,48 मिमी",
+      "22,26,32 mm / 22,26,32 मिमी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Yellow strips on end body of ICF indicate is - / ICF के अंतिम भाग पर पीली पट्टियां दर्शाती हैं-",
+    "o": [
+      "Antitelescopic / एंटीटेलस्कोपिक",
+      "Dual brake / दोहरी ब्रेक",
+      "In built air brake / निर्मित एयर ब्रेक में",
+      "Non-Antitelescope / गैर-एंटीटेलस्कोप"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What defect is detecting in UST test? / युएसटी परीक्षण से क्या पता लगता है?",
+    "o": [
+      "Internal crack / आंतरिक दरार",
+      "external crack / बाहरी दरार",
+      "Air flow crack / वायु प्रवाह दरार",
+      "None of the above / उपरोक्त में से कोई नहीं"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Normal payload of the GS coach is - / जीएस कोच का सामान्य पे लोड..... है?",
+    "o": [
+      "6.98 t / 6.98 टन",
+      "5.85 t / 5.85 टन",
+      "6.67 t / 6.67 टन",
+      "7.21 t / 7.21 टन"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Over all width of ICF/ RCF coach is - / ICF/RCF कोच की कुल चौड़ाई है -",
+    "o": [
+      "3251 mm / 3251 मिमी",
+      "3250 mm / 3250 मिमी",
+      "3245 mm / 3245 मिमी",
+      "3991 mm / 3991 मिमी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "In ICF coach, replace Headstock if the thickness is reduce more than - / ICF कोच में, हेडस्टॉक को बदलें यदि मोटाई इससे कम हो ?",
+    "o": [
+      "2 mm / 2 मिमी",
+      "8 mm / 8 मिमी",
+      "4 mm / 4 मिमी",
+      "6 mm / 6 मिमी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Maintenance and repair procedure for hydraulic shock absorbers used in coaching stock, what RDSO technical pamphlet is used - / कोचिंग स्टॉक में उपयोग किए जाने वाले हाइड्रोलिक शॉक एब्जॉर्बर के लिए रखरखाव और मरम्मत प्रक्रिया, आरडीएसओ का कौन सा तकनीकी पैम्फलेट उपयोग किया जाता है-",
+    "o": [
+      "C-7512",
+      "C-7301",
+      "C-6803",
+      "C-7607"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Instruction for inspection/maintenance of air brake equipment on passanger coaches, what RDSO technical pamphlet is used - / यात्री डिब्बों पर एयर ब्रेक उपकरण के निरीक्षण/रखरखाव के लिए निर्देश, आरडीएसओ के तकनीकी पैम्फलेट का क्या उपयोग किया जाता है -",
+    "o": [
+      "C-7512",
+      "C-7907",
+      "C-8805",
+      "C-8703"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Maintenance manual for IRSA-600 slack adjuster, what RDSO's technical pamphlet is used - / IRSA-600 स्लैक एडजस्टर के लिए रखरखाव मैनुअल, RDSO के तकनीकी पैम्फलेट क्या उपयोग किया जाता है -",
+    "o": [
+      "G-92",
+      "G-97",
+      "G-67",
+      "G-94"
+    ],
+    "c": 0
+  },
+  {
+    "q": "At what schedule the painting of lavatories from inside is done - / अंदर से शौचालयों की पेंटिंग किस शेड्यूल पर की जाती है -",
+    "o": [
+      "'B' schedules / 'बी' शेड्यूल",
+      "'A' schedule / 'ए' शेड्यूल",
+      "'C' schedule / 'सी' शेड्यूल",
+      "Special schedule / स्पेशल शेड्यूल"
+    ],
+    "c": 0
+  },
+  {
+    "q": "How many emergency windows provided in AC ICF/RCF coaches are / ए.सी. आईसीएफ/आरसीएफ कोचों में कितनी आपातकालीन खिड़कियां हैं -",
+    "o": [
+      "Two / दो",
+      "Three / तीन",
+      "Four / चार",
+      "Five / पांच"
+    ],
+    "c": 2
+  },
+  {
+    "q": "What is the interval of schedule 'A' examination of a coach? / कोच की अनुसूची 'ए' का अंतराल क्या है?",
+    "o": [
+      "One month ± 3 days / एक महीना ± 3 दिन",
+      "Two months ± 3 days / दो महीने ± 3 दिन",
+      "Three months ± 6 days / तीन महीने ± 6 दिन",
+      "None of the above / उपरोक्त में से कोई नहीं"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the interval of schedule 'B' examination of a coach? / कोच की अनुसूची 'बी' का अंतराल क्या है?",
+    "o": [
+      "One month ± 3 days / एक महीना ± 3 दिन",
+      "Two months ± 3 days / दो महीने ± 3 दिन",
+      "Three months ± 7 days / तीन महीने ± 7 दिन",
+      "None of the above / उपरोक्त में से कोई नहीं"
+    ],
+    "c": 2
+  },
+  {
+    "q": "What is the purpose of manipulator? / मैनिपुलेटर का उपयोग क्या है?",
+    "o": [
+      "For testing roller bearing / रोलर बियरिग परीक्षण के लिए",
+      "For down hand welding / नीचे हाथ वेल्डिंग के लिए",
+      "For ROH / आर.ओ.एच. के लिए",
+      "For brake ringing Adjustment / ब्रेक रिंगिंग समायोजन के लिए"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What is the interval of cleaning/ flushing of overhead water tank in coach? / कोच की ओवरहेड पानी की टंकी की सफाई / फ्लशिंग का अंतराल क्या है?",
+    "o": [
+      "Every trip / हर यात्रा",
+      "Every month / हर महीने",
+      "Every three month / हर तीन महीने",
+      "Every Six month / हर छह महीने"
+    ],
+    "c": 1
+  },
+  {
+    "q": "The minimum permissible buffer height above rail level to center of buffer is - / रेल स्तर से बफर के केंद्र तक न्यूनतम अनुमेय बफर ऊंचाई है -",
+    "o": [
+      "1105 mm / 1105 मिमी",
+      "1145 mm / 1145 मिमी",
+      "1115 mm / 1115 मिमी",
+      "1030 mm / 1030 मिमी"
+    ],
+    "c": 3
+  },
+  {
+    "q": "Minimum Permissible buffer projection from Headstock is - / हेडस्टॉक से न्यूनतम अनुमत बफर प्रोजेक्सन है-",
+    "o": [
+      "635 mm / 635 मिमी",
+      "605 mm / 605 मिमी",
+      "590 mm / 590 मिमी",
+      "584 mm / 584 मिमी"
+    ],
+    "c": 3
+  },
+  {
+    "q": "The diameter of buffer plunger face of ICF coaches is - / आईसीएफ कोचों के बफर प्लंजर फेस का व्यास है-",
+    "o": [
+      "552 mm / 552 मिमी",
+      "457 mm / 457 मिमी",
+      "493 mm / 493 मिमी",
+      "510 mm / 510 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What is the maximum buffer plunger stroke ? / अधिकतम बफर प्लंजर स्ट्रोक क्या है?",
+    "o": [
+      "127.0 mm / 127.0 मिमी",
+      "129.0 mm / 129.0 मिमी",
+      "131.0 mm / 131.0 मिमी",
+      "133.0 mm / 133.0 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "How the weight of the body is transferred on trolley in ICF coach? / आईसीएफ कोच में ट्रॉली पर बॉडी का भार कैसे स्थानांतरित किया जाता है?",
+    "o": [
+      "Journal / जर्नल",
+      "Wheel / व्हील",
+      "Side bearer / साइड बियरर",
+      "Dashpot / डैशपॉट"
+    ],
+    "c": 2
+  },
+  {
+    "q": "The ICF buffer plunger is made of- / ICF बफर प्लंजर बना होता है -",
+    "o": [
+      "Mild steel / माइल्ड स्टील",
+      "Cast iron / कास्ट आयरन",
+      "Cast steel / कास्ट स्टील",
+      "Aluminum Alloy / एल्यूमिनियम मिश्र धातु"
+    ],
+    "c": 2
+  },
+  {
+    "q": "What is the weakest link of the 'H' type tight lock center buffer coupler? / 'H' टाइप टाइट लॉक सेंटर बफर कपलर की सबसे कमजोर कड़ी क्या है?",
+    "o": [
+      "Draft gear / ड्राफ्ट गियर",
+      "Knuckle / नकल",
+      "Lock / लॉक",
+      "Yoke pin / योक पिन"
+    ],
+    "c": 1
+  },
+  {
+    "q": "LWLH Bogies use in ....? / LWLH Bogie का उपयोग निम्न से किस्मे किया जाता है?",
+    "o": [
+      "BOXN / बॉक्सन",
+      "BOXNHL / बॉक्सन एच एल",
+      "BOXNS / बॉक्सन एस",
+      "BOBRN / बी ओ बी आर एन"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Permissible variations in wheel tread diameter for four-wheeled trolley on the same coach of BG is -(while tyre turning of the wheel) / एक ही बीजी कोच पर चार पहिया ट्रॉली के लिए व्हील ट्रेड व्यास में अनुमेय भिन्नता है (टायर टर्निंग के समय)",
+    "o": [
+      "12.0 mm / 12.0 मिमी",
+      "10.0 mm / 10.0 मिमी",
+      "11.0 mm / 11.0 मिमी",
+      "13.0 mm / 13.0 मिमी"
+    ],
+    "c": 3
+  },
+  {
+    "q": "Axle load of BOXNS wagon is.......? / BOXNS वैगन का एक्सल लोड...... है?",
+    "o": [
+      "22.9 Ton / 22.9 टन",
+      "21 Ton / 21 टन",
+      "22.5 Ton / 22.5 टन",
+      "25 Ton / 25 टन"
+    ],
+    "c": 3
+  },
+  {
+    "q": "During full service application, Brake pipe pressure is dropped to - / फुल सर्विस एप्लीकेशन के दौरान, ब्रेक पाइप प्रेशर का ड्राप करते है -",
+    "o": [
+      "2.0 Kg/cm2 / 2.0 किग्रा/सेमी 2",
+      "1.0 kg/cm2 / 1.0 किग्रा/सेमी 2",
+      "3.0 Kg/cm2 / 3.0 किग्रा/सेमी 2",
+      "1.5 kg/cm2 / 1.5 किग्रा/सेमी 2"
+    ],
+    "c": 3
+  },
+  {
+    "q": "In twin pipe system, Auxiliary Resevoir (AR) pressure should be / द्विन पाइप सिस्टम में ऑक्सिलरी रिजरवायर (AR) प्रेशर होना चाहिए -",
+    "o": [
+      "5.0 Kg/cm2 / 5.0 किग्रा/सेमी 2",
+      "6.0 Kg/cm2 / 6.0 किग्रा/सेमी 2",
+      "7.0 Kg/cm2 / 7.0 किग्रा/सेमी 2",
+      "8.0 kg/cm2 / 8.0 किग्रा/सेमी 2"
+    ],
+    "c": 1
+  },
+  {
+    "q": "During brake release, air from BC goes to....? / ब्रेक रिलीज के दौरान, BC से हवा जाती है ?",
+    "o": [
+      "AR / ए.आर.",
+      "CR / सी.आर.",
+      "DV / डी.वी.",
+      "Atmosphere / वायुमंडल"
+    ],
+    "c": 3
+  },
+  {
+    "q": "The total no. of MU washer used in a twin pipe passenger coach........ / द्विन पाइप यात्री कोच में कुल एम.यू वॉशर का संख्या.... है ?",
+    "o": [
+      "3 / 3",
+      "4 / 4",
+      "2 / 2",
+      "6 / 6"
+    ],
+    "c": 1
+  },
+  {
+    "q": "DV is directly mounted on - / DV सीधे किस पर लगा होता है-",
+    "o": [
+      "AR / ए.आर.",
+      "Brake pipe / ब्रेक पाइप",
+      "Brake cylinder / ब्रेक सिलेंडर",
+      "Common pipe bracket / कॉमन पाइप ब्रैकेट"
+    ],
+    "c": 3
+  },
+  {
+    "q": "Measured 'A' dimension between- / 'ए' डायमेंशन किसके किसके बीच मापा जाता है -",
+    "o": [
+      "Control rod head to anchor pin / कंट्रोल रॉड हेड से एंकर पिन",
+      "Pull rod to anchor pin / पुल रॉड से एंकर पिन",
+      "Pull rod to control rod head / पुल रॉड से कंट्रोल रॉड हेड",
+      "Control rod head and barrel face / कंट्रोल रॉड हेड और बैरल फेस"
+    ],
+    "c": 3
+  },
+  {
+    "q": "Water tank capacity of ICF coach is..? / आईसीएफ कोच की पानी की टंकी की क्षमता है..?",
+    "o": [
+      "1600 litre / 1600 लीटर",
+      "1800 litre / 1800 लीटर",
+      "1500 litre / 1500 लीटर",
+      "2000 liter / 2000 लीटर"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Minimum air pressure required for WRA is...? / WRA के लिए आवश्यक न्यूनतम वायुदाब है-",
+    "o": [
+      "0.35 Kg/cm2 / 0.35 किग्रा/सेमी 2",
+      "0.45 Kg/cm2 / 0.45 किग्रा/सेमी 2",
+      "0.55 Kg/cm2 / 0.55 किग्रा/सेमी 2",
+      "0.65 kg/cm2 / 0.65 किग्रा/सेमी 2"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the riding index of LHB coach? / एलएचबी कोच का राइडिंग इंडेक्स क्या है?",
+    "o": [
+      "2.0 / 2.0",
+      "2.5 / 2.5",
+      "2.75 / 2.75",
+      "3.0 / 3.0"
+    ],
+    "c": 2
+  },
+  {
+    "q": "D-1 maintenance schedule of LHB coaches done after how long time? / एलएचबी कोचों का डी-1 अनुरक्षण कार्यक्रम कितने समय बाद किया गया?",
+    "o": [
+      "7+/-1 day / 7+/-1 दिन",
+      "15 days / 15 दिन",
+      "Every Trip / हर यात्रा",
+      "30 days / 30 दिन"
+    ],
+    "c": 2
+  },
+  {
+    "q": "SS-I maintenance schedule of LHB coaches done after how long time? / एलएचबी कोचों का एसएस-। अनुरक्षण कार्यक्रम कितने समय के बाद किया गया?",
+    "o": [
+      "1 year / 1 साल",
+      "1.5 year / 1.5 साल",
+      "2 year / 2 साल",
+      "3 year / 3 साल"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Permissible variation in new wheel tread diameter for four-wheeled trolley on the same axle on BG bogie wagon is / बीजी बोगी वैगन पर एक ही एक्सल पर चार पहिया ट्रॉली के लिए नए व्हील ट्रेड व्यास में अनुमत भिन्नता है -",
+    "o": [
+      "0.45 mm / 0.45 मिमी",
+      "0.5 mm / 0.5 मिमी",
+      "0.35 mm / 0.35 मिमी",
+      "0.3 mm / 0.3 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Permissible variation in wheel tread diameter for four-wheeled trolley on the same wagon on BG bogie wagon while changing the wheel is - / बीजी बोगी वैगन पर एक ही वैगन में पहिया बदलते समय चार पहिया ट्रॉली के लिए व्हील ट्रेड व्यास में अनुमेय भिन्नता है",
+    "o": [
+      "13 mm / 13 मिमी",
+      "25 mm / 25 मिमी",
+      "30 mm / 30 मिमी",
+      "28 mm / 28 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Tare weight of the BOXN wagon is - / बॉक्सएन वैगन का टेयर वजन है-",
+    "o": [
+      "22.37 tons / 22.37 टन",
+      "22.47 tons / 22.47 टन",
+      "22.91 tons / 22.91 टन",
+      "22.90 tons / 22.90 टन"
+    ],
+    "c": 1
+  },
+  {
+    "q": "In accident manual, train parting is under - / दुर्घटना नियमावली में ट्रेन पार्टिंग किसमे आता है -",
+    "o": [
+      "J 3 class / जे 3 क्लास",
+      "J 4 class / जे 4 क्लास",
+      "J 5 class / जे 5 क्लास",
+      "J 10 class / जे 10 क्लास"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Newly built BLC containers wagon first POH periodicity is.. / नवनिर्मित बीएलसी कंटेनर वैगन प्रथम पी.ओ.एच. आवधि है....",
+    "o": [
+      "4.5 year / 4.5 साल",
+      "2.0 year / 2.0 साल",
+      "6.0 year / 6.0 साल",
+      "3.5 year / 3.5 साल"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Board gauge track gauge is ? / बोर्ड गेज ट्रैक गेज है...?",
+    "o": [
+      "1676 mm / 1676 मिमी",
+      "1667 mm / 1667 मिमी",
+      "1698 mm / 1698 मिमी",
+      "1500 mm / 1500 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "POH of BG wagon brake van is -? / बीजी वैगन ब्रेक वैन का पी.ओ.एच. अवधि है -",
+    "o": [
+      "3.5 year / 3.5 साल",
+      "2.0 year / 2.0 साल",
+      "2.5 year / 2.5 साल",
+      "3.0 year / 3.0 साल"
+    ],
+    "c": 1
+  },
+  {
+    "q": "C-class ODC shall be moved during - / सी-क्लास ओडीसी कब मूव किया जाता है -",
+    "o": [
+      "Day light / डे लाइट",
+      "Day-night time / दिन-रात का समय",
+      "Only night time / केवल रात का समय",
+      "None of the above / उपरोक्त में से कोई नहीं"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Instructions for inspection and maintenance of BOXN wagon fitted with CASNUB bogies and twin pipe air brake system, What RDSO's technical pamphlet is used? / CASNUB बोगियों और द्विन पाइप एयर ब्रेक सिस्टम से युक्त BOXN वैगन के निरीक्षण और रखरखाव के लिए निर्देश, RDSO के तकनीकी पैम्फलेट का क्या उपयोग किया जाता है?",
+    "o": [
+      "G-90",
+      "G-70",
+      "G-97",
+      "WT-77"
+    ],
+    "c": 1
+  },
+  {
+    "q": "As per new wagon numbering scheme, first two digits will indicate- / नई वैगन नंबरिंग योजना के अनुसार, पहले दो अंक इंगित करेंगे-",
+    "o": [
+      "Owning Railway / ओनिंग रेलवे",
+      "Type of wagon / वैगन का प्रकार",
+      "Year of manufacture / निर्माण का वर्ष",
+      "Cheek digit / चेक डिजिट"
+    ],
+    "c": 1
+  },
+  {
+    "q": "The maximum permissible free slack in the draft gear in service is - / सर्विस में ड्राफ्ट गियर में अधिकतम अनुमेय फ्री स्लैक है-?",
+    "o": [
+      "35 mm / 35 मिमी",
+      "30 mm / 30 मिमी",
+      "25 mm / 25 मिमी",
+      "20 mm / 20 मिमी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "The high capacity draft gears is -? / उच्च क्षमता वाला ड्राफ्ट गियर है -",
+    "o": [
+      "RF-361",
+      "RF-401",
+      "RF-600",
+      "RF-21"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Standard diameter on wheel on tread of BOXN wagon -?- / BOXN वैगन के पहिया का मानक व्यास -?-",
+    "o": [
+      "1010 mm / 1010 मिमी",
+      "1000 mm / 1000 मिमी",
+      "950 mm / 950 मिमी",
+      "906 mm / 906 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "The wheel gauge should be measured on - / व्हील गेज को मापा जाना चाहिए -",
+    "o": [
+      "Off load condition / ऑफ लोड कंडीशन",
+      "Loaded wagon / लोडेड वैगन",
+      "Both condition / दोनों कंडीशन",
+      "Empty wagon / खाली वैगन"
+    ],
+    "c": 0
+  },
+  {
+    "q": "The lowest wheel dia permitted by workshop for BOXN wagon is - / BOXN वैगन के लिए वर्कशॉप द्वारा अनुमत न्यूनतम व्हील डाया है -",
+    "o": [
+      "919 mm / 919 मिमी",
+      "906 mm / 906 मिमी",
+      "925 mm / 925 मिमी",
+      "860 mm / 860 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Permissible maximum flat surface on tread of BG wagon is - / बीजी वैगन में पहिया पर अनुमत अधिकतम फ्लैट सरफेस है --",
+    "o": [
+      "75 mm / 75 मिमी",
+      "60 mm / 60 मिमी",
+      "50 mm / 50 मिमी",
+      "70 mm / 70 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What is an integrated portion of the axle? / धुरी का इंट्रीग्रेटेड भाग क्या है?",
+    "o": [
+      "Cap / कैप",
+      "Roller bearing / रोलर बियरिंग",
+      "Journal / जर्नल",
+      "None of the above / उपरोक्त में से कोई नहीं"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Control rod diameter of air brake wagon is - / एयर ब्रेक वैगन का कंट्रोल रॉड व्यास है -",
+    "o": [
+      "30 mm / 30 मिमी",
+      "32 mm / 32 मिमी",
+      "38 mm / 38 मिमी",
+      "40 mm / 40 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Piston stroke of BOXN wagon in empty conditions is - / खाली स्थिति में BOXN वैगन का पिस्टन स्ट्रोक है -",
+    "o": [
+      "85±10 mm / 85±10 मिमी",
+      "70±15 mm / 70±15 मिमी",
+      "75±5 mm / 75±5 मिमी",
+      "80±10 mm / 80±10 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Piston stroke of BOXN wagon in loaded conditions is - / लोडेड स्थिति में बॉक्सएन वैगन का पिस्टन स्ट्रोक है-",
+    "o": [
+      "140±15 mm / 140±15 मिमी",
+      "130±10 mm / 130±10 मिमी",
+      "120+15 mm / 120+15 मिमी",
+      "125±15 mm / 125±15 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "In air brake stock, BPC becomes invalid, if the rake is stabled in any examination yard- / एयर ब्रेक स्टॉक में, बीपीसी अमान्य हो जाता है, यदि रेक किसी एग्जामिनेशन यार्ड में स्टेबल है..",
+    "o": [
+      "24 hours / 24 घंटे",
+      "36 hours / 36 घंटे",
+      "48 hours / 48 घंटे",
+      "12 hours / 12 घंटे"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Dirt collector should be cleaned within- / Dirt कलेक्टर को साफ किया जाना चाहिए-",
+    "o": [
+      "At the time of ROH / आर.ओ.एच. के समय",
+      "2 month / 2 महीने",
+      "6 month / 6 महीने",
+      "3 month / 3 महीने"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the capacity of control reservoir in goods train? / मालगाड़ी में कंट्रोल रिजर्वायर की क्षमता कितनी होती है?",
+    "o": [
+      "4 Litre / 4 लीटर",
+      "6 Litre / 6 लीटर",
+      "8 Litre / 8 लीटर",
+      "10 Litre / 10 लीटर"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What should be the effective pressure in brake cylinder during full service application? / फुल सर्विस एप्लीकेशन के दौरान ब्रेक सिलेंडर में दबाव कितना होना चाहिए?",
+    "o": [
+      "3.6 Kg/Cm2 / 3.6 किग्रा / सेमी 2",
+      "3.2 Kg/cm2 / 3.2 किग्रा / सेमी 2",
+      "3.8 Kg/Cm2 / 3.8 किग्रा / सेमी 2",
+      "4.1 Kg/Cm2 / 4.1 किग्रा / सेमी 2"
+    ],
+    "c": 2
+  },
+  {
+    "q": "When we release manually KE type DV, the air pressure release form - / जब हम मैन्युअल रूप से KE टाइप DV रिलीज करते हैं, तो एयर प्रेशर रिलीज किससे होता है..",
+    "o": [
+      "CR & AR / सीआर और एआर",
+      "BC & AR / बीसी और एआर",
+      "BC & CR / बीसी और सीआर",
+      "AR & DV / एआर और डीवी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "A' dimension in Boxn wagon is - / बॉक्सन वैगन में 'ए' डाइमेंशन है -",
+    "o": [
+      "70±2 mm / 70±2 मिमी",
+      "172±3 mm / 172±3 मिमी",
+      "175±4 mm / 175±4 मिमी",
+      "175±1 mm / 175±1 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "The diameter of air bake cylinder in BVZC (Wagon) is - / बीवीजेडसी (वैगन) में एयर बेक सिलेंडर का व्यास है -",
+    "o": [
+      "300 mm / 300 मिमी",
+      "295 mm / 295 मिमी",
+      "305 mm / 305 मिमी",
+      "315 mm / 315 मिमी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Lateral movements of wheels controlled by / व्हीलो का पार्श्व मोमेन्ट किसके द्वारा कन्ट्रोल होता है ?",
+    "o": [
+      "Axle guide / एक्सल गाइड",
+      "journal center / जरनल सेटर",
+      "roller bearing / रोलर बियरिंग",
+      "dash pot / डेश पोट"
+    ],
+    "c": 0
+  },
+  {
+    "q": "The brake power of CC rake from nodal point is - / नोडल पॉइंट से सीसी रेक की ब्रेक पावर है -",
+    "o": [
+      "90% / 90%",
+      "100% / 100%",
+      "85% / 85%",
+      "75% / 75%"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Diameter of brake pipe and feed pipe is (In a goods train)- / ब्रेक पाइप और फीड पाइप का व्यास है (मालगाड़ी में)-",
+    "o": [
+      "28 mm / 28 मिमी",
+      "34 mm / 34 मिमी",
+      "32 mm / 32 मिमी",
+      "36 mm / 36 मिमी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "The three branch pipe attached to common pipe bracket, where the middle pipe lead to- / कॉमन पाइप ब्रैकेट से जुड़ी तीन शाखा पाइप, जहां मध्य पाइप ले जाता है-",
+    "o": [
+      "CR / सीआर",
+      "DV / डीवी",
+      "BC / बीसी",
+      "AR / एआर"
+    ],
+    "c": 3
+  },
+  {
+    "q": "How many cut of angle cock are provided in a vehicle in twin pipe system- / द्विन पाइप सिस्टम में एक वैगन में कितने कट ऑफ एंगल कॉक दिए जाते हैं-",
+    "o": [
+      "Two / दो",
+      "Four / चार",
+      "Six / छह",
+      "None / कोई नहीं"
+    ],
+    "c": 1
+  },
+  {
+    "q": "During Brake application, air flow from - / ब्रेक लगाने के दौरान हवा का प्रवाह -",
+    "o": [
+      "AR to BC / एआर से बीसी",
+      "BP to BC / बीपी से बीसी",
+      "CR to BC / सीआर से बीसी",
+      "None of the above / इनमें से कोई भी नहीं"
+    ],
+    "c": 0
+  },
+  {
+    "q": "SAB Adjust clearance between......? / SAB किसके बीच क्लीरन्स समायोजित करता है -",
+    "o": [
+      "Wheel and brake block / व्हील और ब्रेक ब्लॉक",
+      "tie rod and brake block / टाई रॉड और ब्रेक ब्लॉक",
+      "Anchor pin to control rod / एंकर पिन से कंट्रोल रॉड",
+      "None / उपरोक्त में से कोई नहीं"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Coaching stock accident involving human life enquiry by ? / पैसंजर गाड़ी दुर्घटना में मानव जान हानि होने से जाँच कर्त्ता कौन होता है?",
+    "o": [
+      "CME / सीएमई",
+      "CRS / सीआरएस",
+      "Sr. DME / सीनियर डीएमई",
+      "DRM / डीआरएम"
+    ],
+    "c": 1
+  },
+  {
+    "q": "A female Railway employee shall be entitled to maternity leave for / एक रेलवे महिला कर्मचारी मातृत्व अवकाश का हकदार है ?",
+    "o": [
+      "130 days / 130 दिन",
+      "120 days / 120 दिन",
+      "90 days / 90 दिन",
+      "180 days / 180 दिन"
+    ],
+    "c": 3
+  },
+  {
+    "q": "What is the maximum period of leave on average pay at a time that a Railway servant may be granted? / रेल कर्मचारी को एकबार में अधिकतम औसत वेतन अवकाश कितने दिनो का स्वीकृत किया जा सकता है ?",
+    "o": [
+      "120 days / 120 दिन",
+      "160 days / 160 दिन",
+      "180 days / 180 दिन",
+      "300 days / 300 दिन"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Break journey is not permissible in case of / यात्रा भंग की अनुमति नहीं है यदि ?",
+    "o": [
+      "Transfer pass / स्थानांतरण पास",
+      "school pass / स्कूल पास",
+      "settlement pass / निपटारा पास",
+      "post Retd. Complimentary pass / पोष्ट सेवानिवृत्त प्रतिपूरक पास"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Which No. of standard form is used for issuance of major penalty charge sheet on disciplinary proceedings? / अनुशासन एवं अपील प्रकिया में मेजर पेनाल्टी में किस मानक स्तर का फार्म जारी किया जाता है ?",
+    "o": [
+      "SF-11",
+      "SF-7",
+      "SF-5",
+      "SF-4"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Which of the standard form is required to be used for issuing the order deemed suspension? / डिम्ड निलम्बन के लिए किस मानक फार्म का उपयोग किया जाता है ?",
+    "o": [
+      "SF-1",
+      "SF-3",
+      "SF-2",
+      "SF-4"
+    ],
+    "c": 2
+  },
+  {
+    "q": "When a Rly. Employee placed under suspension but only a minor penalty is imposed, the treatment of the suspension period is as / जब किसी रेल कर्मचारी को निलम्बन में रखा जाता, परन्तु केवल लघु शास्ति पत्र जारी किया जाता है तो निलम्बन अवधि ?",
+    "o": [
+      "Dies non / डाइज नान",
+      "Non duty / डयुटी नही",
+      "duty / डयुटी",
+      "None of these / कोई नही"
+    ],
+    "c": 2
+  },
+  {
+    "q": "A Railway servant shall be deemed to have been placed under suspension if he has been put in police custody for a period? / एक रेल कर्मचारी को डिम्ड सस्पेशन में रखा जाता है अगर वह पुलिस संरक्षा में रहता है ?",
+    "o": [
+      "Exceeding 24 hours / 24 घंटे से अधिक",
+      "Exceeding 48 hours / 48 घंटे से अधिक",
+      "Exceeding 12 hours / 12 घंटे से अधिक",
+      "Exceeding 30 hours / 30 घंटे से अधिक"
+    ],
+    "c": 1
+  },
+  {
+    "q": "The following are not in penalty under D&A Rules? / निम्न में से कौन सा डी.एण्ड ए. नियम के तहत दंड में नहीं आता है ?",
+    "o": [
+      "Censure / निंदा",
+      "warning / चेतावनी",
+      "Stoppage of pass / पास बंद करना",
+      "Stoppage of PTO / पी.टी.ओ. बंद करना"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Exparte inquiry may be held when? / एक्स पार्टी इन्क्वरी कब किया जाना है ?",
+    "o": [
+      "CO does not appear / सी.ओ. उपस्थित न होने से",
+      "IO does not appear / आई.ओ. उपस्थित न होने से",
+      "Defense counsel does not appear / सुरक्षा सलाहकार उपस्थित न होने से",
+      "none / कोई नही"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Group C staff having completed 20 years and more but less than 25 years of service are entitled to get post retirement passes at the rate of / ग्रुप सी कर्मचारी 20 वर्ष सेवा या उससे अधिक परन्तु 25 वर्ष से कम सेवा से सेवानिवृत्त होने पर किस दर्जे से पोष्ट सेवानिवृत्त पास का पात्र है ?",
+    "o": [
+      "1 set per annum / 1 सेट प्रति वर्ष",
+      "2 sets per annum / 2 सेट प्रति वर्ष",
+      "3 sets per annum / 3 सेट प्रति वर्ष",
+      "none / कोई नहीं"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Review of suspension cases is done? / निलम्बन केस का पुर्नविचार किया जाता है ?",
+    "o": [
+      "after 4 months / 4 माह बाद",
+      "after 3 months / 3 माह बाद",
+      "after 2 months / 2 माह बाद",
+      "after 6 months / 6 माह बाद"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Inquiry is not mandatory under rule / किस नियम/रूल के तहत जाँच अनिवार्य नहीं है ?",
+    "o": [
+      "Rule 5 / नियम 5",
+      "Rule 14 (ii) / नियम 14 (ii)",
+      "Rule 13 / नियम 13",
+      "none / कोई नही"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Penalty of compulsory retirement, removal or dismissed from service should be imposed only by / सेवा से अनिवार्य रूप से सेवानिवृत्त, निष्कासन अथवा बर्खास्त का दण्ड लागू निम्न से कौन कर सकता है?",
+    "o": [
+      "Controlling officer / नियंत्रण अधिकारी",
+      "disciplinary authority / अनुशानिक प्राधिकारी",
+      "appointing authority / नियुक्ति प्राधिकारी",
+      "none / कोई नही"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Gr 'C' and Gr 'D' employees under suspension may be given / ग्रुप सी और ग्रुप डी कर्मचारी का निलम्बन के दौरान प्रदाय किया जाता है ?",
+    "o": [
+      "3 sets of pass per calendar year / 3 सेट पास प्रति वर्ष",
+      "2 sets of pass per calendar year / 2 सेट पास प्रति वर्ष",
+      "1 set of pass per calendar year / 1 सेट पास प्रति वर्ष",
+      "none of these / इनमे से कोई नही"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Under which of following group, C&W parts are listed / निम्न से किस ग्रुप में सी एण्ड डब्लू का पार्टस आता है ?",
+    "o": [
+      "00 to 08",
+      "10 to 19",
+      "21 to 28",
+      "30 to 39"
+    ],
+    "c": 3
+  },
+  {
+    "q": "In PL no 21074118, what does 8 indicates? / पी. एल नम्बर 21074118 में 8 किसको सूचित करता है ?",
+    "o": [
+      "Major headings / मेजर हेडिंग",
+      "Sub groups / सब ग्रुप",
+      "Minor groups / माइनर ग्रुप",
+      "Check digit / चेक डिजीट"
+    ],
+    "c": 3
+  },
+  {
+    "q": "Dead stocks should be verified after? / डेड स्टोक कितने समय मे सत्यापन करते है ?",
+    "o": [
+      "Five years / 5 वर्ष",
+      "Three years / 3 वर्ष",
+      "One year / 1 वर्ष",
+      "Six Years / 6 वर्ष"
+    ],
+    "c": 2
+  },
+  {
+    "q": "The stock of imprest stores are verified after every........... / इम्प्रेशड स्टोर का स्टाक कितने समय अंतराल में सत्यापन किया जाता है ?",
+    "o": [
+      "Six months / 6 माह",
+      "Two years / 2 वर्ष",
+      "One year / 1 वर्ष",
+      "none of these / कोई नही"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Reply to the charge memorandum by the C.O.? / चार्ज मेमोरेन्डम सी.ओ. द्वारा कितना दिन मे रिपलाई किया जाना है ?",
+    "o": [
+      "15 days / 15 दिन",
+      "10 days / 10 दिन",
+      "20 days / 20 दिन",
+      "None / कोई नही"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Language of the Union is mentioned in which chapter of the Constitution? / संघ की भाषा का उल्लेख संविधान के किस अध्याय में किया गया है?",
+    "o": [
+      "Chapter-1 / अध्याय - 1",
+      "Chapter-2 / अध्याय - 2",
+      "Chapter-3 / अध्याय - 3",
+      "Chapter-4 / अध्याय - 4"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Official language of the Union is mentioned in which article of the Constitution of India? / संघ की राजभाषा के बारे में भारत के सविधान के किस अनुच्छेद में उल्लेख है ?",
+    "o": [
+      "Article- 112 / अनुच्छेद- 112",
+      "Article-120 / अनुच्छेद - 120",
+      "Article-340 / अनुच्छेद - 340",
+      "Article-343 / अनुच्छेद - 343"
+    ],
+    "c": 3
+  },
+  {
+    "q": "In which article of the Constitution of India is mentioned about the language of communication between one State and another State or between a State and the Union? / एक राज्य और दूसरे राज्य के बीच में या किसी राज्य और संघ के बीच पत्रादि की भाषा के बारे में भारत के सविधान के किस अनुच्छेद में उल्लेख है ?'",
+    "o": [
+      "Article-346 / अनुच्छेद - 346",
+      "Article-347 / अनुच्छेद - 347",
+      "Article-348 / अनुच्छेद - 348",
+      "Article-349 / अनुच्छेद - 349"
+    ],
+    "c": 0
+  },
+  {
+    "q": "In which Article of the Constitution of India is mentioned in the directive for the development of Hindi language? / हिंदी भाषा के विकास के लिए निदेश का उल्लेख भारत के संविधान के किस अनुच्छेद में है?",
+    "o": [
+      "Article-343 / अनुच्छेद- 343",
+      "Article-344 / अनुच्छेद - 344",
+      "Article-351 / अनुच्छेद - 351",
+      "None of these / इनमे से कोई नहीं।"
+    ],
+    "c": 2
+  },
+  {
+    "q": "According to the Constitution of India, the official language of the Union is Hindi and script is? / भारत के संविधान के अनुसार संघ की राजभाषा हिंदी है और लिपि ?",
+    "o": [
+      "Roman / रोमन",
+      "Kharoshthi / खरोष्ठी",
+      "Devanagari / देवनागरी",
+      "Brahm / ब्राम्ही"
+    ],
+    "c": 2
+  },
+  {
+    "q": "How many members are there in the Parliamentary Committee on Official Language? / संसदीय राजभाषा समिति में कितने सदस्य होते हैं?",
+    "o": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "c": 2
+  },
+  {
+    "q": "In which Schedule of the Constitution are the languages mentioned? / संविधान की किस अनुसूची में भाषाओं का उल्लेख है?",
+    "o": [
+      "seventh / सातवीं",
+      "eighth / आठवीं",
+      "Ninth / नौवीं",
+      "Tenth / दसवीं"
+    ],
+    "c": 1
+  },
+  {
+    "q": "When was the Official Language Act made? / राजभाषा अधिनियम कब बनाया गया था?",
+    "o": [
+      "1961",
+      "1962",
+      "1963",
+      "1968"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Andaman and Nicobar Islands come under which classified region for the use of Official Language? / अंडमान और निकोबार द्वीप समूह राजभाषा के प्रयोग प्रचार के लिए वर्गीकृत किस क्षेत्र के अधीन आता है?",
+    "o": [
+      "'A' region / 'क' क्षेत्र",
+      "'B' region / 'ख' क्षेत्र",
+      "'C' region / 'ग' क्षेत्र",
+      "None of these / इनमें से कोई नहीं"
+    ],
+    "c": 0
+  },
+  {
+    "q": "When Hindi Day is celebrated every year? / प्रत्येक वर्ष हिंदी दिवस कब मनाया जाता है?",
+    "o": [
+      "12 September / 12 सितंबर",
+      "14 September / 14 सितंबर",
+      "12 January / 12 जनवरी",
+      "10 January / 10 जनवरी"
+    ],
+    "c": 1
+  }
+]
