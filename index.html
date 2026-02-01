@@ -430,10 +430,20 @@
     };
 
     // --- POP-UP WINDOW LOGIC ---
-    function openGoogleSearch(query) {
+    function openGoogleSearch(index) {
+        const q = currentQuestions[index];
+        let query = q.q; // English Question Only
+        
+        // Add English Options only
+        if(q.o && q.o.length > 0) {
+            // Extract text before " / " delimiter
+            const engOpts = q.o.map(opt => opt.split(" / ")[0]).join(" ");
+            query += " " + engOpts;
+        }
+
         // Small floating window (Pop-up)
-        const w = 500;
-        const h = 600;
+        const w = 600;
+        const h = 700;
         const left = (screen.width / 2) - (w / 2);
         const top = (screen.height / 2) - (h / 2);
         const url = 'https://www.google.com/search?q=' + encodeURIComponent(query);
@@ -705,7 +715,7 @@
             let userOpt = isAtt ? q.o[u] : '-';
             
             // Pop-up Search Button
-            let searchBtn = `<button onclick="openGoogleSearch('${q.q}')" class="check-btn">🔍 Check</button>`;
+            let searchBtn = `<button onclick="openGoogleSearch(${i})" class="check-btn">🔍 Check</button>`;
 
             tableRows += `
                 <tr style="background:${isCor?'#f1f8e9':(isAtt?'#ffebee':'white')}">
