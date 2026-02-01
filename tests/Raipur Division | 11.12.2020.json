@@ -1,0 +1,663 @@
+
+[
+  {
+    "q": "भारतीय संविधान में राजभाषाएं किस अनुसूची में वर्णित है?",
+    "h": "भारतीय संविधान में राजभाषाएं किस अनुसूची में वर्णित है?",
+    "o": ["अनुसूची 5", "अनुसूची 6", "अनुसूची 7", "अनुसूची 8"],
+    "c": 3
+  },
+  {
+    "q": "निम्न में से कौन सा अनुच्छेद सुमेलित नही है?",
+    "h": "निम्न में से कौन सा अनुच्छेद सुमेलित नही है?",
+    "o": ["अनुच्छेद 343: संघ की राजभाषा", "अनुच्छेद 344: राजभाषा पर संसदीय समिति एवं आयोग", "अनुच्छेद 345: राज्य की राजभाषा", "अनुच्छेद 351: उच्चतम् न्यायालय और उच्च न्यायालय के लिए राजभाषा"],
+    "c": 3
+  },
+  {
+    "q": "अरुणाचल प्रदेश में कौन सी मुख्य क्षेत्रीय भाषा है?",
+    "h": "अरुणाचल प्रदेश में कौन सी मुख्य क्षेत्रीय भाषा है?",
+    "o": ["असमिया", "बोडो", "अंग्रेजी", "डोगरी"],
+    "c": 2
+  },
+  {
+    "q": "'डोगरी' भाषा भारत के किस राज्य क्षेत्र में बोली जाती है?",
+    "h": "'डोगरी' भाषा भारत के किस राज्य क्षेत्र में बोली जाती है?",
+    "o": ["जम्मू और कश्मीर प्रान्त", "पुदुचेरी", "अंदमान एवं निकोबार द्वीप समूह", "नागालैंड"],
+    "c": 0
+  },
+  {
+    "q": "निम्न में से कौन सी भाषा भारतीय संविधान की आठवीं अनुसूची में वर्णित नही है?",
+    "h": "निम्न में से कौन सी भाषा भारतीय संविधान की आठवीं अनुसूची में वर्णित नही है?",
+    "o": ["नेपाली", "कश्मीरी", "सिन्धी", "अंग्रेजी"],
+    "c": 3
+  },
+  {
+    "q": "संविधान की आठवीं अनुसूची में 21वें संवैधानिक संशोधन द्वारा निम्न में से कौन सी भाषा जोड़ी गई?",
+    "h": "संविधान की आठवीं अनुसूची में 21वें संवैधानिक संशोधन द्वारा निम्न में से कौन सी भाषा जोड़ी गई?",
+    "o": ["संस्कृत", "सिंधी", "पंजाबी", "कोंकणी"],
+    "c": 1
+  },
+  {
+    "q": "भारत के किस राज्य में उर्दू को प्रथम राजभाषा का दर्जा प्रदान किया गया है ?",
+    "h": "भारत के किस राज्य में उर्दू को प्रथम राजभाषा का दर्जा प्रदान किया गया है ?",
+    "o": ["उत्तर प्रदेश", "बिहार", "जम्मू एवं कश्मीर", "महाराष्ट्र"],
+    "c": 2
+  },
+  {
+    "q": "भारतीय संविधान के आठवीं अनुसूची में कौन सी भाषा वर्ष 2003 में जोड़ी गई ?",
+    "h": "भारतीय संविधान के आठवीं अनुसूची में कौन सी भाषा वर्ष 2003 में जोड़ी गई ?",
+    "o": ["कोंकणी", "सिंधी", "मणिपुरी", "संथाली"],
+    "c": 3
+  },
+  {
+    "q": "संविधान के किस अनुच्छेद के अंतर्गत हिंदी को राजभाषा के रूप में दर्जा प्रदान किया गया है ?",
+    "h": "संविधान के किस अनुच्छेद के अंतर्गत हिंदी को राजभाषा के रूप में दर्जा प्रदान किया गया है ?",
+    "o": ["अनुच्छेद 348 (i)", "अनुच्छेद 346 (i)", "अनुच्छेद 343 (i)", "अनुच्छेद 345 (i)"],
+    "c": 2
+  },
+  {
+    "q": "सिंधी को किस संवैधानिक संशोधन द्वारा संविधान की 8 वीं अनुसूची में शामिल किया गया ?",
+    "h": "सिंधी को किस संवैधानिक संशोधन द्वारा संविधान की 8 वीं अनुसूची में शामिल किया गया ?",
+    "o": ["21वां", "23वां", "30वां", "32वां"],
+    "c": 0
+  },
+  {
+    "q": "Coach holding capecity of a coahing depot is?",
+    "h": "कोचिंग डिपो की होल्डिंग कैपेसिटी-- होता है ?",
+    "o": ["Primary Coaches / प्राइमरी कोच", "Secondary coaches / सेकेंडरी कोच", "Primary + 50% of Secondary coaches / प्राइमरी सेकेंडरी का 50%", "None of these / इनमे से कोई नही"],
+    "c": 2
+  },
+  {
+    "q": "The wheel gauge should be measured on...",
+    "h": "व्हील गेज --- लिया जाता है ?",
+    "o": ["Off load condition / ऑफ लोड कंडीशन", "Loaded wagon / लोडेड कंडीशन", "Empty wagon / एम्टी कंडीशन", "None of these / इनमे से कोई नही"],
+    "c": 0
+  },
+  {
+    "q": "....does not cover under definition of cattle as par accident Manual.",
+    "h": "एक्सीडेंट मेनुवल के आधार पर कैटल रन ओवर की श्रेणी में नही आता?",
+    "o": ["Cow / गाय", "Elephant / हाथी", "Buffalo / भैस", "Donkey / गधा"],
+    "c": 3
+  },
+  {
+    "q": "In wagon stock during service Maximum slack permitted in CBC is............mm.",
+    "h": "गुड्स स्टॉक में सर्विस के दौरान सी.बी.सी में अधिकतम स्लैक- मिमी अनुमेय है ?",
+    "o": ["12", "19", "25", "None of these / इनमे से कोई नही"],
+    "c": 2
+  },
+  {
+    "q": "..type of bearing is used in FIAT Bogie:",
+    "h": "फिएट बोगी में प्रकार की बियरिंग प्रयोग की जाती है ?",
+    "o": ["Spherical Roller Bearing / स्फेरिकल रोलर बियरिंग", "CTRB / सीटीआरबी", "Ball Bearing / बाल बियरिंग", "None of these / इनमे से कोई नही"],
+    "c": 1
+  },
+  {
+    "q": "Permissible variation in Wheel dia of same casnub bogies of a wagon is ...... mm.",
+    "h": "वैगन में लगी एक केशनव बोगियों में लगे व्हील्स के डाया में परमिसिबल अंतर",
+    "o": ["5", "10", "13", "25"],
+    "c": 1
+  },
+  {
+    "q": "DCP Type fire extinguisher is suitable to extinguish ...... fire.",
+    "h": "डी सी पी टाइप फायर इंटीग्युसर ----- आग बुझाने के लिए उपयुक्त है",
+    "o": ["Diesel / डीजल", "Electric / विधुत", "Petrol / पेट्रोल", "All / सभी"],
+    "c": 3
+  },
+  {
+    "q": "Condemn height of Elastomeric Pad is ...... mm.",
+    "h": "इलास्टो मैरिट पैड की कंडमिंग हाईट ...... एमएम होती है",
+    "o": ["40", "42", "46", "None / इनमे कोई नही"],
+    "c": 1
+  },
+  {
+    "q": "...... gms Grease is used in CTRB.",
+    "h": "सीटीआरबी में ...... ग्राम ग्रीस भरी जाती है",
+    "o": ["455 +/-30", "250 +/-30", "NIL / कुछ नही", "1500"],
+    "c": 0
+  },
+  {
+    "q": "IOH of ICF Coach is done in the interval of ...... month.",
+    "h": "आईसीएफ कोच का आईओएच ...... माह समयांतराल पर होता है",
+    "o": ["12", "9", "18", "54"],
+    "c": 1
+  },
+  {
+    "q": "Cylinder Piston stroke of LHB coach is.........mm",
+    "h": "LHB कोच का सिलेंडर पिस्टन स्ट्रोक है---mm",
+    "o": ["32", "10", "15", "None of these / इनमें से कोई नहीं"],
+    "c": 1
+  },
+  {
+    "q": "POH of LHB coach is done in the interval of.....months.",
+    "h": "एलएचबी कोच का पीओएच ...... माह के अन्तराल पर किया जाता है",
+    "o": ["12", "18", "36", "48"],
+    "c": 2
+  },
+  {
+    "q": "CBC knuckle is divided into............zones",
+    "h": "सी.बी.सी. नक्कल को ...... जॉन में बांटा गया है",
+    "o": ["3", "4", "2", "5"],
+    "c": 1
+  },
+  {
+    "q": "Rehabilitation of coaching stock is crried out between",
+    "h": "कोचिंग स्टॉक का एमएलआर ...... वर्षों के अन्तराल में किया जाता है ?",
+    "o": ["10 to 15 years / 10 - 15 वर्ष", "12 to 15 years / 12-15 वर्ष", "15 to 18 years / 15-18 वर्ष", "None of these / इनमे से कोई नही"],
+    "c": 1
+  },
+  {
+    "q": "The periodicity of pest control in AC coaches is...",
+    "h": "ए. सी. कोच का पेस्ट कंट्रोल ...... दिनों में किया जाता है",
+    "o": ["15days / 15 दिन", "7 days / 07 दिन", "1 month / 30 दिन", "None of these / इनमे से कोई नही"],
+    "c": 0
+  },
+  {
+    "q": "...... Oil is used in dashpot guide?",
+    "h": "डैश पोट में ...... आइल का प्रयोग किया जाता है",
+    "o": ["Servo RR-3", "Servoline 68", "Lithium base grease", "None of these / इनमे से कोई नही"],
+    "c": 1
+  },
+  {
+    "q": "The longitudinal movement of rails in the track is called-",
+    "h": "रेल का लौगिचयुट मोवमेंट को ...... कहते है",
+    "o": ["Twist / द्विस्ट", "Buckling / बक्लिंग", "Creep / कीप", "Cant / केंट"],
+    "c": 1
+  },
+  {
+    "q": "Permissible limit of sharp flange of wheel is",
+    "h": "व्हील में शार्प फ्लैज की अनुमेय सीमा",
+    "o": ["35", "50", "16", "None of these / इनमे से कोई नही"],
+    "c": 3
+  },
+  {
+    "q": "Limit of flat tyre in wagon is ...... mm.",
+    "h": "वैगन में फ्लेट टायर की सीमा -- एम एम होती है",
+    "o": ["20", "50", "75", "60"],
+    "c": 3
+  },
+  {
+    "q": "Length of LHB coach is............mm.",
+    "h": "एलएचबी कोच की लम्बाई ...... मिमी होती है",
+    "o": ["23540", "22996", "26740", "24351"],
+    "c": 0
+  },
+  {
+    "q": "No. of brake cylinders in one LHB coach are",
+    "h": "एक एलएचबी कोच में ब्रेक सिलेंडर की संख्या ---- होती है",
+    "o": ["08", "04", "18", "16"],
+    "c": 0
+  },
+  {
+    "q": "Total no. of shock absorbers in fiat bogie are.",
+    "h": "फिएट बोगी में लगे शाक एब्जार्बर की कुल संख्या ...... होती है",
+    "o": ["04", "08", "09", "None of these / इनमे से कोई नही"],
+    "c": 3
+  },
+  {
+    "q": "...... is checked with tyre defect gauge.",
+    "h": "...... टायर डिफेक्ट गेज से चेक किया जाता है",
+    "o": ["wheel defect / व्हील डिफेक्ट", "Buckle defect / वकल डिफेक्ट", "CBC defect / सीवीसी डिफेक्ट", "door defect / डोर डिफेक्ट"],
+    "c": 0
+  },
+  {
+    "q": "Speed limit of A Class ODC during day is ...... kmph.",
+    "h": "ए क्लास ओडीसी की गति दिन में ...... केएमपीएच होती है",
+    "o": ["100", "110", "90", "40"],
+    "c": 3
+  },
+  {
+    "q": "Piston stroke of BVZI is ...... mm.",
+    "h": "बीवाईजेडआई का पिस्टन स्ट्रोक ...... होता है",
+    "o": ["22", "32", "72", "None of these / इनमे से कोई नही"],
+    "c": 1
+  },
+  {
+    "q": "Capacity of main reservoir of air spring system is ...... Litre.",
+    "h": "एयर स्प्रिंग सिस्टम मर लगे मेन रिजरवायर की क्षमता --- ली. होती है",
+    "o": ["180", "170", "150", "None of these / इनमे से कोई नही"],
+    "c": 2
+  },
+  {
+    "q": "Floor sheet material used in BOXNR wagon is.............",
+    "h": "बॉक्सएनआर वैगन की फ्लोर शीट में ...... मैटेरियल प्रयोग होता है",
+    "o": ["IRSM-41", "Mild Steel", "IRSM-44", "None of these / इनमे से कोई नही"],
+    "c": 2
+  },
+  {
+    "q": "Difference of Hardness of both wheels on the same axle should not be more than......",
+    "h": "एक ही एक्सल पर लगे चक्कों कि हार्डनैस का अंतर ...... से ज्यादा नही होना चाहिये",
+    "o": ["70BHN", "35 BHN", "65 BHN", "45 BHN"],
+    "c": 3
+  },
+  {
+    "q": "Water tank capacity of ICF coach is.",
+    "h": "आई. सी. एफ. कोच की वाटर टैंक क्षमता ...... होती है",
+    "o": ["1600 liter", "1800 litere", "1700 litre", "None of these / इनमे से कोई नही"],
+    "c": 0
+  },
+  {
+    "q": "After reaching on a accident site first step to",
+    "h": "एक्सीडेंट साइट पर पहुँचने के उपरांत सर्वप्रथम कार्य ---- है",
+    "o": ["prima facie cause of accident / एक्सीडेंट के कारण का पता लगाना", "First aid of injured / प्राथमिक उपचार", "protection of site / लाइन प्रोटेक्शन", "arranging food / खाने की व्यवस्था"],
+    "c": 2
+  },
+  {
+    "q": "Brack power certificate issued for Premium rakes is valid for.............",
+    "h": "प्रीमियम रेक का बी. पी. सी. की वैधता ...... होती है",
+    "o": ["7+/-4 dayes", "10+/-2 dayes", "15+/-3 dayes", "None of these / इनमे से कोई नही"],
+    "c": 3
+  },
+  {
+    "q": "As per accident manual accidents are classified in 16 categories from A to R excluding....",
+    "h": "...... छोडकर रेलवे एक्सीडेंट मेनुअल के अनुसार एक्सीडेंट को 16 श्रेणियों में ए से आर तक जोड़ा गया है",
+    "o": ["B & D", "I & O", "P & Q", "J & K"],
+    "c": 1
+  },
+  {
+    "q": "The BPC of ballast train is valid for...",
+    "h": "ब्लास्ट गाड़ी की बी. पी.सी. की वैधता ...... होती है",
+    "o": ["30 dayes", "15 dayes", "7 dayes", "None of these / इनमे से कोई नही"],
+    "c": 0
+  },
+  {
+    "q": "...is the Maintenance manual of Casnub bogie",
+    "h": "कैसनब बोगी का मेंटिनेंस मेनवल ...... होता है",
+    "o": ["G 97", "G95", "G 72", "None of these / इनमे से कोई नही"],
+    "c": 1
+  },
+  {
+    "q": "The colour of BPC of Premium rakes is",
+    "h": "प्रीमियम रेक के बी. पी. सी. का रंग ...... होता है",
+    "o": ["Yellow / पीला", "Red / लाल", "Green / हरा", "None of these / इनमे से कोई नही"],
+    "c": 2
+  },
+  {
+    "q": "The colour of BPC of CC rake is.",
+    "h": "सी. सी. रेक के बी.पी.सी. का रंग ...... होता है",
+    "o": ["Yellow / पीला", "Red / लाल", "Green / हरा", "None of these / इनमे से कोई नही"],
+    "c": 0
+  },
+  {
+    "q": "Work of Control reservoir in air brake system is.....",
+    "h": "एयर ब्रेक सिस्टम में कंट्रोल रिजरवायर का कार्य --- है",
+    "o": ["To control BP pressure / कंट्रोल बी.पी. प्रेशर", "To control DV valve / कंट्रोल डी.बी. वाल्ट", "To control Brack system / कंट्रोल ब्रेक सिस्टम", "None of these / इनमे से कोई नही"],
+    "c": 1
+  },
+  {
+    "q": "BOXNHL feed pipe pressure is ...... Kg/Cm2",
+    "h": "बाक्सएन एचएल फीड पाइप का प्रेशर ...... केजी/ वर्गसेमी होता है",
+    "o": ["5", "6", "3.8", "None of these / इनमे से कोई नही"],
+    "c": 1
+  },
+  {
+    "q": "Maximum Wheel dia of UIC bogie is --mm.",
+    "h": "यू. आई. सी. बोगी का अधिकतम व्हील डाया ---- एम एम होता है",
+    "o": ["1000", "990", "1092", "950"],
+    "c": 0
+  },
+  {
+    "q": "Minimum buffer height of a wagon from Rail level is ----mm.",
+    "h": "किसी भी वैगन में बफर की रेल लेवल से न्यूनतम ऊचाई ---- एमएम होती है",
+    "o": ["1030", "1105", "900", "1075"],
+    "c": 0
+  },
+  {
+    "q": "Total no. of shock absorbers in fiat bogie are..........",
+    "h": "फिएट बोगी में लगे शाक एब्जार्बर की कुल संख्या ...... होती है",
+    "o": ["04", "08", "09", "None of these / इनमे से कोई नही"],
+    "c": 3
+  },
+  {
+    "q": "H-type coupler is used in",
+    "h": "एच' टाईप कपलर का उपयोग ...... में किया जाता है",
+    "o": ["Coaching stock / कोचिंग स्टाक", "Wagon stock / वैगन स्टाक", "Engine / इंजन में", "none of these / इनमे से कोई नही"],
+    "c": 0
+  },
+  {
+    "q": "Permissible wear in knuckle nose is..........mm",
+    "h": "नक्कल नोज में ---- घिसाव अनुमेय है",
+    "o": ["10", "08", "15", "06"],
+    "c": 0
+  },
+  {
+    "q": "The standard thickness of compensating rings is.",
+    "h": "कम्पोसेटिंग रिंग की मोटाई ---- होता है",
+    "o": ["2 mm", "6 mm", "4 mm", "8 mm"],
+    "c": 1
+  },
+  {
+    "q": "Types of side bearers fitted in CASNUB 22 HS bogie",
+    "h": "कैसनब 22 एच. एस में - के साइड बियरर का प्रयोग किया जाता है",
+    "o": ["Metal CC type / मैटल सीसी टाईप", "Spring loaded CC type side bearer & PU type / स्प्रिंग लोडेड सीसी टाईप एंड पी. यू टाइप", "Roller Type / रोलर टाइप", "None of these"],
+    "c": 1
+  },
+  {
+    "q": "How many days of LAP in a calendar year, a permanent/ Temporary Railway servant shall be entitled to get?",
+    "h": "कैलेंडर वर्ष में LAP के कितने दिन, एक स्थायी / अस्थायी रेलवे सेवक पाने के हकदार होंगे?",
+    "o": ["20 days", "15 days", "30 days", "45 days"],
+    "c": 2
+  },
+  {
+    "q": "LAP shall be credited to a Railway servant at the rate of",
+    "h": "...... की दर से LAP को एक रेलवे सेवक को क्रेडिट किया जाएगा",
+    "o": ["2 1/2 days per month / प्रति माह 2 ½ दिन", "3 days per month / प्रति माह 3 दिन", "2 days per month / प्रति माह 2 दिन", "1 1/2 days per month / प्रति माह 1½ दिन"],
+    "c": 0
+  },
+  {
+    "q": "What is the maximum period of leave on Average pay at time that a Railway servant may be granted?",
+    "h": "औसत वेतन पर अवकाश की अधिकतम अवधि क्या है जो एक रेलवे सेवक को दी जा सकती है?",
+    "o": ["120 days", "160 days", "180 days", "300 days"],
+    "c": 2
+  },
+  {
+    "q": "Commuted leave is admissible on",
+    "h": "कमिटेड लीव पर स्वीकार्य है",
+    "o": ["Medical Certificate / चिकित्सा प्रमाण पत्र", "Request of an employee / एक कर्मचारी का अनुरोध", "Discretion of competent authority / सक्षम प्राधिकारी का विवेक", "None / कोई नहीं"],
+    "c": 0
+  },
+  {
+    "q": "Maximum of study leave that can be granted to an employee during his entire service period is?",
+    "h": "अपने संपूर्ण सेवा काल के दौरान किसी कर्मचारी को अधिकतम अध्ययन अवकाश दिया जा सकता है।",
+    "o": ["36 months", "28 months", "24 months", "30 months"],
+    "c": 0
+  },
+  {
+    "q": "If the transfer involves change of station, and the distance between the old and new station is less than 1000 k.ms, how many days of joining time is admissible?",
+    "h": "यदि स्थानांतरण में स्टेशन का परिवर्तन शामिल है, और पुराने और नए स्टेशन के बीच की दूरी 1000 k.ms से कम है, तो जुड़ने का समय कितने दिनों के लिए स्वीकार्य है?",
+    "o": ["Not more than 5 days / 5 दिन से अधिक नहीं", "10 days / 10 दिन", "12 days / 12 दिन", "15 days / 15 दिन"],
+    "c": 1
+  },
+  {
+    "q": "What is the maximum Casual leave admissible in a calendar year for scouting/ Sports activities?",
+    "h": "स्काउटिंग/ खेलकूद गतिविधियां के लिए एक कैलेंडर वर्ष में स्वीकार्य अधिकतम आकस्मिक अवकाश क्या है?",
+    "o": ["120 days", "45 days", "15 days", "25 days"],
+    "c": 0
+  },
+  {
+    "q": "What is the Maximum joining time admissible to a Railway Servant?",
+    "h": "रेलवे सेवक Joining के लिए स्वीकार्य अधिकतम समय क्या है?",
+    "o": ["10 days", "12 days", "15 days", "16 days"],
+    "c": 2
+  },
+  {
+    "q": "Special Casual Leave is admissible foe employees who reside at a place where the date of polling is different from that of place?",
+    "h": "विशेष आकस्मिक अवकाश स्वीकार्य, कर्मचारी हैं जो उस स्थान पर निवास करते हैं जहाँ मतदान की तिथि उस स्थान से भिन्न होती है...।",
+    "o": ["1 day", "2 days", "3 days", "4 days"],
+    "c": 0
+  },
+  {
+    "q": "Who is the Authority to grant study leave abroad?",
+    "h": "विदेश में अध्ययन अवकाश देने के लिए प्राधिकरण कौन है?",
+    "o": ["Rly. Board", "GM", "DRM", "CPO"],
+    "c": 0
+  },
+  {
+    "q": "A Railway shall be granted leave of any kind for a continuous period of not exceeding.",
+    "h": "रेलवे को किसी भी प्रकार की छुट्टी दी जाएगी?",
+    "o": ["3 Years", "4 years", "5 years", "6 years"],
+    "c": 2
+  },
+  {
+    "q": "Within which period, Paternity Leave can be granted?",
+    "h": "किस अवधि के भीतर, पितृत्व अवकाश प्रदान किया जा सकता है?",
+    "o": ["Six months / छह महीने", "Three months / तीन महीने", "Four months / चार महीने", "15days / 15 दिन"],
+    "c": 2
+  },
+  {
+    "q": "How many days of LHAP can be accumulated to an employeet in his service life?",
+    "h": "LHAP के कितने दिन अपने सेवा जीवन में किसी नियोजित व्यक्ति के लिए संचित किए जा सकते हैं?",
+    "o": ["300 days", "450 days", "600 days", "Un limited / असीमित"],
+    "c": 3
+  },
+  {
+    "q": "Paternity leave is admissible with less than two surviving children for a period of",
+    "h": "समय के लिए पितृत्व अवकाश स्वीकार्य है",
+    "o": ["10 days", "20 days", "15 days", "25 days"],
+    "c": 2
+  },
+  {
+    "q": "What is the maximum limit of Leave not due that may be granted to a permanent Rly. Servant during his entire service period?",
+    "h": "अपनी पूरी सेवा अवधि के दौरान Leave Not Due अवकाश की अधिकतम सीमा क्या है?",
+    "o": ["360 days", "380 days", "Unlimited / असीमित", "300 days"],
+    "c": 0
+  },
+  {
+    "q": "Which of the following leave may be granted to a Rly. Servant, Volunteered to donate blood in Govt./Rly. Hospitals for railway employees.",
+    "h": "स्वेच्छा से में रक्त दान करने के लिए निम्नलिखित में से कौन सा अवकाश किसी रेलवे कर्मचारियों को दिया जा सकता है।",
+    "o": ["Special Casual leave / विशेष आकस्मिक अवकाश", "casual leave / आकस्मिक अवकाश", "LAP", "LHAP"],
+    "c": 0
+  },
+  {
+    "q": "A female Railway employee shall be entitled to maternity leave for",
+    "h": "एक महिला रेलवे कर्मचारी मातृत्व अवकाश की हकदार होगी",
+    "o": ["180 days", "120 days", "90 days", "130 days"],
+    "c": 0
+  },
+  {
+    "q": "Maximum encashment of leave on average pay is?",
+    "h": "औसत वेतन पर छुट्टी का अधिकतम नकदीकरण ...... है।",
+    "o": ["200 days", "180 days", "360 days", "300 days"],
+    "c": 3
+  },
+  {
+    "q": "Group 'C' staff having completed 20 years and more but less than 25 years of service are entitled to get post retirement passes at the rate of",
+    "h": "समूह 'सी 'के कर्मचारी 20 वर्ष पूरे कर चुके हैं, लेकिन 25 वर्ष से कम सेवा की दर से सेवानिवृत्ति के बाद पाने के हकदार हैं।",
+    "o": ["1 set per annum", "2 sets per annum", "3 sets per annum", "none"],
+    "c": 0
+  },
+  {
+    "q": "Group 'C' staff having completed 25 years and more service are entitled to get post retirement passes at the rate of",
+    "h": "समूह 'सी 'के कर्मचारी 25 वर्ष सेवा पूरे कर चुके हैं, की दर से सेवानिवृत्ति के बाद पास पाने के हकदार हैं",
+    "o": ["1 set per annum", "2 sets per annum", "3 sets per annum", "none"],
+    "c": 1
+  },
+  {
+    "q": "How many sets of School Pass issued to Railway employee?",
+    "h": "रेलवे कर्मचारी को स्कूल पास के कितने सेट जारी किए गए?",
+    "o": ["6 sets per year", "4 sets per year", "3 sets per year", "5 sets per year"],
+    "c": 2
+  },
+  {
+    "q": "Break journey is not permissible in case of",
+    "h": "के मामले में ब्रेक यात्रा की अनुमति नहीं है",
+    "o": ["Transfer Pass", "School Pass", "Settlement Pass", "Post Retd. Complimentary Pass"],
+    "c": 2
+  },
+  {
+    "q": "Which No. of standard form is used for issuance of Major penalty charge sheet on disciplinary proceedings?",
+    "h": "अनुशासनात्मक कार्यवाही पर मेजर पेनल्टी चार्जशीट जारी करने के लिए कौन से मानक रूप का उपयोग किया जाता है?",
+    "o": ["SF-11", "SF-12", "SF-5", "None of these"],
+    "c": 2
+  },
+  {
+    "q": "Disciplinary Authority while passing orders for imposing a penalty should invariably pass?",
+    "h": "जुर्माना लगाने के आदेश पारित करते समय अनुशासनात्मक प्राधिकरण को हमेशा के लिए पास होना चाहिए?",
+    "o": ["Orders for penalty", "Speaking order / बोलने का क्रम", "None"],
+    "c": 1
+  },
+  {
+    "q": "Who is the competent authority to make rule on RS (D&A) Rules?",
+    "h": "RS (D & A) नियमों पर नियम बनाने का सक्षम अधिकारी कौन है?",
+    "o": ["President of India", "Ministry of Railways", "Member(Staff)", "Secretary Rly.Bd."],
+    "c": 0
+  },
+  {
+    "q": "When a Rly. Employee placed under suspension but only a minor penalty is imposed, the treatment of the suspension period is as",
+    "h": "जब एक Rly। निलंबन के तहत रखा गया कर्मचारी लेकिन केवल एक मामूली जुर्माना लगाया जाता है, निलंबन अवधि का उपचार इस प्रकार है",
+    "o": ["Dies non", "Non duty", "Duty", "None"],
+    "c": 2
+  },
+  {
+    "q": "A Railway servant shall be deemed to have been placed under suspension if he has been put in police custody for a period?",
+    "h": "यदि एक अवधि के लिए पुलिस हिरासत में रखा गया है, तो एक रेलवे सेवक को निलंबन के अधीन रखा गया माना जाएगा?",
+    "o": ["exceeding 24 hours", "exceeding 48 hours", "immediate effect", "none"],
+    "c": 1
+  },
+  {
+    "q": "D&A Rules 1968 will not apply to",
+    "h": "डी एंड ए रूल्स 1968 लागू नहीं होगा",
+    "o": ["Permanent employee", "Apprentice", "Casual labour with temporary status", "None"],
+    "c": 2
+  },
+  {
+    "q": "The following are not in penalty under D&A Rules?",
+    "h": "निम्नलिखित डी एंड ए नियमों के तहत दंड में नहीं हैं?",
+    "o": ["Censure", "Warning", "Stoppage of pass", "The recovery from pay of any pensionary loss"],
+    "c": 1
+  },
+  {
+    "q": "Which penalty is not recorded in the service sheet?",
+    "h": "सर्विस शीट में कौन सा जुर्माना दर्ज नहीं किया गया है?",
+    "o": ["Stoppage of increment", "Stoppage of passes", "Warning", "Censure", "None"],
+    "c": 2
+  },
+  {
+    "q": "What is the permissible time limit for preferring a revision petition to the revising Authority?",
+    "h": "संशोधित प्राधिकरण के लिए एक संशोधन याचिका को प्राथमिकता देने के लिए अनुमेय समय सीमा क्या है?",
+    "o": ["60 days", "45 days", "90 days", "none"],
+    "c": 1
+  },
+  {
+    "q": "Rule 11 of the R.S.(D&A) Rules, 1968 deals with the procedure for",
+    "h": "R.S. (D & A) नियम, 1968 के नियम 11 के लिए प्रक्रिया से संबंधित है",
+    "o": ["Suspension", "Major penalty proceedings", "Appeal cases", "Minor penalty proceeding"],
+    "c": 3
+  },
+  {
+    "q": "Who is the authority to cut in pensionary benefit",
+    "h": "पेंशन लाभ में कटौती करने के लिए कौन सा अधिकार",
+    "o": ["GM", "Rly.Board", "President of India", "None"],
+    "c": 2
+  },
+  {
+    "q": "What is Rule 14(II) of the RS(D&A) Rules, 1968.",
+    "h": "RS (D & A) नियम, 1968 का नियम 14 (II) क्या है",
+    "o": ["Removal / Dismissal after an SF 5 is issued.", "Removal / Dismissal without any inquiry when it is not practicable to hold inquiry in a normal manner.", "Compulsory retirement without any inquiry.", "Removal / Dismissal in case of conviction."],
+    "c": 1
+  },
+  {
+    "q": "Which penalty does not effect for promotion?",
+    "h": "पदोन्नति के लिए कौन सा जुर्माना प्रभावी नहीं होता है?",
+    "o": ["Stoppage of pass/PTO's", "Reduction in post", "Dismissed from service", "None"],
+    "c": 0
+  },
+  {
+    "q": "In any case, ADRM is the disciplinary authority who will be acting as Appellate authority?",
+    "h": "किसी भी मामले में, अगर एडीआरएम अनुशासनात्मक प्राधिकरण है, अपीलीय प्राधिकारी के रूप में कौन कार्य करेगा?",
+    "o": ["DRM", "PHOD", "GM", "Rly.Board"],
+    "c": 1
+  },
+  {
+    "q": "The instrument to measure the light is called",
+    "h": "प्रकाश को मापने के उपकरण को कहा जाता है",
+    "o": ["Tong tester", "Lux meter", "Micro meter"],
+    "c": 1
+  },
+  {
+    "q": "Filament of incandescent lamp is made of",
+    "h": "Incandescent bulb का फिलामेंट बनाया जाता है",
+    "o": ["Tin", "Nichrome", "Tungusten", "Silver"],
+    "c": 2
+  },
+  {
+    "q": "Insulating resistance is measured by using",
+    "h": "इन्सुलेट प्रतिरोध का उपयोग करके मापा जाता है",
+    "o": ["Multimeter", "Megger", "Voltmeter", "Hydrometer"],
+    "c": 1
+  },
+  {
+    "q": "A generators converts",
+    "h": "एक जनरेटर रूपांतरित करना",
+    "o": ["Mechanical energy into light", "Electrical energy to mechanical energy", "Mechanical energy to electrical energy", "None of the above"],
+    "c": 1
+  },
+  {
+    "q": "Which of the following is not a non conventional energy source",
+    "h": "निम्नलिखित में से कौन सा एक गैर पारंपरिक ऊर्जा स्रोत नहीं है",
+    "o": ["Solar", "Bio gas", "Wind", "Electricity"],
+    "c": 1
+  },
+  {
+    "q": "Bio gas depends on",
+    "h": "बायो गैस----- पर निर्भर करता है",
+    "o": ["Electrical energy", "Waste products", "Both a and b", "None of the above"],
+    "c": 1
+  },
+  {
+    "q": "One Kilowatt =",
+    "h": "वन किलोवाट =",
+    "o": ["1.314 HP", "13.41 HP", "134.1 HP", "1341 HP"],
+    "c": 0
+  },
+  {
+    "q": "Unit of current is",
+    "h": "Current की इकाई",
+    "o": ["Watt", "Ampere", "Volt", "ohm"],
+    "c": 1
+  },
+  {
+    "q": "Heater element is made up of",
+    "h": "हीटर तत्व बना है",
+    "o": ["Tin", "Nichrome", "Silver", "Any above"],
+    "c": 1
+  },
+  {
+    "q": "The instrument used to measure RPM is",
+    "h": "RPM को मापने के लिए इस्तेमाल किया जाने वाला उपकरण",
+    "o": ["Fyrite", "Pyrometer", "Ultrasonic flow meter", "Stroboscope"],
+    "c": 3
+  },
+  {
+    "q": "RDSO Head quarters situated at",
+    "h": "RDSO हेड क्वार्टर स्थित है",
+    "o": ["Mumbai", "Luknow", "Kolkata", "Hyderabad"],
+    "c": 1
+  },
+  {
+    "q": "Which is the Longest running train in India",
+    "h": "भारत में सबसे लंबी चलने वाली ट्रेन कौन सी है",
+    "o": ["Vivek Express", "HimasagarExpress", "Gatiman Expess", "Tejas Express"],
+    "c": 0
+  },
+  {
+    "q": "Register of train examiner book",
+    "h": "ट्रेन परीक्षक बुक का रजिस्टर",
+    "o": ["RS 15", "RS 16", "RS 17", "RS 18"],
+    "c": 0
+  },
+  {
+    "q": "What is the Hooter code if the accident/derailment take place in the yard/loco shed?",
+    "h": "यार्ड / लोको शेड में दुर्घटना / पटरी से उतरने पर हूटर कोड क्या है?",
+    "o": ["2 long", "3 long", "4 long", "1 long"],
+    "c": 0
+  },
+  {
+    "q": "Starting time for ART during Night for direct dispatch.",
+    "h": "सीधे प्रेषण के लिए रात के दौरान एआरटी के लिए समय शुरू करना।",
+    "o": ["30Minutes", "20Minutes", "15Minutes", "None"],
+    "c": 0
+  },
+  {
+    "q": "As per Hours of Employment Rule employees are classified into ...... number of categories.",
+    "h": "रोज़गार के घंटों के अनुसार नियम कर्मचारियों को ...... संख्या में वर्गीकृत किया गया है।",
+    "o": ["Four", "Three", "Two", "Six"],
+    "c": 0
+  },
+  {
+    "q": "The Railway servants (Discipline & Appeal) Rules came into force on",
+    "h": "रेलवे के सेवक (अनुशासन और अपील) नियम ...... पर लागू हुए।",
+    "o": ["1968", "1972", "1966", "1978"],
+    "c": 0
+  },
+  {
+    "q": "validity for a Privilege Pass/PTO is?",
+    "h": "विशेषाधिकार पास / पीटीओ के लिए वैधता है?",
+    "o": ["3 months", "4 months", "2 months", "5 months"],
+    "c": 3
+  },
+  {
+    "q": "An employee can be taken up for bringing outside political influence in service matters in terms of ...... of Rly. Service conduct Rules.",
+    "h": "एक Rly कर्मचारी को सेवा के संदर्भ में मामलों में राजनीतिक प्रभाव बाहर से लाने के लिए सज़ा देना जा सकता है -------- सेवा आचरण नियम अनुसार",
+    "o": ["Rule 17", "Rule 14", "Rule 20", "Rule 6"],
+    "c": 2
+  }
+]
