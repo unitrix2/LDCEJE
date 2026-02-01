@@ -1,0 +1,522 @@
+[
+  {
+    "q": "What is the SAB 'E' dimension for BOXN wagon? / BOXN वैगन के लिए SAB 'E' आयाम क्या है?",
+    "o": [
+      "555 to 575 mm / 555 से 575 मिमी",
+      "570 to 580 mm / 570 से 580 मिमी",
+      "540 to 560 mm / 540 से 560 मिमी",
+      "550 to 570 mm / 550 से 570 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the SAB 'A' dimension for 13 T axle load coach? / 13 टन एक्सल लोड कोच के लिए SAB 'A' आयाम क्या है?",
+    "o": [
+      "22 +2/-0 mm / 22 +2/-0 मिमी",
+      "16 +2/-0 mm / 16 +2/-0 मिमी",
+      "20 +2/-0 mm / 20 +2/-0 मिमी",
+      "14 +2/-0 mm / 14 +2/-0 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What type of grease is used in ICF spherical roller bearings? / ICF स्फेरिकल रोलर बेयरिंग में किस प्रकार की ग्रीस का उपयोग किया जाता है?",
+    "o": [
+      "Graphite grease / ग्रेफाइट ग्रीस",
+      "Servo Gem RR3 / सर्वो जेम आरआर3",
+      "Lithium base grease / लिथियम बेस ग्रीस",
+      "Sodium base grease / सोडियम बेस ग्रीस"
+    ],
+    "c": 2
+  },
+  {
+    "q": "What is the dash pot oil level under tare condition? / टियर (खाली) स्थिति में डैश पॉट तेल का स्तर क्या है?",
+    "o": [
+      "60 mm / 60 मिमी",
+      "50 mm / 50 मिमी",
+      "45 mm / 45 मिमी",
+      "40 mm / 40 मिमी"
+    ],
+    "c": 3
+  },
+  {
+    "q": "In ICF bogie, Draw and braking forces are taken by? / ICF बोगी में, ड्रा और ब्रेकिंग फोर्स किसके द्वारा लिए जाते हैं?",
+    "o": [
+      "Side Bearer / साइड बियरर",
+      "Anchor links / एंकर लिंक",
+      "Bolster Spring / बोल्स्टर स्प्रिंग",
+      "Dashpot / डैशपॉट"
+    ],
+    "c": 1
+  },
+  {
+    "q": "To control the lateral swing of the bolster, what is provided on ICF bogies? / बोल्स्टर के पार्श्व (लेटरल) स्विंग को नियंत्रित करने के लिए, ICF बोगियों पर क्या प्रदान किया जाता है?",
+    "o": [
+      "Anchor Link / एंकर लिंक",
+      "Equalizing stays / इक्वलाइजिंग स्टे",
+      "Dashpot / डैशपॉट",
+      "Shock Absorber / शॉक एब्जॉर्बर"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What is the gap maintained between brake block and wheel tread on ICF coach? / ICF कोच पर ब्रेक ब्लॉक और व्हील ट्रेड के बीच कितना गैप रखा जाता है?",
+    "o": [
+      "3 mm / 3 मिमी",
+      "4 mm / 4 मिमी",
+      "5 mm / 5 मिमी",
+      "6.25 mm / 6.25 मिमी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Projection of buffer from head stock should be within: / हेड स्टॉक से बफर का प्रोजेक्शन इसके भीतर होना चाहिए:",
+    "o": [
+      "635 to 650 mm / 635 से 650 मिमी",
+      "600 to 635 mm / 600 से 635 मिमी",
+      "584 to 620 mm / 584 से 620 मिमी",
+      "650 to 675 mm / 650 से 675 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Where is the Integral Coach Factory (ICF) located? / इंटीग्रल कोच फैक्ट्री (ICF) कहाँ स्थित है?",
+    "o": [
+      "Kapurthala / कपूरथला",
+      "Raebareli / रायबरेली",
+      "Perambur / पेरंबूर",
+      "Varanasi / वाराणसी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "In empty load device, empty indication has which colour code? / खाली लोड डिवाइस में, खाली संकेत का रंग कोड कौन सा है?",
+    "o": [
+      "Black / काला",
+      "Blue / नीला",
+      "Yellow / पीला",
+      "Green / हरा"
+    ],
+    "c": 2
+  },
+  {
+    "q": "What is the main function of the Check Valve with choke in the air brake system? / एयर ब्रेक सिस्टम में चोक के साथ चेक वाल्व का मुख्य कार्य क्या है?",
+    "o": [
+      "To charge the Brake Cylinder / ब्रेक सिलेंडर को चार्ज करने के लिए",
+      "To permit air flow from FP to AR but not reverse / एफपी से एआर तक हवा के प्रवाह की अनुमति देने के लिए लेकिन उल्टा नहीं",
+      "To release air from CR / सीआर से हवा निकालने के लिए",
+      "To connect BP and FP / बीपी और एफपी को जोड़ने के लिए"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Full form of PEAV is? / PEAV का पूर्ण रूप क्या है?",
+    "o": [
+      "Passenger Emergency Alarm Valve",
+      "Passenger Entrance Actuating Valve",
+      "Pressure Exhaust Air Valve",
+      "Pneumatic Emergency Action Valve"
+    ],
+    "c": 0
+  },
+  {
+    "q": "In C3W distributor valve, which sub-assembly helps in manual release of brakes? / C3W डिस्ट्रीब्यूटर वाल्व में, कौन सी सब-असेंबली ब्रेक के मैनुअल रिलीज में मदद करती है?",
+    "o": [
+      "Main Valve / मुख्य वाल्व",
+      "Cut off Valve / कट ऑफ वाल्व",
+      "Double release valve / डबल रिलीज वाल्व",
+      "Check Valve / चेक वाल्व"
+    ],
+    "c": 2
+  },
+  {
+    "q": "What is the main advantage of Twin Pipe Braking? / ट्विन पाइप ब्रेकिंग का मुख्य लाभ क्या है?",
+    "o": [
+      "Increases braking force / ब्रेकिंग बल बढ़ाता है",
+      "Reduces release time / रिलीज का समय कम करता है",
+      "Increases BP pressure / बीपी दबाव बढ़ाता है",
+      "Reduces wheel skidding / व्हील स्किडिंग कम करता है"
+    ],
+    "c": 1
+  },
+  {
+    "q": "During release after full service application in air brake wagon, the brake should release within: / एयर ब्रेक वैगन में पूर्ण सेवा आवेदन के बाद रिलीज के दौरान, ब्रेक कितने समय में रिलीज होना चाहिए:",
+    "o": [
+      "45 seconds / 45 सेकंड",
+      "60 seconds / 60 सेकंड",
+      "75 seconds / 75 सेकंड",
+      "90 seconds / 90 सेकंड"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What is the maximum pressure in the brake cylinder when the driver drops the BP pressure by 1.6 Kg/cm2? / जब ड्राइवर बीपी दबाव को 1.6 किग्रा/सेमी² कम करता है, तो ब्रेक सिलेंडर में अधिकतम दबाव क्या होता है?",
+    "o": [
+      "3.0 Kg/cm2 / 3.0 किग्रा/सेमी²",
+      "3.5 Kg/cm2 / 3.5 किग्रा/सेमी²",
+      "3.8 Kg/cm2 / 3.8 किग्रा/सेमी²",
+      "4.2 Kg/cm2 / 4.2 किग्रा/सेमी²"
+    ],
+    "c": 2
+  },
+  {
+    "q": "What is the new and condemning diameter of wheels fitted on ICF WGACCW coach? / ICF WGACCW कोच पर लगे पहियों का नया और कंडमिंग व्यास क्या है?",
+    "o": [
+      "915mm & 813mm / 915 मिमी और 813 मिमी",
+      "915mm & 825mm / 915 मिमी और 825 मिमी",
+      "1000mm & 906mm / 1000 मिमी और 906 मिमी",
+      "952mm & 877mm / 952 मिमी और 877 मिमी"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What is the Permissible variation in wheel diameter on the same trolley and on the same BOXN wagon? / एक ही ट्रॉली और एक ही BOXN वैगन पर पहिया व्यास में अनुमेय भिन्नता क्या है?",
+    "o": [
+      "10mm & 20mm / 10 मिमी और 20 मिमी",
+      "13mm & 25mm / 13 मिमी और 25 मिमी",
+      "5mm & 13mm / 5 मिमी और 13 मिमी",
+      "10mm & 15mm / 10 मिमी और 15 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What is the lowest permissible wheel diameter for a coach turned out after POH from workshops? / कार्यशालाओं से पीओएच के बाद निकले कोच के लिए न्यूनतम अनुमेय पहिया व्यास क्या है?",
+    "o": [
+      "813 mm / 813 मिमी",
+      "825 mm / 825 मिमी",
+      "837 mm / 837 मिमी",
+      "840 mm / 840 मिमी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "What is the distance between journal center on CASNUB bogie? / CASNUB बोगी पर जर्नल केंद्र के बीच की दूरी क्या है?",
+    "o": [
+      "2200 mm / 2200 मिमी",
+      "2260 mm / 2260 मिमी",
+      "2300 mm / 2300 मिमी",
+      "2000 mm / 2000 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What is the permissible flat surface on wheel tread of BOXN wagons? / BOXN वैगनों के व्हील ट्रेड पर अनुमेय सपाट सतह (Flat Tyre) क्या है?",
+    "o": [
+      "50 mm / 50 मिमी",
+      "60 mm / 60 मिमी",
+      "75 mm / 75 मिमी",
+      "25 mm / 25 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What is the Condemning flange thickness of wheels fitted on ICF coach running at 110 Kmph? / 110 किमी प्रति घंटे की गति से चलने वाले आईसीएफ कोच पर लगे पहियों की कंडमिंग फ्लैंज मोटाई क्या है?",
+    "o": [
+      "16 mm / 16 मिमी",
+      "20 mm / 20 मिमी",
+      "22 mm / 22 मिमी",
+      "25 mm / 25 मिमी"
+    ],
+    "c": 2
+  },
+  {
+    "q": "What is the maximum and minimum Buffer heights to be maintained on an ICF coach under tare condition? / टियर (खाली) स्थिति के तहत आईसीएफ कोच पर अधिकतम और न्यूनतम बफर ऊंचाई क्या है?",
+    "o": [
+      "1105mm to 1030mm / 1105 मिमी से 1030 मिमी",
+      "1105mm to 1090mm / 1105 मिमी से 1090 मिमी",
+      "1090mm to 1030mm / 1090 मिमी से 1030 मिमी",
+      "1100mm to 1085mm / 1100 मिमी से 1085 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "At what wheel diameter reduction Brake adjustment of CASNUB bogie is done? / कैसनब बोगी का ब्रेक समायोजन पहिया व्यास में कितनी कमी आने पर किया जाता है?",
+    "o": [
+      "10 mm / 10 मिमी",
+      "18 mm / 18 मिमी",
+      "25 mm / 25 मिमी",
+      "13 mm / 13 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "In C3W distributor valve, through which sub assembly the control reservoir is charged? / C3W डिस्ट्रीब्यूटर वाल्व में, किस सब-असेंबली के माध्यम से कंट्रोल रिज़र्वयर चार्ज किया जाता है?",
+    "o": [
+      "Main Valve / मुख्य वाल्व",
+      "Cut off valve / कट ऑफ वाल्व",
+      "Quick Service Valve / त्वरित सेवा वाल्व",
+      "Release Valve / रिलीज वाल्व"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Working Piston stroke of Bogie mounted brake cylinder is? / बोगी माउंटेड ब्रेक सिलेंडर का वर्किंग पिस्टन स्ट्रोक है?",
+    "o": [
+      "28 mm / 28 मिमी",
+      "32 mm / 32 मिमी",
+      "35 mm / 35 मिमी",
+      "40 mm / 40 मिमी"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What is the drop in brake pipe pressure during sensitivity test with SCTR? / SCTR के साथ संवेदनशीलता परीक्षण (Sensitivity Test) के दौरान ब्रेक पाइप दबाव में कितनी गिरावट होनी चाहिए?",
+    "o": [
+      "0.5 Kg/cm² in 5 Seconds / 5 सेकंड में 0.5 किग्रा/सेमी²",
+      "0.6 Kg/cm² in 6 Seconds / 6 सेकंड में 0.6 किग्रा/सेमी²",
+      "0.3 Kg/cm² in 60 Seconds / 60 सेकंड में 0.3 किग्रा/सेमी²",
+      "1.0 Kg/cm² in 3 Seconds / 3 सेकंड में 1.0 किग्रा/सेमी²"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What is the validity of Brake power certificate of CC rake? / सीसी रेक के ब्रेक पावर सर्टिफिकेट की वैधता क्या है?",
+    "o": [
+      "4500 Km or 30 days / 4500 किमी या 30 दिन",
+      "6000 Km or 30 days / 6000 किमी या 30 दिन",
+      "7500 Km or 35 days / 7500 किमी या 35 दिन",
+      "Round Trip / राउंड ट्रिप"
+    ],
+    "c": 2
+  },
+  {
+    "q": "What is the colour of Brake power certificate of Air brake Goods train (End to End)? / एयर ब्रेक मालगाड़ी (एंड टू एंड) के ब्रेक पावर सर्टिफिकेट का रंग क्या है?",
+    "o": [
+      "Pink / गुलाबी",
+      "Yellow / पीला",
+      "Green / हरा",
+      "White / सफेद"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Minimum BP pressure required in brake van of 58 BOXN wagons? / 58 BOXN वैगनों के ब्रेक वैन में आवश्यक न्यूनतम बीपी दबाव?",
+    "o": [
+      "5.0 Kg/cm2 / 5.0 किग्रा/सेमी²",
+      "4.8 Kg/cm2 / 4.8 किग्रा/सेमी²",
+      "4.7 Kg/cm2 / 4.7 किग्रा/सेमी²",
+      "4.5 Kg/cm2 / 4.5 किग्रा/सेमी²"
+    ],
+    "c": 2
+  },
+  {
+    "q": "Full form of CTRB is? / CTRB का पूर्ण रूप क्या है?",
+    "o": [
+      "Cartridge Tapered Roller Bearing",
+      "Central Tapered Roller Bearing",
+      "Cartridge Turning Roller Bearing",
+      "Central Track Roller Bearing"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of COFMOW is? / COFMOW का पूर्ण रूप क्या है?",
+    "o": [
+      "Central Organization for Mechanical Workshops",
+      "Central Organization for Modernization of Workshops",
+      "Central Office for Maintenance of Wagons",
+      "Committee for Modernization of Workshops"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Full form of CONCOR is? / CONCOR का पूर्ण रूप क्या है?",
+    "o": [
+      "Container Corporation of India Ltd",
+      "Central Organization for New Containers",
+      "Container Coordination of Railways",
+      "Confederation of Container Operations"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of CRIS is? / CRIS का पूर्ण रूप क्या है?",
+    "o": [
+      "Central Railway Information Service",
+      "Centre for Railway Information System",
+      "Computerized Railway Information System",
+      "Centre for Rail Internet Systems"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Full form of FOIS is? / FOIS का पूर्ण रूप क्या है?",
+    "o": [
+      "Freight Operations Information System",
+      "Freight Organization Information System",
+      "Fast Operation Information System",
+      "Freight Online Integrated System"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of ART is? / ART का पूर्ण रूप क्या है?",
+    "o": [
+      "Accident Relief Train",
+      "Automatic Relief Train",
+      "Accident Rail Track",
+      "Auxiliary Relief Team"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of HOER is? / HOER का पूर्ण रूप क्या है?",
+    "o": [
+      "Hours of Employment Regulation",
+      "Head Office of Eastern Railway",
+      "High Operating Efficiency Ratio",
+      "Hours of Engine Running"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of IVRS is? / IVRS का पूर्ण रूप क्या है?",
+    "o": [
+      "Integrated Voice Recording System",
+      "Interactive Voice Response System",
+      "Indian Vehicle Registration System",
+      "Instant Verification and Reporting System"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Full form of RDSO is? / RDSO का पूर्ण रूप क्या है?",
+    "o": [
+      "Railway Design and Standards Organization",
+      "Research Designs and Standards Organization",
+      "Railway Development and Safety Organization",
+      "Research Development and Standards Office"
+    ],
+    "c": 1
+  },
+  {
+    "q": "Full form of RITES is? / RITES का पूर्ण रूप क्या है?",
+    "o": [
+      "Rail India Technical and Economic Services",
+      "Railway Institute of Technical Education",
+      "Rail India Transportation Engineering Services",
+      "Railway Infrastructure and Technical Engineering"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of SPAD is? / SPAD का पूर्ण रूप क्या है?",
+    "o": [
+      "Signal Passed at Danger",
+      "Signal Passed after Departure",
+      "Speed Passed at Danger",
+      "Stop Passed at Danger"
+    ],
+    "c": 0
+  },
+  {
+    "q": "Full form of WILD is? / WILD का पूर्ण रूप क्या है?",
+    "o": [
+      "Wagon Impact Load Detector",
+      "Wheel Impact Load Detector",
+      "Weight Indicator and Load Detector",
+      "Wireless Integrated Load Device"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What does the wagon code 'BOXN' stand for? / वैगन कोड 'BOXN' का क्या अर्थ है?",
+    "o": [
+      "All Welded Covered Bogie Wagon",
+      "All Welded Open Bogie Wagon with CBC Air Brake",
+      "Bogie Tank Wagon for Petrol",
+      "Bogie Flat Wagon for Rails"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What does the wagon code 'BCN' stand for? / वैगन कोड 'BCN' का क्या अर्थ है?",
+    "o": [
+      "All Welded Covered Bogie Wagon with CBC Air Brake",
+      "Bogie Covered Wagon with Screw Coupling",
+      "Bogie Container Wagon",
+      "Bogie Cement Wagon"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'BTPN' stand for? / वैगन कोड 'BTPN' का क्या अर्थ है?",
+    "o": [
+      "Bogie Tank Wagon for Petrol with Air Brake",
+      "Bogie Tank Wagon for Water",
+      "Bogie Tarpaulin Covered Wagon",
+      "Bogie Tipper Wagon"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'BLC' stand for? / वैगन कोड 'BLC' का क्या अर्थ है?",
+    "o": [
+      "Bogie Low height Container flat wagon",
+      "Bogie Long Covered wagon",
+      "Bogie Luggage Carrier",
+      "Bogie Low Capacity wagon"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the wagon code 'BVZC' stand for? / वैगन कोड 'BVZC' का क्या अर्थ है?",
+    "o": [
+      "Guard Brake Van with Screw Coupling",
+      "Guard Brake Van with CBC & Air Brake System",
+      "Bogie Van for Zinc Carrier",
+      "Brake Van with Vacuum Brake"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What does the coach code 'WCB' stand for? / कोच कोड 'WCB' का क्या अर्थ है?",
+    "o": [
+      "Vestibuled Chair Car",
+      "Vestibuled Pantry Car",
+      "Vestibuled Composite Brake Van",
+      "Vestibuled Cooling Bogie"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What does the coach code 'WGACCN' stand for? / कोच कोड 'WGACCN' का क्या अर्थ है?",
+    "o": [
+      "Vestibuled AC 2-Tier Sleeper",
+      "Vestibuled AC 3-Tier Sleeper with Self Generating Eqpt",
+      "Vestibuled AC Chair Car",
+      "Vestibuled General Second Class"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What does the coach code 'NMG' stand for? / कोच कोड 'NMG' का क्या अर्थ है?",
+    "o": [
+      "New Motor Goods",
+      "New Modified Goods",
+      "Non Modified Goods",
+      "Narrow Gauge Motor Goods"
+    ],
+    "c": 1
+  },
+  {
+    "q": "What does the coach code 'SLR' stand for? / कोच कोड 'SLR' का क्या अर्थ है?",
+    "o": [
+      "Second Class Luggage and Brake Van",
+      "Sleeper Class Luggage Room",
+      "Special Luxury Room",
+      "Second Class Ladies Room"
+    ],
+    "c": 0
+  },
+  {
+    "q": "What does the coach code 'RA' stand for? / कोच कोड 'RA' का क्या अर्थ है?",
+    "o": [
+      "Railway Administration Car",
+      "Inspection Carriage (Administrative)",
+      "Rail Ambulance",
+      "Relief Accident Van"
+    ],
+    "c": 1
+  }
+]
