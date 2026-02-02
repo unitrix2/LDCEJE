@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LDCE JE (C&W) Mock Test</title>
+    <title>NCR LDCE Mock Test</title>
     
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
@@ -26,75 +26,77 @@
         body { font-family: 'Segoe UI', 'Roboto', sans-serif; margin: 0; background: var(--secondary); color: var(--text); display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
 
         /* =========================================
-           1. REDESIGNED LOGIN PAGE (SBI STYLE)
+           1. ADVANCED LOGIN PAGE (SBI STYLE)
            ========================================= */
         #login-page {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            /* Royal Gradient Background */
-            background: linear-gradient(135deg, #0d47a1 0%, #b71c1c 100%);
+            /* Professional Gradient */
+            background: linear-gradient(135deg, #004d40 0%, #006064 50%, #b71c1c 100%);
             display: flex; flex-direction: column; justify-content: center; align-items: center;
             z-index: 10000;
             overflow: hidden;
         }
 
-        /* Animated Background Particles (Optional Decoration) */
-        #login-page::before {
-            content: ''; position: absolute; width: 200%; height: 200%;
-            background: radial-gradient(circle, rgba(255,255,255,0.1) 10%, transparent 10%);
-            background-size: 30px 30px;
-            animation: moveBg 60s linear infinite;
-            opacity: 0.3; pointer-events: none;
+        /* Background Pattern */
+        #login-page::after {
+            content: ''; position: absolute; width: 100%; height: 100%;
+            background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 30px 30px; opacity: 0.5; pointer-events: none;
         }
-        @keyframes moveBg { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
         .login-card {
-            background: rgba(255, 255, 255, 0.15); /* Glass Effect */
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            padding: 60px 40px 40px 40px;
-            border-radius: 30px;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-            width: 90%; max-width: 380px;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+            width: 90%; max-width: 420px;
             text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            position: relative;
-            display: flex; flex-direction: column; align-items: center;
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            position: relative; z-index: 10;
+            animation: popIn 0.6s ease-out;
         }
 
-        /* --- THE ROTATING LOGO EFFECT --- */
-        .logo-wrapper {
+        @keyframes popIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        /* --- ROTATING TEXT RING --- */
+        .logo-container {
             position: relative;
-            width: 160px; height: 160px;
-            margin-bottom: 20px;
+            width: 200px; height: 200px; /* Big Size */
+            margin: -120px auto 10px auto; /* Pull Up Effect */
             display: flex; justify-content: center; align-items: center;
         }
 
-        /* Central Static Logo */
         .central-logo {
-            width: 90px; height: 90px;
+            width: 110px; height: 110px;
             background: white;
             border-radius: 50%;
             padding: 5px;
-            box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+            box-shadow: 0 0 25px rgba(0,0,0,0.2);
             z-index: 2;
             position: absolute;
+            border: 4px solid var(--primary);
         }
 
-        /* Rotating Text Ring (SVG) */
         .rotating-ring {
             position: absolute;
             width: 100%; height: 100%;
-            animation: spinText 15s linear infinite;
+            animation: spinText 20s linear infinite;
             z-index: 1;
         }
         
         .rotating-ring text {
             font-family: 'Segoe UI', sans-serif;
-            font-size: 13px;
-            font-weight: 700;
-            letter-spacing: 2px;
-            fill: #ffffff; /* Text Color */
+            font-size: 13px; /* Adjusted size for readability */
+            font-weight: 800;
+            letter-spacing: 3px;
+            fill: #fff; /* White Text on Dark Background */
             text-transform: uppercase;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
         }
 
         @keyframes spinText {
@@ -102,46 +104,62 @@
             to { transform: rotate(360deg); }
         }
 
-        .login-title { 
-            font-size: 1.8rem; font-weight: 800; color: #fff; 
-            margin: 10px 0 5px 0; text-transform: uppercase;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        /* --- LOGIN FORM --- */
+        .login-header { margin-bottom: 25px; }
+        .login-header h2 { margin: 0; color: var(--primary); font-size: 1.8rem; font-weight: 800; text-transform: uppercase; }
+        .login-header p { margin: 5px 0 0; color: #555; font-size: 0.9rem; font-weight: 600; }
+
+        .input-group { margin-bottom: 15px; text-align: left; }
+        .input-group input {
+            width: 100%; padding: 12px 15px;
+            border: 1px solid #ccc; border-radius: 8px;
+            font-size: 1rem; box-sizing: border-box;
+            transition: all 0.3s;
+            background: #f9f9f9;
         }
-        
-        .login-subtitle { 
-            font-size: 0.9rem; color: #e0e0e0; margin-bottom: 30px; 
-            font-weight: 500; letter-spacing: 1px; text-transform: uppercase; 
+        .input-group input:focus { border-color: var(--primary); outline: none; background: white; box-shadow: 0 0 0 3px rgba(183, 28, 28, 0.1); }
+
+        .login-btn {
+            width: 100%; padding: 12px;
+            background: var(--primary); color: white;
+            border: none; border-radius: 50px;
+            font-size: 1.1rem; font-weight: 700;
+            cursor: pointer; transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(183, 28, 28, 0.3);
         }
+        .login-btn:hover { background: var(--primary-dark); transform: translateY(-2px); }
+
+        .divider {
+            display: flex; align-items: center; margin: 20px 0; color: #777; font-size: 0.85rem; font-weight: 600;
+        }
+        .divider::before, .divider::after { content: ''; flex: 1; height: 1px; background: #ddd; }
+        .divider span { padding: 0 10px; }
 
         .google-btn {
-            width: 100%; padding: 14px; border: none; border-radius: 50px;
-            background: white; color: #333; font-size: 1rem; font-weight: 700;
-            display: flex; align-items: center; justify-content: center; gap: 12px;
-            cursor: pointer; box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-            transition: all 0.3s ease; position: relative; overflow: hidden;
+            width: 100%; padding: 12px;
+            border: 1px solid #ddd; border-radius: 50px;
+            background: white; color: #333;
+            font-size: 1rem; font-weight: 600;
+            display: flex; align-items: center; justify-content: center; gap: 10px;
+            cursor: pointer; transition: 0.3s;
         }
-        
-        .google-btn:hover { 
-            transform: translateY(-3px); 
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3); 
-            background: #f1f1f1;
-        }
-        .google-btn img { width: 24px; height: 24px; }
+        .google-btn:hover { background: #f1f1f1; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .google-btn img { width: 22px; height: 22px; }
 
         .error-message { 
-            color: #ff5252; font-size: 0.85rem; margin-top: 20px; 
-            background: rgba(0,0,0,0.6); padding: 10px; border-radius: 8px;
-            display: none; animation: shake 0.5s; width: 100%;
+            color: white; font-size: 0.9rem; margin-top: 20px; font-weight: 600;
+            background: #d32f2f; padding: 10px; border-radius: 8px;
+            display: none; animation: shake 0.5s; width: 100%; box-sizing: border-box;
         }
         @keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
 
         .railway-watermark { 
-            position: absolute; bottom: 20px; color: rgba(255,255,255,0.4); 
-            font-size: 0.7rem; letter-spacing: 2px; font-weight: 600; text-transform: uppercase; 
+            position: absolute; bottom: 20px; color: rgba(255,255,255,0.5); 
+            font-size: 0.8rem; letter-spacing: 1px; font-weight: 600; text-transform: uppercase; 
         }
 
         /* =========================================
-           2. MAIN APP CSS (Existing Code - Untouched)
+           2. APP INTERFACE (NO CHANGES)
            ========================================= */
         #app-content { display: none; height: 100%; flex-direction: column; }
 
@@ -153,7 +171,7 @@
         .header-left { display: flex; align-items: center; gap: 15px; }
         .header-controls { display: flex; align-items: center; gap: 15px; }
 
-        .railway-logo { width: 45px; height: 45px; background: url('https://images.seeklogo.com/logo-png/31/1/indian-railways-logo-png_seeklogo-310214.png') no-repeat center center; background-size: contain; flex-shrink: 0; }
+        .railway-logo { width: 45px; height: 45px; background: url('https://upload.wikimedia.org/wikipedia/commons/8/83/Indian_Railways.svg') no-repeat center center; background-size: contain; flex-shrink: 0; }
         .title-group h2 { margin: 0; font-size: 1.3rem; color: var(--primary); line-height: 1.2; font-weight: 700; }
         .title-group p { margin: 0; font-size: 0.75rem; color: #666; font-weight: 500; }
 
@@ -275,21 +293,33 @@
 
 <div id="login-page">
     <div class="login-card">
-        <div class="logo-wrapper">
+        <div class="logo-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Indian_Railways.svg" class="central-logo" alt="Railway Logo">
             <svg class="rotating-ring" viewBox="0 0 200 200">
-                <path id="circlePath" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" fill="none" />
+                <path id="circlePath" d="M 100, 100 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0" fill="none" />
                 <text>
                     <textPath xlink:href="#circlePath" startOffset="0%">
-                        INDIAN RAILWAYS • JE EXAM PORTAL • INDIAN RAILWAYS • JE EXAM PORTAL • 
+                        NORTH CENTRAL RAILWAY • LDCE MOCK TEST • SECURE EXAM SYSTEM • NORTH CENTRAL RAILWAY • LDCE MOCK TEST • SECURE EXAM SYSTEM •
                     </textPath>
                 </text>
             </svg>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Indian_Railways.svg" class="central-logo" alt="Railway Logo">
         </div>
 
-        <h2 class="login-title">JE EXAM PORTAL</h2>
-        <p class="login-subtitle">Departmental Selection</p>
-        
+        <div class="login-header">
+            <h2>Sign In</h2>
+            <p>Authorized Personnel Only</p>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="username" placeholder="Username / PF Number">
+        </div>
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Password">
+        </div>
+        <button class="login-btn" onclick="handleManualLogin()">Login</button>
+
+        <div class="divider"><span>OR</span></div>
+
         <button class="google-btn" onclick="signIn()">
             <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="G">
             Sign in with Google
@@ -297,7 +327,7 @@
         
         <div id="login-error" class="error-message"></div>
     </div>
-    <div class="railway-watermark">INDIAN RAILWAYS • SECURE EXAM SYSTEM</div>
+    <div class="railway-watermark">Designed & Developed by Salman | N.C. Railway</div>
 </div>
 
 <div id="app-content">
@@ -417,30 +447,25 @@
     const provider = new firebase.auth.GoogleAuthProvider();
 
     // ============================================
-    // FIXED: Global Event Listener for Dropdown & Theme
-    // This ensures dropdown works immediately after login
+    // GLOBAL EVENT LISTENER (Dropdown Fix)
     // ============================================
     window.addEventListener('click', function(e) {
-        // Dropdown Logic
         const select = document.querySelector('.custom-select');
         const items = document.getElementById('select-items');
         const selectedDiv = document.querySelector('.select-selected');
 
         if (select && items && selectedDiv) {
-            // Clicked on the main box?
             if (selectedDiv.contains(e.target)) {
                 e.stopPropagation(); 
                 items.classList.toggle('select-hide');
                 selectedDiv.classList.toggle('select-arrow-active');
             } 
-            // Clicked outside?
             else if (!items.contains(e.target)) {
                 items.classList.add('select-hide');
                 selectedDiv.classList.remove('select-arrow-active');
             }
         }
 
-        // Theme Panel Logic
         const panel = document.getElementById('theme-panel');
         const themeBtn = document.querySelector('.tool-btn[onclick="toggleThemePanel()"]');
         if (panel && themeBtn && !panel.contains(e.target) && !themeBtn.contains(e.target)) {
@@ -448,7 +473,7 @@
         }
     });
 
-    // --- AUTHENTICATION LOGIC ---
+    // --- AUTH LOGIC (GOOGLE) ---
     function signIn() {
         auth.signInWithPopup(provider)
             .then((result) => {
@@ -459,36 +484,66 @@
             });
     }
 
+    // --- AUTH LOGIC (MANUAL) ---
+    async function handleManualLogin() {
+        const u = document.getElementById('username').value.trim();
+        const p = document.getElementById('password').value.trim();
+        
+        if (!u || !p) { showError("Enter Username and Password"); return; }
+
+        try {
+            // Fetch users.json locally or from GitHub if needed
+            // Assuming users.json is in root directory for now
+            const res = await fetch('users.json?v=' + new Date().getTime());
+            if(!res.ok) throw new Error("Could not check users.");
+            const users = await res.json();
+
+            const validUser = users.find(user => user.username === u && user.password === p);
+
+            if (validUser) {
+                loginSuccess({
+                    displayName: validUser.name,
+                    email: validUser.email,
+                    photoURL: 'https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/person.svg'
+                });
+            } else {
+                showError("Invalid Username or Password");
+            }
+        } catch(e) {
+            showError("System Error: " + e.message);
+        }
+    }
+
+    // --- PERMISSION CHECK ---
     function checkPermission(user) {
-        // Fetch allowed emails list from JSON file (with cache busting)
         fetch('allowed_users.json?v=' + new Date().getTime())
             .then(res => {
-                if(!res.ok) throw new Error("Permission list missing (allowed_users.json)");
+                if(!res.ok) throw new Error("Permission list missing");
                 return res.json();
             })
             .then(allowedList => {
-                // Ensure case-insensitive match & trim spaces
                 const cleanList = allowedList.map(e => e.trim().toLowerCase());
                 const userEmail = user.email.trim().toLowerCase();
 
                 if (cleanList.includes(userEmail)) {
-                    // Success: Show App
-                    document.getElementById('login-page').style.display = 'none';
-                    document.getElementById('app-content').style.display = 'flex';
-                    
-                    // Update Profile Info
-                    document.getElementById('display-user-name').innerText = user.displayName || "User";
-                    document.getElementById('display-user-email').innerText = user.email;
-                    if(user.photoURL) document.getElementById('user-photo').src = user.photoURL;
-
-                    startApp(); // Start the Quiz Logic
+                    loginSuccess(user);
                 } else {
-                    // Fail
                     auth.signOut();
                     showError(`Access Denied: ${user.email} is not authorized.`);
                 }
             })
             .catch(err => showError(err.message));
+    }
+
+    function loginSuccess(user) {
+        document.getElementById('login-page').style.display = 'none';
+        document.getElementById('app-content').style.display = 'flex';
+        
+        document.getElementById('display-user-name').innerText = user.displayName || "User";
+        document.getElementById('display-user-email').innerText = user.email;
+        if(user.photoURL) document.getElementById('user-photo').src = user.photoURL;
+
+        startApp(); 
     }
 
     function logout() {
@@ -501,7 +556,6 @@
         el.style.display = 'block';
     }
 
-    // Auto-login check
     auth.onAuthStateChanged((user) => {
         if (user) {
             checkPermission(user);
@@ -509,7 +563,7 @@
     });
 
     // ============================================
-    // --- QUIZ LOGIC (Original Code Wrapped) ---
+    // --- APP LOGIC (EXISTING) ---
     // ============================================
 
     let currentQuestions = [];
@@ -523,105 +577,6 @@
         await fetchExamsFromGitHub();
     }
 
-    // --- SMART POP-UP WINDOW LOGIC ---
-    function openGoogleSearch(index) {
-        const q = currentQuestions[index];
-        let qText = q.q.split(" / ")[0].trim(); 
-        let optionsText = "";
-        if (q.o && q.o.length > 0) {
-            optionsText = q.o.map(opt => opt.split(" / ")[0].trim())
-                .filter(opt => {
-                    let lower = opt.toLowerCase();
-                    return !lower.startsWith("none") && !lower.startsWith("all") && !lower.startsWith("both");
-                }).join(" ");
-        }
-        let query = qText;
-        if (qText.length < 100 && optionsText) {
-            query += " " + optionsText;
-        }
-        query += " Indian Railways answer";
-        const w = 600, h = 700;
-        const left = (screen.width / 2) - (w / 2);
-        const top = (screen.height / 2) - (h / 2);
-        const url = 'https://www.google.com/search?q=' + encodeURIComponent(query);
-        window.open(url, 'GoogleVerify', `width=${w},height=${h},top=${top},left=${left},scrollbars=yes,resizable=yes`);
-    }
-
-    function populateCustomDropdown(tests) {
-        const items = document.getElementById("select-items");
-        const selected = document.querySelector(".select-selected");
-        items.innerHTML = "";
-        
-        if(tests.length > 0) {
-            selected.innerHTML = tests[0].name; 
-        }
-
-        tests.forEach((test, index) => {
-            const div = document.createElement("div");
-            div.innerHTML = test.name;
-            div.addEventListener("click", function() {
-                if(confirm("Start " + test.name + "? Current progress will be lost.")) {
-                    selected.innerHTML = test.name;
-                    loadExam(test.url, test.name);
-                    const siblings = this.parentNode.children;
-                    for (let i = 0; i < siblings.length; i++) {
-                        siblings[i].classList.remove("same-as-selected");
-                    }
-                    this.classList.add("same-as-selected");
-                    items.classList.add("select-hide");
-                    selected.classList.remove("select-arrow-active");
-                }
-            });
-            if(index === 0) div.classList.add("same-as-selected");
-            items.appendChild(div);
-        });
-    }
-
-    // --- THEME LOGIC ---
-    function toggleThemePanel() {
-        const panel = document.getElementById('theme-panel');
-        panel.style.display = panel.style.display === 'grid' ? 'none' : 'grid';
-    }
-
-    function setTheme(primary, dark, light, fade) {
-        document.documentElement.style.setProperty('--primary', primary);
-        document.documentElement.style.setProperty('--primary-dark', dark);
-        document.documentElement.style.setProperty('--primary-light', light);
-        document.documentElement.style.setProperty('--primary-fade', fade);
-        document.getElementById('theme-panel').style.display = 'none';
-    }
-
-    // --- TIMER LOGIC ---
-    function setCustomTime() {
-        const min = parseInt(document.getElementById('manual-timer').value);
-        if (min > 0) {
-            time = min * 60;
-            clearInterval(timerInt);
-            startTimer();
-        }
-    }
-
-    function startTimer() {
-        clearInterval(timerInt);
-        timerInt = setInterval(() => {
-            time--;
-            let display = "";
-            if (time >= 3600) {
-                let h = Math.floor(time / 3600);
-                let m = Math.floor((time % 3600) / 60);
-                let s = time % 60;
-                display = `${h}:${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
-            } else {
-                let m = Math.floor(time / 60);
-                let s = time % 60;
-                display = `${m}:${s < 10 ? '0' : ''}${s}`;
-            }
-            document.getElementById('timer').innerText = display;
-            if(time <= 0) finish();
-        }, 1000);
-    }
-
-    // --- GITHUB FETCH ---
     async function fetchExamsFromGitHub() {
         const apiUrl = `https://api.github.com/repos/${GH_USERNAME}/${GH_REPO}/contents/${FOLDER_PATH}`;
         try {
@@ -642,6 +597,7 @@
             }));
 
             populateCustomDropdown(availableTests);
+            
             if(availableTests.length > 0) {
                 loadExam(availableTests[0].url, availableTests[0].name);
             }
@@ -649,8 +605,37 @@
 
         } catch (error) {
             console.error("GitHub Error:", error);
-            // Don't show error immediately on loader, could be network issue
         }
+    }
+
+    function populateCustomDropdown(tests) {
+        const items = document.getElementById("select-items");
+        const selected = document.querySelector(".select-selected");
+        items.innerHTML = "";
+        
+        if(tests.length > 0) {
+            selected.innerHTML = tests[0].name; 
+        }
+
+        tests.forEach((test, index) => {
+            const div = document.createElement("div");
+            div.innerHTML = test.name;
+            div.addEventListener("click", function(e) {
+                e.stopPropagation(); 
+                if(confirm("Start " + test.name + "? Current progress will be lost.")) {
+                    selected.innerHTML = test.name;
+                    loadExam(test.url, test.name);
+                    
+                    Array.from(items.children).forEach(child => child.classList.remove("same-as-selected"));
+                    this.classList.add("same-as-selected");
+                    
+                    items.classList.add("select-hide");
+                    selected.classList.remove("select-arrow-active");
+                }
+            });
+            if(index === 0) div.classList.add("same-as-selected");
+            items.appendChild(div);
+        });
     }
 
     async function loadExam(url, examName) {
@@ -684,6 +669,7 @@
         }
     }
 
+    // --- QUIZ FUNCTIONS ---
     function renderQ() {
         if(currentQuestions.length === 0) return;
         let q = currentQuestions[qIdx];
@@ -748,6 +734,66 @@
         if(qIdx+d >= 0 && qIdx+d < currentQuestions.length) { 
             qIdx+=d; renderQ(); 
         } 
+    }
+
+    // --- THEME, TIMER, SEARCH (UNCHANGED) ---
+    function openGoogleSearch(index) {
+        const q = currentQuestions[index];
+        let qText = q.q.split(" / ")[0].trim(); 
+        let optionsText = "";
+        if (q.o && q.o.length > 0) {
+            optionsText = q.o.map(opt => opt.split(" / ")[0].trim())
+                .filter(opt => !opt.toLowerCase().startsWith("none") && !opt.toLowerCase().startsWith("all") && !opt.toLowerCase().startsWith("both"))
+                .join(" ");
+        }
+        let query = qText + " " + optionsText + " Indian Railways answer";
+        const w = 600, h = 700;
+        const left = (screen.width / 2) - (w / 2);
+        const top = (screen.height / 2) - (h / 2);
+        const url = 'https://www.google.com/search?q=' + encodeURIComponent(query);
+        window.open(url, 'GoogleVerify', `width=${w},height=${h},top=${top},left=${left},scrollbars=yes,resizable=yes`);
+    }
+
+    function toggleThemePanel() {
+        const panel = document.getElementById('theme-panel');
+        panel.style.display = panel.style.display === 'grid' ? 'none' : 'grid';
+    }
+
+    function setTheme(primary, dark, light, fade) {
+        document.documentElement.style.setProperty('--primary', primary);
+        document.documentElement.style.setProperty('--primary-dark', dark);
+        document.documentElement.style.setProperty('--primary-light', light);
+        document.documentElement.style.setProperty('--primary-fade', fade);
+        document.getElementById('theme-panel').style.display = 'none';
+    }
+
+    function setCustomTime() {
+        const min = parseInt(document.getElementById('manual-timer').value);
+        if (min > 0) {
+            time = min * 60;
+            clearInterval(timerInt);
+            startTimer();
+        }
+    }
+
+    function startTimer() {
+        clearInterval(timerInt);
+        timerInt = setInterval(() => {
+            time--;
+            let display = "";
+            if (time >= 3600) {
+                let h = Math.floor(time / 3600);
+                let m = Math.floor((time % 3600) / 60);
+                let s = time % 60;
+                display = `${h}:${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
+            } else {
+                let m = Math.floor(time / 60);
+                let s = time % 60;
+                display = `${m}:${s < 10 ? '0' : ''}${s}`;
+            }
+            document.getElementById('timer').innerText = display;
+            if(time <= 0) finish();
+        }, 1000);
     }
 
     function finish() {
