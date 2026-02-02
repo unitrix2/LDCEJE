@@ -26,140 +26,175 @@
         body { font-family: 'Segoe UI', 'Roboto', sans-serif; margin: 0; background: var(--secondary); color: var(--text); display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
 
         /* =========================================
-           1. ADVANCED LOGIN PAGE (SBI STYLE)
+           1. PREMIUM LOGIN PAGE (SBI STYLE REDESIGN)
            ========================================= */
         #login-page {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            /* Professional Gradient */
-            background: linear-gradient(135deg, #004d40 0%, #006064 50%, #b71c1c 100%);
+            /* Deep Rich Iridescent Background */
+            background: linear-gradient(-45deg, #002661, #800000, #004d40, #3e2723);
+            background-size: 400% 400%;
+            animation: gradientBG 20s ease infinite;
             display: flex; flex-direction: column; justify-content: center; align-items: center;
             z-index: 10000;
             overflow: hidden;
         }
 
-        /* Background Pattern */
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Ambient Floating Orbs */
+        #login-page::before {
+            content: ''; position: absolute; width: 600px; height: 600px;
+            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+            top: -100px; left: -100px; border-radius: 50%;
+            animation: floatOrb 10s infinite alternate;
+        }
         #login-page::after {
-            content: ''; position: absolute; width: 100%; height: 100%;
-            background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px);
-            background-size: 30px 30px; opacity: 0.5; pointer-events: none;
+            content: ''; position: absolute; width: 500px; height: 500px;
+            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+            bottom: -50px; right: -50px; border-radius: 50%;
+            animation: floatOrb 12s infinite alternate-reverse;
         }
+        @keyframes floatOrb { from { transform: translate(0,0); } to { transform: translate(30px, 30px); } }
 
+        /* --- THE GLASS CARD --- */
         .login-card {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 25px 60px rgba(0,0,0,0.5);
-            width: 90%; max-width: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(25px); /* Strong Blur */
+            -webkit-backdrop-filter: blur(25px);
+            padding: 50px 40px;
+            border-radius: 24px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.6), inset 0 0 0 1px rgba(255,255,255,0.2);
+            width: 90%; max-width: 400px;
             text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.6);
-            position: relative; z-index: 10;
-            animation: popIn 0.6s ease-out;
-        }
-
-        @keyframes popIn {
-            0% { transform: scale(0.8); opacity: 0; }
-            100% { transform: scale(1); opacity: 1; }
-        }
-
-        /* --- ROTATING TEXT RING --- */
-        .logo-container {
             position: relative;
-            width: 200px; height: 200px; /* Big Size */
-            margin: -120px auto 10px auto; /* Pull Up Effect */
+            z-index: 10;
+            display: flex; flex-direction: column; align-items: center;
+            margin-top: 80px; /* Space for the big ring */
+        }
+
+        /* --- THE BIG ROTATING RING CONTAINER --- */
+        .ring-container {
+            position: absolute;
+            top: -110px; /* Pulls the ring halfway out of the card */
+            width: 240px; height: 240px; /* Large Size */
             display: flex; justify-content: center; align-items: center;
+            z-index: 12;
         }
 
-        .central-logo {
+        /* The Logo in Center */
+        .logo-center {
             width: 110px; height: 110px;
-            background: white;
+            background: #fff;
             border-radius: 50%;
-            padding: 5px;
-            box-shadow: 0 0 25px rgba(0,0,0,0.2);
+            display: flex; justify-content: center; align-items: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.3);
+            border: 4px solid white;
             z-index: 2;
-            position: absolute;
-            border: 4px solid var(--primary);
+            position: relative;
         }
+        .logo-center img { width: 80%; height: 80%; object-fit: contain; }
 
-        .rotating-ring {
+        /* The Rotating Text SVG */
+        .rotating-svg {
             position: absolute;
+            top: 0; left: 0;
             width: 100%; height: 100%;
-            animation: spinText 20s linear infinite;
+            animation: rotateText 25s linear infinite;
             z-index: 1;
         }
         
-        .rotating-ring text {
+        .rotating-svg text {
             font-family: 'Segoe UI', sans-serif;
-            font-size: 13px; /* Adjusted size for readability */
-            font-weight: 800;
-            letter-spacing: 3px;
-            fill: #fff; /* White Text on Dark Background */
+            font-size: 11.5px;
+            font-weight: 700;
+            letter-spacing: 2.5px;
+            fill: #ffffff; /* White text looks best on dark gradients */
             text-transform: uppercase;
             text-shadow: 0 2px 4px rgba(0,0,0,0.5);
         }
 
-        @keyframes spinText {
+        @keyframes rotateText {
             from { transform: rotate(0deg); }
             to { transform: rotate(360deg); }
         }
 
-        /* --- LOGIN FORM --- */
-        .login-header { margin-bottom: 25px; }
-        .login-header h2 { margin: 0; color: var(--primary); font-size: 1.8rem; font-weight: 800; text-transform: uppercase; }
-        .login-header p { margin: 5px 0 0; color: #555; font-size: 0.9rem; font-weight: 600; }
-
-        .input-group { margin-bottom: 15px; text-align: left; }
-        .input-group input {
-            width: 100%; padding: 12px 15px;
-            border: 1px solid #ccc; border-radius: 8px;
-            font-size: 1rem; box-sizing: border-box;
-            transition: all 0.3s;
-            background: #f9f9f9;
+        /* Form Elements */
+        .login-header { margin-top: 100px; margin-bottom: 20px; } /* Push down content to clear ring */
+        .login-header h2 { 
+            color: #fff; font-size: 1.8rem; margin: 0; font-weight: 800; 
+            letter-spacing: 1px; text-shadow: 0 2px 10px rgba(0,0,0,0.3);
         }
-        .input-group input:focus { border-color: var(--primary); outline: none; background: white; box-shadow: 0 0 0 3px rgba(183, 28, 28, 0.1); }
+        .login-header p { 
+            color: rgba(255,255,255,0.8); font-size: 0.9rem; margin-top: 5px; 
+            font-weight: 500; letter-spacing: 0.5px;
+        }
+
+        .input-group { width: 100%; margin-bottom: 15px; position: relative; }
+        .input-group input {
+            width: 100%; padding: 14px 20px;
+            background: rgba(255,255,255,0.9);
+            border: none; border-radius: 12px;
+            font-size: 1rem; color: #333;
+            box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);
+            transition: 0.3s; box-sizing: border-box;
+        }
+        .input-group input:focus { 
+            background: #fff; outline: none; 
+            box-shadow: 0 0 0 3px rgba(255,255,255,0.3); 
+        }
 
         .login-btn {
-            width: 100%; padding: 12px;
-            background: var(--primary); color: white;
-            border: none; border-radius: 50px;
+            width: 100%; padding: 14px;
+            background: linear-gradient(45deg, #d32f2f, #b71c1c);
+            color: white; border: none; border-radius: 50px;
             font-size: 1.1rem; font-weight: 700;
-            cursor: pointer; transition: 0.3s;
-            box-shadow: 0 4px 10px rgba(183, 28, 28, 0.3);
+            cursor: pointer; transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(183, 28, 28, 0.4);
+            text-transform: uppercase; letter-spacing: 1px;
         }
-        .login-btn:hover { background: var(--primary-dark); transform: translateY(-2px); }
+        .login-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(183, 28, 28, 0.6); }
 
         .divider {
-            display: flex; align-items: center; margin: 20px 0; color: #777; font-size: 0.85rem; font-weight: 600;
+            display: flex; align-items: center; width: 100%; margin: 20px 0;
+            color: rgba(255,255,255,0.6); font-size: 0.8rem; font-weight: 600;
         }
-        .divider::before, .divider::after { content: ''; flex: 1; height: 1px; background: #ddd; }
+        .divider::before, .divider::after { 
+            content: ''; flex: 1; height: 1px; background: rgba(255,255,255,0.3); 
+        }
         .divider span { padding: 0 10px; }
 
         .google-btn {
             width: 100%; padding: 12px;
-            border: 1px solid #ddd; border-radius: 50px;
-            background: white; color: #333;
-            font-size: 1rem; font-weight: 600;
-            display: flex; align-items: center; justify-content: center; gap: 10px;
+            background: white; color: #444;
+            border: none; border-radius: 50px;
+            font-size: 1rem; font-weight: 700;
+            display: flex; align-items: center; justify-content: center; gap: 12px;
             cursor: pointer; transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
-        .google-btn:hover { background: #f1f1f1; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-        .google-btn img { width: 22px; height: 22px; }
+        .google-btn:hover { background: #f8f9fa; transform: translateY(-2px); }
+        .google-btn img { width: 22px; }
 
         .error-message { 
-            color: white; font-size: 0.9rem; margin-top: 20px; font-weight: 600;
-            background: #d32f2f; padding: 10px; border-radius: 8px;
-            display: none; animation: shake 0.5s; width: 100%; box-sizing: border-box;
+            color: white; font-size: 0.9rem; margin-top: 15px; font-weight: 600;
+            background: rgba(211, 47, 47, 0.9); padding: 10px; border-radius: 8px;
+            display: none; animation: shake 0.4s; width: 100%; box-sizing: border-box;
         }
         @keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
 
         .railway-watermark { 
-            position: absolute; bottom: 20px; color: rgba(255,255,255,0.5); 
-            font-size: 0.8rem; letter-spacing: 1px; font-weight: 600; text-transform: uppercase; 
+            position: absolute; bottom: 20px; 
+            color: rgba(255,255,255,0.4); 
+            font-size: 0.75rem; letter-spacing: 2px; font-weight: 600; 
+            text-transform: uppercase; text-shadow: 0 1px 2px rgba(0,0,0,0.5);
         }
 
         /* =========================================
-           2. APP INTERFACE (NO CHANGES)
+           2. APP INTERFACE (UNCHANGED)
            ========================================= */
         #app-content { display: none; height: 100%; flex-direction: column; }
 
@@ -293,16 +328,18 @@
 
 <div id="login-page">
     <div class="login-card">
-        <div class="logo-container">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Indian_Railways.svg" class="central-logo" alt="Railway Logo">
-            <svg class="rotating-ring" viewBox="0 0 200 200">
-                <path id="circlePath" d="M 100, 100 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0" fill="none" />
+        <div class="ring-container">
+            <svg class="rotating-svg" viewBox="0 0 200 200">
+                <path id="circlePath" d="M 100, 100 m -85, 0 a 85,85 0 1,1 170,0 a 85,85 0 1,1 -170,0" fill="none" />
                 <text>
                     <textPath xlink:href="#circlePath" startOffset="0%">
                         NORTH CENTRAL RAILWAY • LDCE MOCK TEST • SECURE EXAM SYSTEM • NORTH CENTRAL RAILWAY • LDCE MOCK TEST • SECURE EXAM SYSTEM •
                     </textPath>
                 </text>
             </svg>
+            <div class="logo-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Indian_Railways.svg" alt="Railway Logo">
+            </div>
         </div>
 
         <div class="login-header">
