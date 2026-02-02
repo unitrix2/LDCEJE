@@ -26,9 +26,7 @@
         
         body { font-family: 'Segoe UI', 'Roboto', sans-serif; margin: 0; background: var(--secondary); color: var(--text); display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
 
-        /* =========================================
-           1. LOGIN PAGE (UNCHANGED - SAME AS BEFORE)
-           ========================================= */
+        /* --- LOGIN PAGE --- */
         #login-page {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background: radial-gradient(circle at center, #0d47a1 0%, #000000 100%);
@@ -102,9 +100,7 @@
         .error-message { color: white; font-size: 0.85rem; margin-top: 15px; background: rgba(211, 47, 47, 0.9); padding: 10px; border-radius: 8px; display: none; width: 100%; }
         .railway-watermark { position: absolute; bottom: 15px; color: rgba(255,255,255,0.3); font-size: 0.7rem; letter-spacing: 2px; font-weight: 700; text-transform: uppercase; }
 
-        /* =========================================
-           2. APP INTERFACE 
-           ========================================= */
+        /* --- APP INTERFACE --- */
         #app-content { display: none; height: 100%; flex-direction: column; }
         #loader { position: fixed; top:0; left:0; width:100%; height:100%; background:rgba(255,255,255,0.98); z-index:9999; display:none; justify-content:center; align-items:center; flex-direction:column; }
         .spinner { width: 50px; height: 50px; border: 5px solid #eee; border-top: 5px solid var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
@@ -116,20 +112,12 @@
         .railway-logo { width: 45px; height: 45px; background: url('https://upload.wikimedia.org/wikipedia/commons/8/83/Indian_Railways.svg') no-repeat center center; background-size: contain; flex-shrink: 0; }
         .title-group h2 { margin: 0; font-size: 1.3rem; color: var(--primary); line-height: 1.2; font-weight: 700; }
         .title-group p { margin: 0; font-size: 0.75rem; color: #666; font-weight: 500; }
-        
         .user-profile { display: flex; align-items: center; gap: 12px; background: #f8f9fa; padding: 6px 15px 6px 8px; border-radius: 30px; border: 1px solid #e0e0e0; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
         .profile-pic { width: 35px; height: 35px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         .user-details { display: flex; flex-direction: column; line-height: 1.2; align-items: flex-start; }
         .u-name { font-size: 0.9rem; font-weight: 700; color: var(--primary); }
         .u-email { font-size: 0.7rem; color: #757575; max-width: 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        
-        /* IMPROVED LOGOUT ICON */
-        .logout-btn { 
-            background: #ffebee; border: 2px solid #ef9a9a; color: #c62828; 
-            width: 36px; height: 36px; border-radius: 50%; cursor: pointer; 
-            display: flex; align-items: center; justify-content: center; 
-            transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
+        .logout-btn { background: #ffebee; border: 2px solid #ef9a9a; color: #c62828; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         .logout-btn:hover { background: #c62828; color: white; border-color: #c62828; transform: scale(1.1); box-shadow: 0 4px 8px rgba(198, 40, 40, 0.3); }
 
         .selector-group { display: flex; align-items: center; gap: 10px; position: relative; }
@@ -140,21 +128,15 @@
         @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
         .select-items div { padding: 12px 15px; cursor: pointer; border-bottom: 1px solid #f0f0f0; color: #333; font-weight: 500; font-size: 0.9rem; transition: 0.2s; }
         .select-items div:hover { background-color: var(--primary-fade); color: var(--primary); font-weight: 700; padding-left: 20px; }
-        
+        .same-as-selected { background-color: var(--primary); color: #ffffff !important; }
+
         .tools-group { display: flex; align-items: center; gap: 5px; background: #f5f5f5; padding: 4px 8px; border-radius: 30px; border: 1px solid #ddd; }
         .timer-display { font-family: 'Courier New', monospace; font-weight: 800; font-size: 1.1rem; color: var(--primary); min-width: 60px; text-align: center; }
         .timer-input { width: 35px; padding: 4px; border: 1px solid #ccc; border-radius: 4px; text-align: center; font-size: 0.8rem; }
         
-        /* FIXED PALETTE POSITION */
         .palette-wrapper { position: relative; }
         .tool-btn { background: var(--primary); color: white; border: none; border-radius: 50%; width: 32px; height: 32px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
-        .theme-panel { 
-            position: absolute; top: 45px; right: 0; /* Aligned to right */
-            background: white; padding: 12px; border-radius: 12px; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.25); display: none; 
-            grid-template-columns: repeat(4, 1fr); gap: 10px; z-index: 100; 
-            border: 1px solid #eee; width: 140px; 
-        }
+        .theme-panel { position: absolute; top: 45px; right: 0; background: white; padding: 12px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.25); display: none; grid-template-columns: repeat(4, 1fr); gap: 10px; z-index: 100; border: 1px solid #eee; width: 140px; }
         .theme-dot { width: 25px; height: 25px; border-radius: 50%; cursor: pointer; border: 2px solid white; box-shadow: 0 0 0 1px #ccc; }
 
         .container { display: flex; flex: 1; overflow: hidden; padding: 15px; gap: 15px; }
@@ -162,13 +144,7 @@
         .sidebar { flex: 1; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); overflow-y: auto; max-width: 320px; border-top: 5px solid var(--primary); }
         
         .active-test-banner { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 15px 25px; font-size: 1.1rem; font-weight: 600; display: flex; align-items: center; justify-content: space-between; }
-        
-        /* IMPROVED Q-COUNT BADGE */
-        .q-count-badge { 
-            background: rgba(255,255,255,0.2); backdrop-filter: blur(5px);
-            padding: 4px 12px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.3);
-            font-size: 0.9rem; font-weight: 700; letter-spacing: 0.5px;
-        }
+        .q-count-badge { background: rgba(255,255,255,0.2); backdrop-filter: blur(5px); padding: 4px 12px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.3); font-size: 0.9rem; font-weight: 700; letter-spacing: 0.5px; }
 
         .q-scroll-area { padding: 25px; overflow-y: auto; flex: 1; }
         .q-meta { margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; }
@@ -187,9 +163,7 @@
         .btn { padding: 10px 25px; border: none; border-radius: 6px; cursor: pointer; font-weight: 700; color: white; text-transform: uppercase; }
         .prev { background: #78909c; } .next { background: var(--primary); } .sub { background: var(--correct); }
 
-        /* =========================================
-           3. ADVANCED RESULT DASHBOARD
-           ========================================= */
+        /* --- DASHBOARD & RESULT TABLE --- */
         #result { display: none; padding: 0; overflow-y: auto; background: #f0f2f5; position: absolute; top:0; left:0; width:100%; height:100%; z-index: 100; }
         .res-container { max-width: 1200px; margin: 20px auto; padding: 0 20px 60px 20px; }
         
@@ -221,16 +195,12 @@
         .table-wrapper { background: white; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); overflow: hidden; margin-bottom: 30px; }
         .table-header { padding: 20px; background: #fff; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
         .table-header h3 { margin: 0; color: #333; }
-        
         table { width: 100%; border-collapse: collapse; text-align: left; }
         thead th { background: #f8f9fa; padding: 15px; font-weight: 700; color: #555; font-size: 0.9rem; border-bottom: 2px solid #eee; position: sticky; top: 0; z-index: 5; }
         td { padding: 12px 15px; border-bottom: 1px solid #f0f0f0; vertical-align: top; font-size: 0.9rem; line-height: 1.4; }
-        
-        /* Row Color Logic */
         .row-cor { background-color: #e8f5e9 !important; }
         .row-wro { background-color: #ffebee !important; }
         .row-ski { background-color: #f5f5f5 !important; }
-        
         .opt-text { display: block; color: #444; margin-top: 4px; font-size: 0.85rem; }
         .status-badge { padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; display: inline-block; min-width: 60px; text-align: center; }
         .sb-cor { background: #c8e6c9; color: #2e7d32; }
@@ -305,8 +275,7 @@
             <div id="modal-q-text" class="q-preview"></div>
             <input type="hidden" id="report-q-idx">
             <label class="modal-label">Suggested Correct Option:</label>
-            <select id="report-correct-opt" class="modal-select">
-                </select>
+            <select id="report-correct-opt" class="modal-select"></select>
             <label class="modal-label">Reference / Reason:</label>
             <textarea id="report-reason" rows="3" class="modal-textarea" placeholder="E.g., As per manual page 45..."></textarea>
         </div>
@@ -489,6 +458,8 @@
     function save(o) { answers[qIdx] = o; renderQ(); }
     function clearResponse() { delete answers[qIdx]; renderQ(); }
     function nav(d) { if(qIdx+d >= 0 && qIdx+d < currentQuestions.length) { qIdx+=d; renderQ(); } }
+    
+    // UTILS
     function openGoogleSearch(i) {
         let q = currentQuestions[i], t = q.q.split("/")[0].trim(), o = q.o ? q.o.map(x=>x.split("/")[0].trim()).join(" ") : "";
         window.open('https://www.google.com/search?q='+encodeURIComponent(`${t} ${o} Indian Railways`), 'V', 'width=600,height=700');
@@ -497,7 +468,7 @@
     function setTheme(p, d, l, f) { document.documentElement.style.setProperty('--primary', p); document.documentElement.style.setProperty('--primary-dark', d); document.documentElement.style.setProperty('--primary-light', l); document.documentElement.style.setProperty('--primary-fade', f); document.getElementById('theme-panel').style.display = 'none'; }
     function setCustomTime() { const v = document.getElementById('manual-timer').value; if(v) { time=v*60; clearInterval(timerInt); startTimer(); } }
     
-    // UPDATED TIMER LOGIC
+    // TIMER FIXED (HH:MM:SS)
     function startTimer() { 
         clearInterval(timerInt); 
         timerInt = setInterval(() => { 
@@ -515,13 +486,12 @@
         document.getElementById('modal-q-text').innerHTML = `<b>Q${index+1}:</b> ${q.q}`;
         document.getElementById('report-q-idx').value = index;
         
-        // Populate options with text
         const select = document.getElementById('report-correct-opt');
         select.innerHTML = '';
         q.o.forEach((opt, i) => {
             let option = document.createElement('option');
             option.value = i;
-            option.text = `Option ${String.fromCharCode(65+i)}: ${opt.substring(0, 60)}...`;
+            option.text = `Option ${String.fromCharCode(65+i)}: ${opt.substring(0, 50)}...`;
             select.appendChild(option);
         });
 
@@ -536,8 +506,9 @@
             test: document.getElementById('active-test-name').innerText,
             q_num: parseInt(idx)+1,
             question: q.q,
-            curr_ans: q.o[q.c],
-            sug_ans: q.o[sugIdx],
+            curr_ans: q.c,
+            sug_ans: sugIdx,
+            sug_ans_txt: q.o[sugIdx],
             reason: document.getElementById('report-reason').value,
             user: document.getElementById('display-user-email').innerText,
             time: firebase.firestore.FieldValue.serverTimestamp()
@@ -552,8 +523,8 @@
         document.getElementById('quiz-ui').style.display = 'none';
         document.getElementById('result').style.display = 'block';
 
-        let p_cor=0, p_wro=0, p_att=0; // Practice Stats (All Qs)
-        let o_cor=0, o_wro=0, o_att=0; // Official Stats (First 100)
+        let p_cor=0, p_wro=0, p_att=0; 
+        let o_cor=0, o_wro=0, o_att=0; 
         let total = currentQuestions.length;
         let rows = '';
 
@@ -618,38 +589,66 @@
 
                 <div class="analytics-grid">
                     <div class="dash-card">
-                        <div class="dash-label">Official Score (First 100)</div>
-                        <div class="score-val score-official">${o_score}</div>
+                        <div class="dash-label">Official Score</div>
+                        <div class="score-row-dual">
+                            <div class="score-block">
+                                <div class="score-val score-official">${o_score}</div>
+                                <div class="score-sub">out of 100</div>
+                            </div>
+                        </div>
                         <div class="perc-badge">${o_percent}%</div>
                         <div class="stats-grid" style="width:100%; border:none; margin-top:10px;">
                             ${getBar(o_cor, o_wro, 100)}
                             <div class="breakdown-row" style="margin-top:5px; font-size:0.8rem;">
-                                <span class="text-green">${o_cor} Cor</span> 
-                                <span class="text-red">${o_wro} Wro</span> 
-                                <span style="color:#78909c">${100-o_att} Ski</span>
+                                <span class="text-green">${o_cor} Correct</span> 
+                                <span class="text-red">${o_wro} Wrong</span> 
+                                <span style="color:#78909c">${100-o_att} Skipped</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="dash-card">
-                        <div class="dash-label">Practice Score (Total ${total})</div>
-                        <div class="score-val score-practice">${p_score}</div>
+                        <div class="dash-label">Practice Score</div>
+                        <div class="score-row-dual">
+                            <div class="score-block">
+                                <div class="score-val score-practice">${p_score}</div>
+                                <div class="score-sub">out of ${total}</div>
+                            </div>
+                        </div>
                         <div class="perc-badge" style="background:#555">${p_percent}%</div>
                         <div class="stats-grid" style="width:100%; border:none; margin-top:10px;">
                             ${getBar(p_cor, p_wro, total)}
                             <div class="breakdown-row" style="margin-top:5px; font-size:0.8rem;">
-                                <span class="text-green">${p_cor} Cor</span> 
-                                <span class="text-red">${p_wro} Wro</span> 
-                                <span style="color:#78909c">${total-p_att} Ski</span>
+                                <span class="text-green">${p_cor} Correct</span> 
+                                <span class="text-red">${p_wro} Wrong</span> 
+                                <span style="color:#78909c">${total-p_att} Skipped</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="dash-card">
-                        <div class="dash-label">Accuracy</div>
-                        <div class="gauge-wrapper">
-                            <div class="acc-val" style="margin-top:15px; font-size:2.5rem">${p_att > 0 ? Math.round((p_cor/p_att)*100) : 0}%</div>
-                            <div class="acc-sub">Based on attempted questions</div>
+                        <div class="dash-label">Detailed Analysis</div>
+                        <div class="gauge-wrapper" style="margin-bottom:15px;">
+                            <div class="acc-val" style="margin-top:15px; font-size:2rem; color:var(--primary)">
+                                ${p_att > 0 ? Math.round((p_cor/p_att)*100) : 0}% <span style="font-size:1rem;color:#777">Accuracy</span>
+                            </div>
+                        </div>
+                        <div style="width:100%;">
+                            <div class="breakdown-row">
+                                <span class="bd-label text-green">Correct</span>
+                                <div class="bd-bar-bg"><div class="bd-bar-fill bg-cor" style="width:${(p_cor/total)*100}%"></div></div>
+                                <span class="bd-val">${p_cor}</span>
+                            </div>
+                            <div class="breakdown-row">
+                                <span class="bd-label text-red">Wrong</span>
+                                <div class="bd-bar-bg"><div class="bd-bar-fill bg-wro" style="width:${(p_wro/total)*100}%"></div></div>
+                                <span class="bd-val">${p_wro}</span>
+                            </div>
+                            <div class="breakdown-row">
+                                <span class="bd-label" style="color:#78909c">Skipped</span>
+                                <div class="bd-bar-bg"><div class="bd-bar-fill bg-ski" style="width:${((total-p_att)/total)*100}%"></div></div>
+                                <span class="bd-val">${total-p_att}</span>
+                            </div>
                         </div>
                     </div>
                 </div>
