@@ -26,7 +26,9 @@
         
         body { font-family: 'Segoe UI', 'Roboto', sans-serif; margin: 0; background: var(--secondary); color: var(--text); display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
 
-        /* --- LOGIN PAGE --- */
+        /* =========================================
+           1. LOGIN PAGE (UNCHANGED - SAME AS BEFORE)
+           ========================================= */
         #login-page {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background: radial-gradient(circle at center, #0d47a1 0%, #000000 100%);
@@ -100,7 +102,9 @@
         .error-message { color: white; font-size: 0.85rem; margin-top: 15px; background: rgba(211, 47, 47, 0.9); padding: 10px; border-radius: 8px; display: none; width: 100%; }
         .railway-watermark { position: absolute; bottom: 15px; color: rgba(255,255,255,0.3); font-size: 0.7rem; letter-spacing: 2px; font-weight: 700; text-transform: uppercase; }
 
-        /* --- APP INTERFACE --- */
+        /* =========================================
+           2. APP INTERFACE 
+           ========================================= */
         #app-content { display: none; height: 100%; flex-direction: column; }
         #loader { position: fixed; top:0; left:0; width:100%; height:100%; background:rgba(255,255,255,0.98); z-index:9999; display:none; justify-content:center; align-items:center; flex-direction:column; }
         .spinner { width: 50px; height: 50px; border: 5px solid #eee; border-top: 5px solid var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
@@ -118,32 +122,54 @@
         .user-details { display: flex; flex-direction: column; line-height: 1.2; align-items: flex-start; }
         .u-name { font-size: 0.9rem; font-weight: 700; color: var(--primary); }
         .u-email { font-size: 0.7rem; color: #757575; max-width: 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .logout-btn { background: #ffebee; border: none; color: var(--wrong); width: 32px; height: 32px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+        
+        /* IMPROVED LOGOUT ICON */
+        .logout-btn { 
+            background: #ffebee; border: 2px solid #ef9a9a; color: #c62828; 
+            width: 36px; height: 36px; border-radius: 50%; cursor: pointer; 
+            display: flex; align-items: center; justify-content: center; 
+            transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .logout-btn:hover { background: #c62828; color: white; border-color: #c62828; transform: scale(1.1); box-shadow: 0 4px 8px rgba(198, 40, 40, 0.3); }
 
-        /* DROPDOWN - Restored Effect */
         .selector-group { display: flex; align-items: center; gap: 10px; position: relative; }
         .custom-select { position: relative; width: 260px; font-family: 'Segoe UI', sans-serif; cursor: pointer; }
-        .select-selected { background-color: #f1f8e9; border: 2px solid var(--primary); border-radius: 30px; padding: 6px 35px 6px 15px; color: var(--primary-dark); font-weight: 600; font-size: 0.9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; position: relative; transition: all 0.3s; }
-        .select-selected::after { content: "▼"; font-size: 0.7rem; position: absolute; right: 15px; top: 50%; transform: translateY(-50%); transition: transform 0.3s; }
-        .select-arrow-active::after { transform: translateY(-50%) rotate(180deg); }
+        .select-selected { background-color: #f1f8e9; border: 2px solid var(--primary); border-radius: 30px; padding: 6px 35px 6px 15px; color: var(--primary-dark); font-weight: 600; font-size: 0.9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .select-items { position: absolute; background-color: #fff; top: 110%; left: 0; right: 0; z-index: 999; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); overflow-y: auto; max-height: 200px !important; border: 1px solid #eee; display: none; animation: slideDown 0.2s ease-out; }
-        .select-show { display: block !important; }
+        .select-show { display: block; }
         @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
         .select-items div { padding: 12px 15px; cursor: pointer; border-bottom: 1px solid #f0f0f0; color: #333; font-weight: 500; font-size: 0.9rem; transition: 0.2s; }
         .select-items div:hover { background-color: var(--primary-fade); color: var(--primary); font-weight: 700; padding-left: 20px; }
-        .same-as-selected { background-color: var(--primary); color: #ffffff !important; }
-
+        
         .tools-group { display: flex; align-items: center; gap: 5px; background: #f5f5f5; padding: 4px 8px; border-radius: 30px; border: 1px solid #ddd; }
         .timer-display { font-family: 'Courier New', monospace; font-weight: 800; font-size: 1.1rem; color: var(--primary); min-width: 60px; text-align: center; }
         .timer-input { width: 35px; padding: 4px; border: 1px solid #ccc; border-radius: 4px; text-align: center; font-size: 0.8rem; }
+        
+        /* FIXED PALETTE POSITION */
+        .palette-wrapper { position: relative; }
         .tool-btn { background: var(--primary); color: white; border: none; border-radius: 50%; width: 32px; height: 32px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
-        .theme-panel { position: absolute; top: 45px; right: -10px; background: white; padding: 12px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.25); display: none; grid-template-columns: repeat(4, 1fr); gap: 10px; z-index: 100; border: 1px solid #eee; width: 140px; }
+        .theme-panel { 
+            position: absolute; top: 45px; right: 0; /* Aligned to right */
+            background: white; padding: 12px; border-radius: 12px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25); display: none; 
+            grid-template-columns: repeat(4, 1fr); gap: 10px; z-index: 100; 
+            border: 1px solid #eee; width: 140px; 
+        }
         .theme-dot { width: 25px; height: 25px; border-radius: 50%; cursor: pointer; border: 2px solid white; box-shadow: 0 0 0 1px #ccc; }
 
         .container { display: flex; flex: 1; overflow: hidden; padding: 15px; gap: 15px; }
         .q-area { flex: 3; background: white; padding: 0; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); overflow: hidden; display: flex; flex-direction: column; }
         .sidebar { flex: 1; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); overflow-y: auto; max-width: 320px; border-top: 5px solid var(--primary); }
+        
         .active-test-banner { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 15px 25px; font-size: 1.1rem; font-weight: 600; display: flex; align-items: center; justify-content: space-between; }
+        
+        /* IMPROVED Q-COUNT BADGE */
+        .q-count-badge { 
+            background: rgba(255,255,255,0.2); backdrop-filter: blur(5px);
+            padding: 4px 12px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.3);
+            font-size: 0.9rem; font-weight: 700; letter-spacing: 0.5px;
+        }
+
         .q-scroll-area { padding: 25px; overflow-y: auto; flex: 1; }
         .q-meta { margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; }
         .q-idx { font-weight: 700; color: var(--primary); font-size: 1.1rem; background: var(--primary-light); padding: 5px 12px; border-radius: 15px; }
@@ -161,7 +187,9 @@
         .btn { padding: 10px 25px; border: none; border-radius: 6px; cursor: pointer; font-weight: 700; color: white; text-transform: uppercase; }
         .prev { background: #78909c; } .next { background: var(--primary); } .sub { background: var(--correct); }
 
-        /* --- DASHBOARD & RESULT TABLE --- */
+        /* =========================================
+           3. ADVANCED RESULT DASHBOARD
+           ========================================= */
         #result { display: none; padding: 0; overflow-y: auto; background: #f0f2f5; position: absolute; top:0; left:0; width:100%; height:100%; z-index: 100; }
         .res-container { max-width: 1200px; margin: 20px auto; padding: 0 20px 60px 20px; }
         
@@ -169,35 +197,45 @@
         .dash-card { background: white; border-radius: 15px; padding: 25px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; overflow: hidden; }
         .dash-card::before { content: ''; position: absolute; top:0; left:0; width: 100%; height: 5px; background: var(--primary); }
         
-        /* Scores */
-        .score-row-dual { display: flex; gap: 30px; justify-content: center; width: 100%; }
+        .score-row-dual { display: flex; gap: 30px; justify-content: center; width: 100%; margin-bottom: 10px; }
         .score-block { text-align: center; flex: 1; }
         .score-block h4 { margin: 0 0 5px 0; color: #777; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; }
-        .score-val { font-size: 2.2rem; font-weight: 800; color: #333; line-height: 1; }
+        .score-val { font-size: 2rem; font-weight: 800; color: #333; line-height: 1; }
         .score-sub { font-size: 0.8rem; color: #999; }
         .score-official { color: var(--primary); } .score-practice { color: #333; }
+        .perc-badge { font-size: 0.8rem; padding: 2px 8px; border-radius: 4px; color: white; background: #78909c; display: inline-block; margin-top: 4px; }
 
-        /* Breakdown Bars */
+        /* Micro Graphs (Progress Bars) */
+        .micro-graph { width: 100%; height: 8px; display: flex; border-radius: 4px; overflow: hidden; margin-top: 8px; background: #eee; }
+        .mg-seg { height: 100%; }
+        .mg-cor { background: var(--correct); }
+        .mg-wro { background: var(--wrong); }
+        .mg-ski { background: #e0e0e0; }
+
         .breakdown-row { width: 100%; display: flex; justify-content: space-between; margin-bottom: 12px; align-items: center; font-size: 0.9rem; }
         .bd-label { font-weight: 600; color: #555; width: 70px; }
         .bd-bar-bg { flex: 1; height: 8px; background: #eee; border-radius: 5px; margin: 0 15px; overflow: hidden; }
         .bd-bar-fill { height: 100%; border-radius: 5px; }
         .bd-val { font-weight: 700; width: 30px; text-align: right; }
 
-        /* Table */
         .table-wrapper { background: white; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); overflow: hidden; margin-bottom: 30px; }
         .table-header { padding: 20px; background: #fff; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
         .table-header h3 { margin: 0; color: #333; }
-        table { width: 100%; border-collapse: collapse; text-align: left; }
-        thead th { background: #f8f9fa; padding: 15px; font-weight: 700; color: #555; font-size: 0.9rem; border-bottom: 2px solid #eee; position: sticky; top: 0; }
-        td { padding: 12px 15px; border-bottom: 1px solid #f0f0f0; vertical-align: top; font-size: 0.9rem; line-height: 1.4; }
-        tr:hover { background-color: #fafafa; }
         
-        .opt-text { display: block; color: #444; margin-top: 2px; }
+        table { width: 100%; border-collapse: collapse; text-align: left; }
+        thead th { background: #f8f9fa; padding: 15px; font-weight: 700; color: #555; font-size: 0.9rem; border-bottom: 2px solid #eee; position: sticky; top: 0; z-index: 5; }
+        td { padding: 12px 15px; border-bottom: 1px solid #f0f0f0; vertical-align: top; font-size: 0.9rem; line-height: 1.4; }
+        
+        /* Row Color Logic */
+        .row-cor { background-color: #e8f5e9 !important; }
+        .row-wro { background-color: #ffebee !important; }
+        .row-ski { background-color: #f5f5f5 !important; }
+        
+        .opt-text { display: block; color: #444; margin-top: 4px; font-size: 0.85rem; }
         .status-badge { padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; display: inline-block; min-width: 60px; text-align: center; }
-        .sb-cor { background: #e8f5e9; color: var(--correct); }
-        .sb-wro { background: #ffebee; color: var(--wrong); }
-        .sb-ski { background: #eceff1; color: var(--skipped); }
+        .sb-cor { background: #c8e6c9; color: #2e7d32; }
+        .sb-wro { background: #ffcdd2; color: #c62828; }
+        .sb-ski { background: #cfd8dc; color: #546e7a; }
 
         .btn-group { display: flex; gap: 8px; }
         .mini-btn { padding: 5px 10px; border-radius: 6px; border: 1px solid #ddd; background: white; cursor: pointer; font-size: 0.8rem; font-weight: 600; display: flex; align-items: center; gap: 4px; transition: 0.2s; white-space: nowrap; }
@@ -268,13 +306,9 @@
             <input type="hidden" id="report-q-idx">
             <label class="modal-label">Suggested Correct Option:</label>
             <select id="report-correct-opt" class="modal-select">
-                <option value="0">Option A</option>
-                <option value="1">Option B</option>
-                <option value="2">Option C</option>
-                <option value="3">Option D</option>
-            </select>
+                </select>
             <label class="modal-label">Reference / Reason:</label>
-            <textarea id="report-reason" rows="3" class="modal-textarea" placeholder="E.g., As per CAMTECH Manual page 45..."></textarea>
+            <textarea id="report-reason" rows="3" class="modal-textarea" placeholder="E.g., As per manual page 45..."></textarea>
         </div>
         <div class="modal-footer"><button class="submit-rep-btn" onclick="submitReport()">Submit Report</button></div>
     </div>
@@ -291,16 +325,34 @@
             <div class="user-profile">
                 <img id="user-photo" src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/person.svg" alt="User" class="profile-pic">
                 <div class="user-details"><span id="display-user-name" class="u-name">User</span><span id="display-user-email" class="u-email">...</span></div>
-                <button class="logout-btn" onclick="logout()" title="Sign Out">➜</button>
+                <button class="logout-btn" onclick="logout()" title="Sign Out">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg>
+                </button>
             </div>
-            <div class="palette-wrapper"><button class="tool-btn" onclick="toggleThemePanel()">🎨</button><div class="theme-panel" id="theme-panel"><div class="theme-dot" style="background:#b71c1c;" onclick="setTheme('#b71c1c', '#7f0000', '#ffcdd2', 'rgba(183, 28, 28, 0.1)')"></div><div class="theme-dot" style="background:#1565c0;" onclick="setTheme('#1565c0', '#003c8f', '#bbdefb', 'rgba(21, 101, 192, 0.1)')"></div><div class="theme-dot" style="background:#2e7d32;" onclick="setTheme('#2e7d32', '#005005', '#c8e6c9', 'rgba(46, 125, 50, 0.1)')"></div><div class="theme-dot" style="background:#6a1b9a;" onclick="setTheme('#6a1b9a', '#38006b', '#e1bee7', 'rgba(106, 27, 154, 0.1)')"></div></div></div>
-            <div class="tools-group"><input type="number" id="manual-timer" class="timer-input" placeholder="Min"><button class="tool-btn" onclick="setCustomTime()">✓</button><div class="timer-display" id="timer">60:00</div></div>
+            <div class="palette-wrapper">
+                <button class="tool-btn" onclick="toggleThemePanel()">🎨</button>
+                <div class="theme-panel" id="theme-panel">
+                    <div class="theme-dot" style="background:#b71c1c;" onclick="setTheme('#b71c1c', '#7f0000', '#ffcdd2', 'rgba(183, 28, 28, 0.1)')"></div>
+                    <div class="theme-dot" style="background:#1565c0;" onclick="setTheme('#1565c0', '#003c8f', '#bbdefb', 'rgba(21, 101, 192, 0.1)')"></div>
+                    <div class="theme-dot" style="background:#2e7d32;" onclick="setTheme('#2e7d32', '#005005', '#c8e6c9', 'rgba(46, 125, 50, 0.1)')"></div>
+                    <div class="theme-dot" style="background:#6a1b9a;" onclick="setTheme('#6a1b9a', '#38006b', '#e1bee7', 'rgba(106, 27, 154, 0.1)')"></div>
+                    <div class="theme-dot" style="background:#00695c;" onclick="setTheme('#00695c', '#003d33', '#b2dfdb', 'rgba(0, 105, 92, 0.1)')"></div>
+                    <div class="theme-dot" style="background:#37474f;" onclick="setTheme('#37474f', '#102027', '#cfd8dc', 'rgba(55, 71, 79, 0.1)')"></div>
+                    <div class="theme-dot" style="background:#e65100;" onclick="setTheme('#e65100', '#ac1900', '#ffe0b2', 'rgba(230, 81, 0, 0.1)')"></div>
+                    <div class="theme-dot" style="background:#283593;" onclick="setTheme('#283593', '#001064', '#c5cae9', 'rgba(40, 53, 147, 0.1)')"></div>
+                </div>
+            </div>
+            <div class="tools-group">
+                <input type="number" id="manual-timer" class="timer-input" placeholder="Min">
+                <button class="tool-btn" onclick="setCustomTime()">✓</button>
+                <div class="timer-display" id="timer">60:00</div>
+            </div>
             <div class="selector-group"><span class="selector-label">Select Test:</span><div class="custom-select" id="custom-select"><div class="select-selected">Loading...</div><div class="select-items select-hide" id="select-items"></div></div></div>
         </div>
     </header>
     <div class="container" id="quiz-ui">
         <div class="q-area">
-            <div class="active-test-banner"><div id="active-test-name">Please Select a Test</div><span><span id="q-count">0</span> Questions</span></div>
+            <div class="active-test-banner"><div id="active-test-name">Please Select a Test</div><span class="q-count-badge"><span id="q-count">0</span> Questions</span></div>
             <div class="q-scroll-area"><div class="q-meta"><span id="q-idx" class="q-idx">Q. 1</span></div><div id="q-content"></div><button class="clear-btn" onclick="clearResponse()" id="clear-btn" style="display:none;">✕ Clear Selection</button></div>
             <div class="footer"><button class="btn prev" onclick="nav(-1)">Previous</button><button class="btn sub" onclick="finish()">Submit Test</button><button class="btn next" onclick="nav(1)">Next</button></div>
         </div>
@@ -437,32 +489,6 @@
     function save(o) { answers[qIdx] = o; renderQ(); }
     function clearResponse() { delete answers[qIdx]; renderQ(); }
     function nav(d) { if(qIdx+d >= 0 && qIdx+d < currentQuestions.length) { qIdx+=d; renderQ(); } }
-    
-    // REPORT
-    function openReportModal(index) {
-        const q = currentQuestions[index];
-        document.getElementById('modal-q-text').innerHTML = `<b>Q${index+1}:</b> ${q.q}`;
-        document.getElementById('report-q-idx').value = index;
-        document.getElementById('report-modal').style.display = 'block';
-    }
-    function closeReportModal() { document.getElementById('report-modal').style.display = 'none'; }
-    function submitReport() {
-        const idx = document.getElementById('report-q-idx').value;
-        const q = currentQuestions[idx];
-        db.collection('corrections').add({
-            test: document.getElementById('active-test-name').innerText,
-            q_num: parseInt(idx)+1,
-            question: q.q,
-            curr_ans: q.c,
-            sug_ans: parseInt(document.getElementById('report-correct-opt').value),
-            reason: document.getElementById('report-reason').value,
-            user: document.getElementById('display-user-email').innerText,
-            time: firebase.firestore.FieldValue.serverTimestamp()
-        }).then(() => { alert("Report Submitted!"); closeReportModal(); })
-          .catch(e => alert("Error: " + e));
-    }
-
-    // UTILS
     function openGoogleSearch(i) {
         let q = currentQuestions[i], t = q.q.split("/")[0].trim(), o = q.o ? q.o.map(x=>x.split("/")[0].trim()).join(" ") : "";
         window.open('https://www.google.com/search?q='+encodeURIComponent(`${t} ${o} Indian Railways`), 'V', 'width=600,height=700');
@@ -470,9 +496,56 @@
     function toggleThemePanel() { const p = document.getElementById('theme-panel'); p.style.display = p.style.display === 'grid' ? 'none' : 'grid'; }
     function setTheme(p, d, l, f) { document.documentElement.style.setProperty('--primary', p); document.documentElement.style.setProperty('--primary-dark', d); document.documentElement.style.setProperty('--primary-light', l); document.documentElement.style.setProperty('--primary-fade', f); document.getElementById('theme-panel').style.display = 'none'; }
     function setCustomTime() { const v = document.getElementById('manual-timer').value; if(v) { time=v*60; clearInterval(timerInt); startTimer(); } }
-    function startTimer() { clearInterval(timerInt); timerInt = setInterval(() => { time--; let m=Math.floor(time/60), s=time%60; document.getElementById('timer').innerText = `${m}:${s<10?'0':''}${s}`; if(time<=0) finish(); }, 1000); }
+    
+    // UPDATED TIMER LOGIC
+    function startTimer() { 
+        clearInterval(timerInt); 
+        timerInt = setInterval(() => { 
+            time--; 
+            let h=Math.floor(time/3600), m=Math.floor((time%3600)/60), s=time%60;
+            let display = (h > 0) ? `${h}:${m<10?'0':''}${m}:${s<10?'0':''}${s}` : `${m}:${s<10?'0':''}${s}`;
+            document.getElementById('timer').innerText = display; 
+            if(time<=0) finish(); 
+        }, 1000); 
+    }
 
-    // --- FINISH (DUAL SCORE & FULL TEXT) ---
+    // REPORT SYSTEM (IMPROVED)
+    function openReportModal(index) {
+        const q = currentQuestions[index];
+        document.getElementById('modal-q-text').innerHTML = `<b>Q${index+1}:</b> ${q.q}`;
+        document.getElementById('report-q-idx').value = index;
+        
+        // Populate options with text
+        const select = document.getElementById('report-correct-opt');
+        select.innerHTML = '';
+        q.o.forEach((opt, i) => {
+            let option = document.createElement('option');
+            option.value = i;
+            option.text = `Option ${String.fromCharCode(65+i)}: ${opt.substring(0, 60)}...`;
+            select.appendChild(option);
+        });
+
+        document.getElementById('report-modal').style.display = 'block';
+    }
+    function closeReportModal() { document.getElementById('report-modal').style.display = 'none'; }
+    function submitReport() {
+        const idx = document.getElementById('report-q-idx').value;
+        const q = currentQuestions[idx];
+        const sugIdx = parseInt(document.getElementById('report-correct-opt').value);
+        db.collection('corrections').add({
+            test: document.getElementById('active-test-name').innerText,
+            q_num: parseInt(idx)+1,
+            question: q.q,
+            curr_ans: q.o[q.c],
+            sug_ans: q.o[sugIdx],
+            reason: document.getElementById('report-reason').value,
+            user: document.getElementById('display-user-email').innerText,
+            time: firebase.firestore.FieldValue.serverTimestamp()
+        }).then(() => { alert("Report Submitted!"); closeReportModal(); })
+          .catch(e => alert("Error: " + e));
+    }
+
+    // --- FINISH (DUAL SCORE + MICRO GRAPHS) ---
     function finish() {
         if(!confirm("Submit Test?")) return;
         clearInterval(timerInt);
@@ -487,36 +560,27 @@
         currentQuestions.forEach((q, i) => {
             let u = answers[i], isAtt = u!==undefined, isCor = isAtt && u===q.c;
             
-            // Practice Calc (All Questions)
             if(isAtt) { p_att++; if(isCor) p_cor++; else p_wro++; }
+            if(i < 100) { if(isAtt) { o_att++; if(isCor) o_cor++; else o_wro++; } }
 
-            // Official Calc (First 100 Questions Only)
-            if(i < 100) {
-                if(isAtt) { o_att++; if(isCor) o_cor++; else o_wro++; }
-            }
-
+            let rowClass = isCor ? 'row-cor' : (isAtt ? 'row-wro' : 'row-ski');
             let status = isCor ? '<span class="status-badge sb-cor">Correct</span>' : 
                          (isAtt ? '<span class="status-badge sb-wro">Wrong</span>' : '<span class="status-badge sb-ski">Skipped</span>');
             
-            // FULL OPTION TEXT LOGIC
             let correctText = q.o[q.c];
             let userText = isAtt ? q.o[u] : '<span style="color:#aaa">- Not Attempted -</span>';
             let correctLabel = String.fromCharCode(65+q.c);
             let userLabel = isAtt ? String.fromCharCode(65+u) : '';
 
             rows += `
-                <tr style="background:${isCor?'#f1f8e9':(isAtt?'#ffebee':'white')}">
+                <tr class="${rowClass}">
                     <td style="font-weight:bold;">${i+1}</td>
                     <td>
                         <div style="font-weight:600;margin-bottom:4px;">${q.q}</div>
                         <div style="font-size:0.85em;color:#666">${q.h||''}</div>
                     </td>
-                    <td>
-                        ${isAtt ? `<b>(${userLabel})</b> ` : ''}<span class="opt-text">${userText}</span>
-                    </td>
-                    <td>
-                        <b>(${correctLabel})</b> <span class="opt-text">${correctText}</span>
-                    </td>
+                    <td>${isAtt ? `<b>(${userLabel})</b> ` : ''}<span class="opt-text">${userText}</span></td>
+                    <td><b>(${correctLabel})</b> <span class="opt-text">${correctText}</span></td>
                     <td>${status}</td>
                     <td>
                         <div class="btn-group">
@@ -527,12 +591,23 @@
                 </tr>`;
         });
 
-        // Scores (1/3 Negative Marking)
+        // Scores
         let p_score = (p_cor - (p_wro/3)).toFixed(2);
         let o_score = (o_cor - (o_wro/3)).toFixed(2);
         
-        let accuracy = p_att > 0 ? Math.round((p_cor/p_att)*100) : 0;
-        let p_perc = total > 0 ? ((p_score/total)*100).toFixed(1) : 0;
+        // Percentages
+        let o_percent = ((o_score / 100) * 100).toFixed(1);
+        let p_percent = total > 0 ? ((p_score / total) * 100).toFixed(1) : 0;
+
+        // Micro Graph Helper
+        const getBar = (c, w, t) => {
+            let cp = (c/t)*100, wp = (w/t)*100, sp = 100 - (cp+wp);
+            return `<div class="micro-graph">
+                <div class="mg-seg mg-cor" style="width:${cp}%"></div>
+                <div class="mg-seg mg-wro" style="width:${wp}%"></div>
+                <div class="mg-seg mg-ski" style="width:${sp}%"></div>
+            </div>`;
+        }
 
         document.getElementById('result').innerHTML = `
             <div class="res-container">
@@ -543,41 +618,38 @@
 
                 <div class="analytics-grid">
                     <div class="dash-card">
-                        <div class="dash-label">Official Score</div>
-                        <div class="score-row-dual">
-                            <div class="score-block">
-                                <div class="score-val score-official">${o_score}</div>
-                                <div class="score-sub">out of 100</div>
+                        <div class="dash-label">Official Score (First 100)</div>
+                        <div class="score-val score-official">${o_score}</div>
+                        <div class="perc-badge">${o_percent}%</div>
+                        <div class="stats-grid" style="width:100%; border:none; margin-top:10px;">
+                            ${getBar(o_cor, o_wro, 100)}
+                            <div class="breakdown-row" style="margin-top:5px; font-size:0.8rem;">
+                                <span class="text-green">${o_cor} Cor</span> 
+                                <span class="text-red">${o_wro} Wro</span> 
+                                <span style="color:#78909c">${100-o_att} Ski</span>
                             </div>
                         </div>
-                        <div class="stats-grid" style="width:100%">
-                            <div class="breakdown-row" style="margin:0"><span class="text-green">Correct: ${o_cor}</span> <span class="text-red">Wrong: ${o_wro}</span></div>
-                        </div>
-                        <div style="margin-top:10px;font-size:0.8rem;color:#777">*Based on first 100 Qs</div>
                     </div>
 
                     <div class="dash-card">
-                        <div class="dash-label">Practice Score</div>
-                        <div class="score-row-dual">
-                            <div class="score-block">
-                                <div class="score-val score-practice">${p_score}</div>
-                                <div class="score-sub">out of ${total}</div>
+                        <div class="dash-label">Practice Score (Total ${total})</div>
+                        <div class="score-val score-practice">${p_score}</div>
+                        <div class="perc-badge" style="background:#555">${p_percent}%</div>
+                        <div class="stats-grid" style="width:100%; border:none; margin-top:10px;">
+                            ${getBar(p_cor, p_wro, total)}
+                            <div class="breakdown-row" style="margin-top:5px; font-size:0.8rem;">
+                                <span class="text-green">${p_cor} Cor</span> 
+                                <span class="text-red">${p_wro} Wro</span> 
+                                <span style="color:#78909c">${total-p_att} Ski</span>
                             </div>
-                        </div>
-                        <div style="font-size:0.9rem; margin-top:5px; font-weight:600">Percentage: ${p_perc}%</div>
-                        <div class="stats-grid" style="width:100%">
-                             <div class="breakdown-row" style="margin:0"><span class="text-green">Correct: ${p_cor}</span> <span class="text-red">Wrong: ${p_wro}</span></div>
                         </div>
                     </div>
 
                     <div class="dash-card">
                         <div class="dash-label">Accuracy</div>
                         <div class="gauge-wrapper">
-                            <div class="acc-val" style="color:${accuracy>75?'var(--correct)':'var(--warning)'}">${accuracy}%</div>
-                            <div class="acc-sub">${accuracy >= 80 ? 'Excellent!' : (accuracy >= 50 ? 'Good' : 'Needs Work')}</div>
-                        </div>
-                        <div style="width:100%; margin-top:15px;">
-                            <div class="breakdown-row"><span class="bd-label">Skipped</span><div class="bd-bar-bg"><div class="bd-bar-fill st-ski" style="width:${((total-p_att)/total)*100}%"></div></div><span class="bd-val">${total-p_att}</span></div>
+                            <div class="acc-val" style="margin-top:15px; font-size:2.5rem">${p_att > 0 ? Math.round((p_cor/p_att)*100) : 0}%</div>
+                            <div class="acc-sub">Based on attempted questions</div>
                         </div>
                     </div>
                 </div>
@@ -590,7 +662,7 @@
                     <table>
                         <thead><tr>
                             <th style="width:50px">Q#</th>
-                            <th>Question</th>
+                            <th style="width:35%">Question</th>
                             <th style="width:20%">Your Answer</th>
                             <th style="width:20%">Correct Answer</th>
                             <th style="width:80px">Result</th>
